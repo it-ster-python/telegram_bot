@@ -18,9 +18,9 @@ def get_connect(path):
 def create_table(connect):
     sql = """CREATE TABLE IF NOT EXISTS "location" (
         "id"    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-        "country_name"    TEXT UNIQUE,
+        "country_name"    TEXT,
         "city_name"    TEXT,
-        "country_code"    TEXT NOT NULL UNIQUE,
+        "country_code"    TEXT NOT NULL,
         "city"    TEXT NOT NULL,
         "lat"    REAL NOT NULL,
         "lon"    REAL NOT NULL
@@ -52,7 +52,7 @@ def send_data(element, connect):
     """
     cursor = connect.cursor()
     cursor.execute(sql)
-    connect.commit()
+    # connect.commit()
 
 
 if __name__ == '__main__':
@@ -62,13 +62,18 @@ if __name__ == '__main__':
         connection = get_connect(path)
         create_table(connection)
         data = get_data("city.list.json")
-        for element in data[:3]:
+        len_data = len(data)
+        for id, element in enumerate(data, 1):
+            print(f"{id} from {len_data}", end="\r")
             try:
                 send_data(element, connection)
             except Exception as e:
                 print("ERROR SQL")
                 print(element)
                 print(e)
-        print("OK")
+        connection.commit()
+        print("\nOK")
     else:
         print("Not arguments")
+
+# http://actravel.ru/country_codes.html
