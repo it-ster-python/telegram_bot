@@ -19,6 +19,12 @@ def get_all_country(file_name):
     else:
         raise ValueError(f"File '{file_name}' not found!")
 
+def get_flags(path):
+    pass
+
+def get_sql_country(data):
+    pass
+
 
 if __name__ == '__main__':
     res = get_all_country("countries.html")
