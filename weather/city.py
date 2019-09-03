@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import json
 import sys
+from bs4 import BeautifulSoup
 import sqlite3
 import os
 from get_country import get_all_country
@@ -43,6 +44,7 @@ def get_data(path):
     data = json.load(json_file)
     json_file.close()
     return data
+
 
 def send_data(element, connect):
     # {'id': 707860, 'name': 'Hurzuf', 'country': 'UA', 'coord': {'lon': 34.283333, 'lat': 44.549999}}
