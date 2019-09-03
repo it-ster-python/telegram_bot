@@ -3,6 +3,7 @@ import json
 import sys
 import sqlite3
 import os
+from get_country import get_all_country
 
 
 def create_db(path):
@@ -16,18 +17,27 @@ def get_connect(path):
     return connect
 
 def create_table(connect):
-    sql = """CREATE TABLE IF NOT EXISTS "location" (
+    sql_countries = """CREATE TABLE IF NOT EXISTS "countries" (
         "id"    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+        "image" TEXT NOT NULL,
         "country_name"    TEXT,
-        "city_name"    TEXT,
         "country_code"    TEXT NOT NULL,
-        "city"    TEXT NOT NULL,
+    );"""
+    ql_locations = """CREATE TABLE IF NOT EXISTS "locations" (
+        "id"    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+        "country_id"    INTEGER NOT NULL,
+        "city_ru"    TEXT,
+        "city_en"    TEXT NOT NULL,
         "lat"    REAL NOT NULL,
-        "lon"    REAL NOT NULL
+        "lon"    REAL NOT NULL,
+        FOREIGN KEY(country_id) REFERENCES countries(id)
     );"""
     cursor = connect.cursor()
-    cursor.execute(sql)
+    cursor.execute(sql_countries)
+    cursor.execute(sql_locations)
     connect.commit()
+
+
 
 def get_data(path):
     json_file = open(path, "r")
@@ -61,7 +71,8 @@ if __name__ == '__main__':
         create_db(path)
         connection = get_connect(path)
         create_table(connection)
-        data = get_data("city.list.json")
+        data_city_code = get_data("city.list.json")
+        data_country = get_all_country("countries.html")
         len_data = len(data)
         for id, element in enumerate(data, 1):
             print(f"{id} from {len_data}", end="\r")

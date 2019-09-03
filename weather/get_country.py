@@ -12,12 +12,19 @@ def get_all_country(file_name):
             for line in lines:
                 rows = line.find_all("td")
                 image = rows[0].find("img")
-                rus_name = rows[0].text
-                bin_code = rows[2].text
-                result.append((image.attrs["src"], rus_name, bin_code))
+                # rus_name = rows[0].text
+                # bin_code = rows[2].text
+                result.append((image.attrs["src"]))
         return result
     else:
         raise ValueError(f"File '{file_name}' not found!")
+
+
+def get_flags(path):
+    pass
+
+def get_sql_country(data):
+    pass
 
 
 if __name__ == '__main__':
