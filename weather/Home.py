@@ -1,14 +1,10 @@
 # import bs4.BeautifulSoup as bs
 import os
 from bs4 import BeautifulSoup as Bs
+import requests
 
 
-# import bs4.BeautifulSoup as bs
-import os
-from bs4 import BeautifulSoup as Bs
-
-
-def get_all_country(file_name):
+def get_all_flag(file_name):
     if os.path.isfile(file_name):
         result = []
         with open(file_name, "r") as html_file:
@@ -17,20 +13,23 @@ def get_all_country(file_name):
             for line in lines:
                 rows = line.find_all("td")
                 image = rows[0].find("img")
-                rus_name = rows[0].text
-                bin_code = rows[2].text
-                result.append((image.attrs["src"], rus_name, bin_code))
+                result.append((image.attrs["src"]))
         return result
     else:
         raise ValueError(f"File '{file_name}' not found!")
 
-def get_flags(path):
-    pass
 
-def get_sql_country(data):
-    pass
+def get_save_flag():
+    p = requests.get(image.attrs["src"])
+    out = out = open("images/f_chk.gif))
+    out.write(p.content)
+    out.close()
+
+
+
+
 
 
 if __name__ == '__main__':
-    res = get_all_country("countries.html")
+    res = get_all_flag("countries.html")
     print(res)
