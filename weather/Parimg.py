@@ -1,0 +1,28 @@
+import os
+from bs4 import BeautifulSoup as Bs
+
+
+def get_all_country(file_name):
+    if os.path.isfile(file_name):
+        result = []
+        with open(file_name, "r") as html_file:
+            html = Bs(html_file.read())
+            lines = html.find_all("tr")
+            for line in lines:
+                rows = line.find_all("td")
+                image = rows[0].find("img")
+                result.append((image.attrs["src"]))
+        return result
+    else:
+        raise ValueError(f"File '{file_name}' not found!")
+
+def get_flags(path):
+    pass
+
+def get_sql_country(data):
+    pass
+
+
+if __name__ == '__main__':
+    res = get_all_country("countries.html")
+    print(res)
