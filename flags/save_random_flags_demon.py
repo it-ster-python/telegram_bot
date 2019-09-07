@@ -38,14 +38,16 @@ def get_random_flags(sample_len): #makes sample of .gif file names
     else:
         return flags
 
+#if "\\" in sys.argv[0]:
+#    path_split = sys.argv[0].split('\\')[:-1]
+#else:
+#    path_split = sys.argv[0].split('/')[:-1]
+#for f in path_split:
+#    path = path + '/' + f
+#path = path[1:]+'/'+'flag_images'+'/'
 
-path = ""
-path_split = sys.argv[0].split('\\')[:-1]
-for f in path_split:
-    path = path + '\\' + f
-path = path[1:]+'\\'+'flag_images'+'\\'
-print(path)
-
+path = os.path.split(sys.argv[0])[0]+'/flag_images/'
+path = os.path.join(path)
 
 def save_image(img): #saves one .gif file
 
