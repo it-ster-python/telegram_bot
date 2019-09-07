@@ -23,11 +23,17 @@ def get_random_flags(sample_len): #makes sample of .gif file names
                 image = rows[0].find("img").attrs["src"][8:]
                 flags.append(image)
             print(flags)
+            with open("flags.log", "a") as file:
+                file.write("\nGot sample ({0} images):\n{1}\n\n".format(len(flags), flags))
+
+                
             return flags           
         except Exception as e:
             print("Something goes wrong, the following exception was raised:\n{0}".format(e))
             go_further = input("Try to continue one more time? (y/n)")
             if go_further == "n":
+                with open("flags.log", "a") as file:
+                    file.write("{0}\n\n".format(e))
                 return
             else:
                 get_html()
@@ -49,6 +55,8 @@ def get_random_flags(sample_len): #makes sample of .gif file names
 path = os.path.split(sys.argv[0])[0]
 path = os.path.join(path, 'flag_images/')
 
+saved_images = []
+
 def save_image(img): #saves one .gif file
 
     url_templ = "http://actravel.ru/images/"
@@ -57,19 +65,36 @@ def save_image(img): #saves one .gif file
         try:
             os.mkdir(path)
         except Exception as e:
+            with open("flags.log", "a") as file:
+                file.write("Path {0} cannot be created, image {1} not saved.\nException raised: {2}".format(path, img, e))
             print("Path {0} cannot be created, image {1} not saved. Exception raised:\n{2}".format(path, img, e))
             return
     try:    
         img_file = requests.get(url_templ + img)
         with open(path+img, "wb") as f:
             f.write(img_file.content)
+        saved_images.append(img)
     except Exception as e:
+        with open("flags.log", "a") as file:
+            file.write("{0} not saved,\nexception: {1}\n".format(img,e))
         print("Something wrong with image {0}, file not saved. Exception raised:\n{1}".format(img, e))
         return
 
+    #try:
+    #    with open("flags.log", "a") as file:
+    #        file.write("{0} saved\n".format(img))
+    #except Exception as e:
+    #    print(e)
+    #    with open("flags.log", "a") as file:
+    #        file.write("Exception raised: {0}\n".format(e))
+    #    return
 
 def demon():
-    #work = True    
+    #pid = os.fork()
+    #with open("flags.log", "a") as file:
+    #    file.write("Demon started with PID {pid}\n")
+    #work = True
+
     def worker():
         try:
             while True: #while work
@@ -85,12 +110,19 @@ def demon():
                 print(finish - start)
                 sleep_time = randint(5, 10)
                 print("Now I lay me down to sleep for {0} sec., good night!\n".format(sleep_time))
+                with open("flags.log", "a") as file:
+                    file.write("\nSleeping for {0} sec\n".format(sleep_time))
+                with open("flags.log", "a") as file:
+                    file.write("\nSaved ({0} images):\n{1}\n\n".format(len(saved_images), saved_images))
+                saved_images.clear()
                 time.sleep(sleep_time)
    
         except KeyboardInterrupt:
             try:
                 action = input("Should I have a rest? (y/n)")
                 if action == "y":
+                    with open("flags.log", "a") as file:
+                        file.write("Interrupted from keyboard\n")
                     print("Good bye!")
                     return
                 else:

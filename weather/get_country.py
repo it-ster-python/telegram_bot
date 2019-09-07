@@ -17,7 +17,7 @@ def get_all_country(file_name):
                 result.append((image.attrs["src"], rus_name, bin_code))
         return result
     else:
-        raise ValueError(f"File '{file_name}' not found!")
+        raise ValueError("File '{0}' not found!".format(file_name))
 
 def get_flags(path):
     pass

@@ -19,7 +19,7 @@ def get_flags_from_site():
     return flags
 
 path = os.path.split(sys.argv[0])[0]
-path = os.path.join(path, 'flag_images/')
+path = os.path.join(path, 'images/')
 
 
 def save_image(img):
