@@ -46,8 +46,8 @@ def get_random_flags(sample_len): #makes sample of .gif file names
 #    path = path + '/' + f
 #path = path[1:]+'/'+'flag_images'+'/'
 
-path = os.path.split(sys.argv[0])[0]+'/flag_images/'
-path = os.path.join(path)
+path = os.path.split(sys.argv[0])[0]
+path = os.path.join(path, 'flag_images')
 
 def save_image(img): #saves one .gif file
 
