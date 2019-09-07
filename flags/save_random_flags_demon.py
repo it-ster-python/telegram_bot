@@ -24,7 +24,7 @@ def get_random_flags(sample_len): #makes sample of .gif file names
                 flags.append(image)
             print(flags)
             with open("flags.log", "a") as file:
-                file.write("\nGot sample ({0} images):\n{1}\n\n".format(len(flags), flags))
+                file.write("{0} >>>> Got sample ({1} images):\n{2}\n".format(datetime.now(), len(flags), flags))
 
                 
             return flags           
@@ -33,7 +33,7 @@ def get_random_flags(sample_len): #makes sample of .gif file names
             go_further = input("Try to continue one more time? (y/n)")
             if go_further == "n":
                 with open("flags.log", "a") as file:
-                    file.write("{0}\n\n".format(e))
+                    file.write("{0} >>> {1}\n".format(datetime.now(), e))
                 return
             else:
                 get_html()
@@ -66,7 +66,7 @@ def save_image(img): #saves one .gif file
             os.mkdir(path)
         except Exception as e:
             with open("flags.log", "a") as file:
-                file.write("Path {0} cannot be created, image {1} not saved.\nException raised: {2}".format(path, img, e))
+                file.write("{0} >>>> Path {1} cannot be created, image {2} not saved.\nException raised: {3}".format(datetime.now(), path, img, e))
             print("Path {0} cannot be created, image {1} not saved. Exception raised:\n{2}".format(path, img, e))
             return
     try:    
@@ -76,7 +76,7 @@ def save_image(img): #saves one .gif file
         saved_images.append(img)
     except Exception as e:
         with open("flags.log", "a") as file:
-            file.write("{0} not saved,\nexception: {1}\n".format(img,e))
+            file.write("{0} >>>> {1} not saved,\nexception: {2}\n".format(datetime.now(), img, e))
         print("Something wrong with image {0}, file not saved. Exception raised:\n{1}".format(img, e))
         return
 
@@ -111,18 +111,18 @@ def demon():
                 sleep_time = randint(5, 10)
                 print("Now I lay me down to sleep for {0} sec., good night!\n".format(sleep_time))
                 with open("flags.log", "a") as file:
-                    file.write("\nSleeping for {0} sec\n".format(sleep_time))
-                with open("flags.log", "a") as file:
-                    file.write("\nSaved ({0} images):\n{1}\n\n".format(len(saved_images), saved_images))
+                    file.write("{0} >>>> Saved ({1} images):\n{2}\n".format(datetime.now(), len(saved_images), saved_images))
                 saved_images.clear()
-                time.sleep(sleep_time)
-   
+                with open("flags.log", "a") as file:
+                    file.write("{0} >>>> Sleeping for {1} sec\n\n".format(datetime.now(), sleep_time))
+                time.sleep(sleep_time)                    
+                    
         except KeyboardInterrupt:
             try:
                 action = input("Should I have a rest? (y/n)")
                 if action == "y":
                     with open("flags.log", "a") as file:
-                        file.write("Interrupted from keyboard\n")
+                        file.write("{0} >>>> Interrupted from keyboard\n".format(datetime.now()))
                     print("Good bye!")
                     return
                 else:
