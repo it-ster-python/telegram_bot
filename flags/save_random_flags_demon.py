@@ -52,10 +52,18 @@ def save_image(img): #saves one .gif file
     url_templ = "http://actravel.ru/images/"
     
     if not os.path.isdir(path):
-        os.mkdir(path)
-    img_file = requests.get(url_templ + img)
-    with open(path+img, "wb") as f:
-        f.write(img_file.content)
+        try:
+            os.mkdir(path)
+        except Exception as e:
+            print("Path {0} cannot be created, image {1} not saved. Exception raised:\n{2}".format(path, img, e))
+            return
+    try:    
+        img_file = requests.get(url_templ + img)
+        with open(path+img, "wb") as f:
+            f.write(img_file.content)
+    except Exception as e:
+        print("Something wrong with image {0}, file not saved. Exception raised:\n{1}".format(img, e))
+        return
 
 
 def demon():
