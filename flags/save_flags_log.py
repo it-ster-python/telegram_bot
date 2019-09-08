@@ -25,7 +25,7 @@ def get_random_flags(sample_len): #makes sample of .gif file names
                 flags.append(image)
             print(flags)
             with open("flags.log", "a") as file:
-                file.write("{0} >>>> Got sample ({1} images):\n{2}\n".format(datetime.now(), len(flags), flags))
+                file.write("{0}\n{1} >>>> Got sample ({2} images):\n{3}\n".format(sys.argv[0], datetime.now(), len(flags), flags))
 
                 
             return flags           
@@ -44,12 +44,12 @@ def get_random_flags(sample_len): #makes sample of .gif file names
 
 path = os.path.split(sys.argv[0])[0]
 path = os.path.join(path, 'flag_images/')
-images_counter = 0
+images_counter = 1
 
 
 def save_image(img): #saves one .gif file
     global images_counter
-    images_counter += 1  
+    #images_counter += 1  
     lock = th.RLock()
     url_templ = "http://actravel.ru/images/"
     
@@ -76,7 +76,8 @@ def save_image(img): #saves one .gif file
     try:
         with open("flags.log", "a") as file:
             #file.write("{0} >>>> {1} {2}\n".format(datetime.now(), images_counter, is_saved_text))
-            file.write("{0} >>>> {1}\n".format(datetime.now(), is_saved_text))            
+            file.write("{0}\t{1} >>>> {2}\n".format(images_counter, datetime.now(), is_saved_text))
+            images_counter += 1
     except Exception as e:
         print(e)
     finally:
@@ -123,7 +124,7 @@ def demon():
                 with open("flags.log", "a") as file:
                     file.write("{0} >>>> {1} images are saved\n\n".format(datetime.now(), images_counter))                    
                     file.write("{0} >>>> Sleeping for {1} sec\n\n".format(datetime.now(), sleep_time))
-                images_counter = 0 
+                images_counter = 1 
                 time.sleep(sleep_time)                    
                     
         except KeyboardInterrupt:
@@ -131,7 +132,7 @@ def demon():
                 action = input("Should I have a rest? (y/n)")
                 if action == "y":
                     with open("flags.log", "a") as file:
-                        file.write("{0} >>>> Interrupted from keyboard\n".format(datetime.now()))
+                        file.write("{0} >>>> Interrupted from keyboard\n\n\n\n\n\n".format(datetime.now()))
                     print("Good bye!")
                     return
                 else:
@@ -141,7 +142,7 @@ def demon():
                 worker()
                 
         except Exception as e:
-            print("Good bye!\nThe following exception raised in worker():\n{0}".format(e))
+            print("Good bye!\nThe following exception raised in worker():\n{0}\n\n\n\n\n\n".format(e))
             return
     worker()
 

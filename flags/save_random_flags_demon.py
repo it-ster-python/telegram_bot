@@ -25,7 +25,7 @@ def get_random_flags(sample_len): #makes sample of .gif file names
             print(datetime.now())    
             print(flags)
             with open("flags.log", "a") as file:
-                file.write("{0} >>>> Got sample ({1} images):\n{2}\n".format(datetime.now(), len(flags), flags))
+                file.write("{0}\n{1} >>>> Got sample ({2} images):\n{3}\n".format(sys.argv[0], datetime.now(), len(flags), flags))
 
                 
             return flags           
@@ -125,7 +125,7 @@ def demon():
                 action = input("Should I have a rest? (y/n)")
                 if action == "y":
                     with open("flags.log", "a") as file:
-                        file.write("{0} >>>> Interrupted from keyboard\n".format(datetime.now()))
+                        file.write("{0} >>>> Interrupted from keyboard\n\n\n\n\n\n".format(datetime.now()))
                     print("Good bye!")
                     return
                 else:
@@ -135,7 +135,7 @@ def demon():
                 worker()
                 
         except Exception as e:
-            print("Good bye!\nThe following exception raised in worker():\n{0}".format(e))
+            print("Good bye!\nThe following exception raised in worker():\n{0}\n\n\n\n\n\n".format(e))
             return
     worker()
 
