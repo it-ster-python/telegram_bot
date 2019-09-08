@@ -22,6 +22,7 @@ def get_random_flags(sample_len): #makes sample of .gif file names
                 rows = line.find_all("td")
                 image = rows[0].find("img").attrs["src"][8:]
                 flags.append(image)
+            print(datetime.now())    
             print(flags)
             with open("flags.log", "a") as file:
                 file.write("{0} >>>> Got sample ({1} images):\n{2}\n".format(datetime.now(), len(flags), flags))
@@ -29,7 +30,7 @@ def get_random_flags(sample_len): #makes sample of .gif file names
                 
             return flags           
         except Exception as e:
-            print("Something goes wrong, the following exception was raised:\n{0}".format(e))
+            #print("Something goes wrong, the following exception was raised:\n{0}".format(e))
             go_further = input("Try to continue one more time? (y/n)")
             if go_further == "n":
                 with open("flags.log", "a") as file:
@@ -67,18 +68,17 @@ def save_image(img): #saves one .gif file
         except Exception as e:
             with open("flags.log", "a") as file:
                 file.write("{0} >>>> Path {1} cannot be created, image {2} not saved.\nException raised: {3}".format(datetime.now(), path, img, e))
-            print("Path {0} cannot be created, image {1} not saved. Exception raised:\n{2}".format(path, img, e))
+            #print("Path {0} cannot be created, image {1} not saved. Exception raised:\n{2}".format(path, img, e))
             return
     try:    
         img_file = requests.get(url_templ + img)
         with open(path+img, "wb") as f:
             f.write(img_file.content)
-        saved_images.append(img)
+        saved_images.append("{0} >>>> {1} file saved successfully".format(datetime.now(), img))
     except Exception as e:
-        with open("flags.log", "a") as file:
-            file.write("{0} >>>> {1} not saved,\nexception: {2}\n".format(datetime.now(), img, e))
-        print("Something wrong with image {0}, file not saved. Exception raised:\n{1}".format(img, e))
-        return
+        saved_images.append("{0} >>>> {1} file not saved!!! Exception raised:\n{2}".format(datetime.now(), img, e))
+
+
 
     #try:
     #    with open("flags.log", "a") as file:
@@ -99,19 +99,22 @@ def demon():
         try:
             while True: #while work
                 sample_len = randint(10, 20)
-                print("I'm going to save {0} random flag images, here are their names:".format(sample_len))
+                #print("I'm going to save {0} random flag images, here are their names:".format(sample_len))
                 start = datetime.now()
                 pool = ThPool(sample_len)
                 results = pool.map(save_image, get_random_flags(sample_len))
-                print("{0} images are saved.".format(len(results)))
+                #print("{0} images are saved.".format(len(results)))
                 pool.close()
                 pool.join()
                 finish = datetime.now()
                 print(finish - start)
-                sleep_time = randint(5, 10)
+                sleep_time = randint(1, 5)
                 print("Now I lay me down to sleep for {0} sec., good night!\n".format(sleep_time))
                 with open("flags.log", "a") as file:
-                    file.write("{0} >>>> Saved ({1} images):\n{2}\n".format(datetime.now(), len(saved_images), saved_images))
+                    file.write("{0} >>>> Saved ({1} images):\n\n".format(datetime.now(), len(saved_images)))
+                    for n, im in enumerate(saved_images, 1):
+                        with open("flags.log", "a") as file:
+                            file.write("{0}\t{1}\n".format(n, im))
                 saved_images.clear()
                 with open("flags.log", "a") as file:
                     file.write("{0} >>>> Sleeping for {1} sec\n\n".format(datetime.now(), sleep_time))
