@@ -1,0 +1,108 @@
+2019-09-09 06:46:24.045795 >>>	['C:\\Python34\\telegram_bot\\flags\\save_flags_block.py'] started
+
+2019-09-09 06:46:24.558103 >>>	C:\Python34\telegram_bot\flags\save_flags_block.py
+Got sample (16 images):
+['f_ga.gif', 'f_is.gif', 'f_ceuta.gif', 'f_ph.gif', 'f_ag.gif', 'f_gi.gif', 'f_tk.gif', 'f_py.gif', 'f_mc.gif', 'f_sb.gif', 'f_nkr.gif', 'f_gu.gif', 'f_sz.gif', 'f_gm.gif', 'f_no.gif', 'f_bur.gif']
+2	2019-09-09 06:46:24.726207 >>>> File f_ph.gif saved successfully.
+.
+3	2019-09-09 06:46:24.726207 >>>> File f_is.gif saved successfully.
+4	2019-09-09 06:46:24.735211 >>>> File f_ga.gif saved successfully.
+5	2019-09-09 06:46:24.757208 >>>> File f_tk.gif saved successfully.
+6	2019-09-09 06:46:24.758209 >>>> File f_mc.gif saved successfully.
+7	2019-09-09 06:46:24.765212 >>>> File f_sb.gif saved successfully.
+8	2019-09-09 06:46:24.767228 >>>> File f_ag.gif saved successfully.
+9	2019-09-09 06:46:24.777213 >>>> File f_gu.gif saved successfully.
+10	2019-09-09 06:46:24.780212 >>>> File f_no.gif saved successfully.
+11	2019-09-09 06:46:24.780212 >>>> File f_bur.gif saved successfully.
+12	2019-09-09 06:46:24.781210 >>>> File f_nkr.gif saved successfully.
+13	2019-09-09 06:46:24.781210 >>>> File f_py.gif saved successfully.
+14	2019-09-09 06:46:24.783210 >>>> File f_gm.gif saved successfully.
+15	2019-09-09 06:46:24.784211 >>>> File f_sz.gif saved successfully.
+16	2019-09-09 06:46:24.784211 >>>> File f_gi.gif saved successfully.
+2019-09-09 06:46:24.870047 >>>	16 images are processed
+2019-09-09 06:46:24.881053 >>>	Sleeping for 3 sec
+
+2019-09-09 06:46:28.344919 >>>	C:\Python34\telegram_bot\flags\save_flags_block.py
+Got sample (17 images):
+['f_ws.gif', 'f_bn.gif', 'f_ml.gif', 'f_bf.gif', 'f_ly.gif', 'f_nf.gif', 'f_ve.gif', 'f_kg.gif', 'f_cz.gif', 'f_it.gif', 'f_nkr.gif', 'f_ci.gif', 'f_tl.gif', 'f_jp.gif', 'f_cm.gif', 'f_py.gif', 'f_am.gif']
+1	2019-09-09 06:46:28.514616 >>>> File f_ws.gif saved successfully.
+2	2019-09-09 06:46:28.515617 >>>> File f_bn.gif saved successfully.
+3	2019-09-09 06:46:28.519621 >>>> File f_nf.gif saved successfully.
+4	2019-09-09 06:46:28.524620 >>>> File f_bf.gif saved successfully.
+5	2019-09-09 06:46:28.536637 >>>> File f_ly.gif saved successfully.
+6	2019-09-09 06:46:28.537633 >>>> File f_ml.gif saved successfully.
+7	2019-09-09 06:46:28.558776 >>>> File f_it.gif saved successfully.
+8	2019-09-09 06:46:28.579767 >>>> File f_jp.gif saved successfully.
+9	2019-09-09 06:46:28.581765 >>>> File f_cm.gif saved successfully.
+10	2019-09-09 06:46:28.581765 >>>> File f_tl.gif saved successfully.
+11	2019-09-09 06:46:28.583766 >>>> File f_am.gif saved successfully.
+12	2019-09-09 06:46:28.584766 >>>> File f_ci.gif saved successfully.
+13	2019-09-09 06:46:28.585766 >>>> File f_py.gif saved successfully.
+14	2019-09-09 06:46:28.585766 >>>> File f_nkr.gif saved successfully.
+15	2019-09-09 06:46:28.587768 >>>> File f_kg.gif saved successfully.
+16	2019-09-09 06:46:28.587768 >>>> File f_cz.gif saved successfully.
+17	2019-09-09 06:46:28.587768 >>>> File f_ve.gif saved successfully.
+2019-09-09 06:46:28.657763 >>>	17 images are processed
+2019-09-09 06:46:28.668760 >>>	Sleeping for 1 sec
+
+2019-09-09 06:46:30.111132 >>>	C:\Python34\telegram_bot\flags\save_flags_block.py
+Got sample (11 images):
+['f_tj.gif', 'f_mo.gif', 'f_md.gif', 'f_ye.gif', 'f_ceuta.gif', 'f_nkr.gif', 'f_mali.gif', 'f_ls.gif', 'f_ua.gif', 'f_gy.gif', 'f_vg.gif']
+2	2019-09-09 06:46:30.265118 >>>> File f_tj.gif saved successfully.
+3	2019-09-09 06:46:30.269118 >>>> File f_mo.gif saved successfully.
+4	2019-09-09 06:46:30.269118 >>>> File f_md.gif saved successfully.
+5	2019-09-09 06:46:30.284115 >>>> File f_ls.gif saved successfully.
+6	2019-09-09 06:46:30.291126 >>>> File f_nkr.gif saved successfully.
+7	2019-09-09 06:46:30.297117 >>>> File f_ua.gif saved successfully.
+8	2019-09-09 06:46:30.297117 >>>> File f_gy.gif saved successfully.
+9	2019-09-09 06:46:30.297117 >>>> File f_ceuta.gif saved successfully.
+10	2019-09-09 06:46:30.298120 >>>> File f_vg.gif saved successfully.
+11	2019-09-09 06:46:30.298120 >>>> File f_mali.gif saved successfully.
+2019-09-09 06:46:30.344118 >>>	11 images are processed
+2019-09-09 06:46:30.358130 >>>	Sleeping for 1 sec
+
+2019-09-09 06:46:31.856485 >>>	C:\Python34\telegram_bot\flags\save_flags_block.py
+Got sample (10 images):
+['f_aus.gif', 'f_cv.gif', 'f_mn.gif', 'f_pn.gif', 'f_fo.gif', 'f_ee.gif', 'f_vn.gif', 'f_bt.gif', 'f_transnistria.gif', 'f_md.gif']
+1	2019-09-09 06:46:31.991802 >>>> File f_aus.gif saved successfully.
+2	2019-09-09 06:46:32.005785 >>>> File f_mn.gif saved successfully.
+3	2019-09-09 06:46:32.016790 >>>> File f_cv.gif saved successfully.
+4	2019-09-09 06:46:32.016790 >>>> File f_fo.gif saved successfully.
+5	2019-09-09 06:46:32.020789 >>>> File f_vn.gif saved successfully.
+6	2019-09-09 06:46:32.035789 >>>> File f_ee.gif saved successfully.
+7	2019-09-09 06:46:32.035789 >>>> File f_pn.gif saved successfully.
+8	2019-09-09 06:46:32.035789 >>>> File f_md.gif saved successfully.
+9	2019-09-09 06:46:32.037790 >>>> File f_transnistria.gif saved successfully.
+10	2019-09-09 06:46:32.038791 >>>> File f_bt.gif saved successfully.
+2019-09-09 06:46:32.117790 >>>	10 images are processed
+2019-09-09 06:46:32.130791 >>>	Sleeping for 1 sec
+
+2019-09-09 06:46:33.566164 >>>	C:\Python34\telegram_bot\flags\save_flags_block.py
+Got sample (15 images):
+['f_bh.gif', 'f_ao.gif', 'f_kp.gif', 'f_jm.gif', 'f_bi.gif', 'f_fk.gif', 'f_ck.gif', 'f_fo.gif', 'f_zw.gif', 'f_mh.gif', 'f_es.gif', 'f_rs.gif', 'f_tn.gif', 'f_tw.gif', 'f_jo.gif']
+1	2019-09-09 06:46:33.720336 >>>> File f_ao.gif saved successfully.
+2	2019-09-09 06:46:33.720336 >>>> File f_bi.gif saved successfully.
+3	2019-09-09 06:46:33.729335 >>>> File f_bh.gif saved successfully.
+4	2019-09-09 06:46:33.739336 >>>> File f_fo.gif saved successfully.
+5	2019-09-09 06:46:33.744336 >>>> File f_fk.gif saved successfully.
+6	2019-09-09 06:46:33.749335 >>>> File f_jm.gif saved successfully.
+7	2019-09-09 06:46:33.754336 >>>> File f_kp.gif saved successfully.
+8	2019-09-09 06:46:33.770337 >>>> File f_ck.gif saved successfully.
+9	2019-09-09 06:46:33.775335 >>>> File f_rs.gif saved successfully.
+10	2019-09-09 06:46:33.775335 >>>> File f_mh.gif saved successfully.
+11	2019-09-09 06:46:33.779336 >>>> File f_es.gif saved successfully.
+12	2019-09-09 06:46:33.779336 >>>> File f_tw.gif saved successfully.
+13	2019-09-09 06:46:33.780340 >>>> File f_jo.gif saved successfully.
+14	2019-09-09 06:46:33.781338 >>>> File f_zw.gif saved successfully.
+15	2019-09-09 06:46:33.782337 >>>> File f_tn.gif saved successfully.
+2019-09-09 06:46:33.907621 >>>	15 images are processed
+2019-09-09 06:46:33.928602 >>>	Sleeping for 4 sec
+
+2019-09-09 06:46:37.940175 >>>	Interrupted from keyboard
+2019-09-09 06:46:40.886652 >>>	Closed by user
+0:00:16.841874 worked without interruptions.
+
+
+
+
+

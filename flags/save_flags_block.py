@@ -8,6 +8,11 @@ from random import random , sample, randint
 import time
 import threading as th
 
+def write_in_log(message):
+    with open("flags.log", "a") as file:
+        file.write("{0} >>>\t{1}\n".format(datetime.now(), message))
+    
+
 
 def get_random_flags(sample_len): #makes sample of .gif file names
     
@@ -24,19 +29,16 @@ def get_random_flags(sample_len): #makes sample of .gif file names
                 image = rows[0].find("img").attrs["src"][8:]
                 flags.append(image)
             print(flags)
-            with open("flags.log", "a") as file:
-                file.write("{0}\n{1} >>>> Got sample ({2} images):\n{3}\n".format(sys.argv[0], datetime.now(), len(flags), flags))
-
-                
+            write_in_log("{0}\nGot sample ({1} images):\n{2}".format(sys.argv[0], len(flags), flags))
             return flags           
         except Exception as e:
-            print("Something goes wrong, the following exception was raised:\n{0}".format(e))
+            print("Something goes wrong, the following exception was raised:\n{0}\n".format(e))
             go_further = input("Try to continue one more time? (y/n)")
             if go_further == "n":
-                with open("flags.log", "a") as file:
-                    file.write("{0} >>> The following exception was raised:\n{1}\n".format(datetime.now(), e))
+                write_in_log("The following exception was raised:\n{0}\nClosed by user.".format(e))
                 return
             else:
+                write_in_log("The following exception was raised:\n{0}\nTry to continue...".format(e))
                 get_html()
 
     return get_html()
@@ -47,35 +49,33 @@ path = os.path.join(path, 'flag_images/')
 images_counter = 1
 
 
-def save_image(img): #saves one .gif file
-    global images_counter
-    #images_counter += 1  
-    lock = th.RLock()
-    url_templ = "http://actravel.ru/images/"
-    
+def create_folder():
     if not os.path.isdir(path):
         try:
             os.mkdir(path)
         except Exception as e:
-            with open("flags.log", "a") as file:
-                file.write("{0} >>>> Path {1} cannot be created, image {2} not saved.\nException raised: {3}".format(datetime.now(), path, img, e))
-            #print("Path {0} cannot be created, image {1} not saved. Exception raised:\n{2}".format(path, img, e))
-            return
+            write_in_log("Path {0} cannot be created.\nException raised: {1}".format(path, e))
+  
+
+def save_image(img): #saves one .gif file
+    global images_counter
+    lock = th.RLock()
+    url_templ = "http://actravel.ru/images/"
+    
     try:    
         img_file = requests.get(url_templ + img)
         with open(path+img, "wb") as f:
             f.write(img_file.content)
         is_saved = True
-
-    except:
+    except Exception as e:
+        ex = e
         is_saved = False
 
-    is_saved_text = "File {0} saved successfully!".format(img) if is_saved else "Something wrong with {0}, file not saved".format(img)
+    is_saved_text = "File {0} saved successfully.".format(img) if is_saved else "Something wrong with {0}, file not saved!!!\n Exception raised:\n{1}".format(img, ex)
 
     lock.acquire()
     try:
         with open("flags.log", "a") as file:
-            #file.write("{0} >>>> {1} {2}\n".format(datetime.now(), images_counter, is_saved_text))
             file.write("{0}\t{1} >>>> {2}\n".format(images_counter, datetime.now(), is_saved_text))
             images_counter += 1
     except Exception as e:
@@ -84,24 +84,16 @@ def save_image(img): #saves one .gif file
         lock.release()
 
 
-    #lock.acquire()
-    #try:
-    #    with open("flags.log", "a") as file:
-    #        file.write("{0} >>>> {1} {2}\n".format(datetime.now(), images_counter, is_saved_text))
-    #except Exception as e:
-    #    with open("flags.log", "a") as file:
-    #        file.write("{0} >>>> Cannot write {1} in log file, exception raised:\n{2}\n".format(datetime.now(), is_saved_text, e))  
-    #    print("Cannot write {0} in log file, exception {1}".format(is_saved_text, e))
-    #finally:
-    #    lock.release()
-
-
 def demon():
     #pid = os.fork()
     #with open("flags.log", "a") as file:
     #    file.write("Demon started with PID {pid}\n")
     #work = True
-
+    start_script = datetime.now()
+    write_in_log("{0} started\n".format(sys.argv))
+    create_folder()
+    
+    
     def worker():
         try:
             while True: #while work
@@ -111,37 +103,36 @@ def demon():
                 start = datetime.now()
                 pool = ThPool(sample_len)
                 results = pool.map(save_image, get_random_flags(sample_len))
-                #print("{0} images are saved.".format(len(results)))
                 pool.close()
                 pool.join()
                 finish = datetime.now()
                 print(finish - start)
                 sleep_time = randint(1, 4)
-                print("Now I lay me down to sleep for {0} sec., good night!\n".format(sleep_time))
-                #with open("flags.log", "a") as file:
-                 #   file.write("{0} >>>> Saved ({1} images):\n{2}\n".format(datetime.now(), len(saved_images), saved_images))
-                #saved_images.clear()
-                with open("flags.log", "a") as file:
-                    file.write("{0} >>>> {1} images are saved\n\n".format(datetime.now(), images_counter))                    
-                    file.write("{0} >>>> Sleeping for {1} sec\n\n".format(datetime.now(), sleep_time))
+                print("Now I lay me down to sleep for {0} sec., good night!".format(sleep_time))
+                write_in_log("{0} images are processed".format(images_counter-1))                    
+                write_in_log("Sleeping for {0} sec\n".format(sleep_time))
                 images_counter = 1 
                 time.sleep(sleep_time)                    
                     
         except KeyboardInterrupt:
+            write_in_log("Interrupted from keyboard")
             try:
                 action = input("Should I have a rest? (y/n)")
                 if action == "y":
-                    with open("flags.log", "a") as file:
-                        file.write("{0} >>>> Interrupted from keyboard\n\n\n\n\n\n".format(datetime.now()))
+                    end_script = datetime.now()                    
+                    write_in_log("Closed by user\n{0} worked without interruptions.\n\n\n\n\n".format(end_script - start_script))
                     print("Good bye!")
                     return
                 else:
+                    write_in_log("Try to continue...")
                     worker()
                     #pid = os.fork()
             except:
                 worker()
                 
         except Exception as e:
+            end_script = datetime.now()                    
+            write_in_log("Exception raised:\n{0}\n{1} worked without interruptions.\n\n\n\n\n".format(e, end_script - start_script))
             print("Good bye!\nThe following exception raised in worker():\n{0}\n\n\n\n\n\n".format(e))
             return
     worker()
