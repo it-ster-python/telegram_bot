@@ -1,7 +1,10 @@
 import os
 from bs4 import BeautifulSoup as Bs
-import urllib
-from urllib import parse
+import urllib3
+import requests
+from multiprocessing.dummy import Pool as ThPool
+from datetime import datetime
+import sys
 
 
 def get_all_country_images(file_name):
@@ -12,32 +15,33 @@ def get_all_country_images(file_name):
             lines = html.find_all("tr")
             for line in lines:
                 rows = line.find_all("td")
-                image = rows[0].find("img")
-                result.append((image.attrs["src"]))
+                image = rows[0].find("img").attrs["src"][8:]
+                result.append(image)
         return result
     else:
         raise ValueError(f"File '{file_name}' not found!")
 
-
-def __create_url(value):
-    url = f"http://actravel.ru?q={parse.quote(value)}"
-    return url
-
-def get_image(__create_url):
-    resource = urllib.urlopen("url")
-    output = open("file01.jpg","wb")
-    output.write(resource.read())
-    output.close()
+path = os.path.split(sys.argv[0])[0]
+path = os.path.join(path, 'images/')
 
 
 
 
-
+def get_image_url(img):
+    path = "/Users/aleksandrtarasenko/Documents/Projects/Country_image"
+    url = f"http://actravel.ru/images/"
+    if not os.path.isdir(path):
+        os.mkdir(path)
+    output = requests.get(url + img)
+    with open(f"{path}/{img}", "wb") as file:
+        file.write(output.content)
 
 
 if __name__ == '__main__':
-    res = get_all_country_images("countries.html")
-    print(res)
-    value = "/images/f_jp.gif"
-    url = __create_url(value)
-    print(url)
+    start = datetime.now()
+    pool = ThPool(10)
+    result = pool.map(get_image_url, get_all_country_images("countries.html"))
+    pool.close()
+    pool.join()
+    stop = datetime.now()
+    print(start-stop)
