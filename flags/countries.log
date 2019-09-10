@@ -1081,3 +1081,62 @@ Got sample (16 countries):
 
 
 
+2019-09-10 16:21:27.169791 >>>	['C:\\Python34\\telegram_bot\\flags\\countries_db_flags.py'] started
+
+2019-09-10 16:21:27.232287 >>>	Table not created, exception raised:
+table countries already exists
+2019-09-10 16:21:27.544767 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (11 countries):
+[['f_ro.gif', 'RO', ' Румыния'], ['f_md.gif', 'MD', ' Молдавия'], ['f_cc.gif', 'CC', ' Кокосовые острова (Килинг)'], ['f_sr.gif', 'SG', ' Сингапур'], ['f_ai.gif', 'AI', ' Ангилья'], ['f_ss.gif', '', ' Южный Судан'], ['f_ga.gif', 'GA', ' Габон'], ['f_pr.gif', 'PT', ' Португалия'], ['f_hn.gif', 'HN', ' Гондурас'], ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'], ['f_so.gif', 'SO', ' Сомали']]
+1	2019-09-10 16:21:27.716631 >>>> File f_ro.gif saved successfully.
+	2019-09-10 16:21:27.716631 >>>> Row ['f_ro.gif', 'RO', ' Румыния'] added successfully.
+2	2019-09-10 16:21:27.794751 >>>> File f_cc.gif saved successfully.
+	2019-09-10 16:21:27.794751 >>>> Row ['f_cc.gif', 'CC', ' Кокосовые острова (Килинг)'] added successfully.
+3	2019-09-10 16:21:27.888495 >>>> File f_ga.gif saved successfully.
+	2019-09-10 16:21:27.888495 >>>> Row ['f_ga.gif', 'GA', ' Габон'] added successfully.
+4	2019-09-10 16:21:27.997863 >>>> File f_nl.gif saved successfully.
+	2019-09-10 16:21:27.997863 >>>> Row ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'] added successfully.
+5	2019-09-10 16:21:28.091607 >>>> File f_pr.gif saved successfully.
+	2019-09-10 16:21:28.091607 >>>> Row ['f_pr.gif', 'PT', ' Португалия'] added successfully.
+6	2019-09-10 16:21:28.263471 >>>> File f_ss.gif saved successfully.
+	2019-09-10 16:21:28.263471 >>>> Row ['f_ss.gif', '', ' Южный Судан'] added successfully.
+7	2019-09-10 16:21:28.404087 >>>> File f_ai.gif saved successfully.
+	2019-09-10 16:21:28.404087 >>>> Row ['f_ai.gif', 'AI', ' Ангилья'] added successfully.
+8	2019-09-10 16:21:28.529079 >>>> File f_hn.gif saved successfully.
+	2019-09-10 16:21:28.529079 >>>> Row ['f_hn.gif', 'HN', ' Гондурас'] added successfully.
+9	2019-09-10 16:21:28.622823 >>>> File f_so.gif saved successfully.
+	2019-09-10 16:21:28.622823 >>>> Row ['f_so.gif', 'SO', ' Сомали'] added successfully.
+10	2019-09-10 16:21:28.716567 >>>> File f_md.gif saved successfully.
+	2019-09-10 16:21:28.716567 >>>> Row ['f_md.gif', 'MD', ' Молдавия'] added successfully.
+11	2019-09-10 16:21:28.841559 >>>> File f_sr.gif saved successfully.
+	2019-09-10 16:21:28.841559 >>>> Row ['f_sr.gif', 'SG', ' Сингапур'] added successfully.
+2019-09-10 16:21:28.872807 >>>	11 images are processed
+2019-09-10 16:21:28.872807 >>>	Sleeping for 2 sec
+
+2019-09-10 16:21:31.138287 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (17 countries):
+[['f_bf.gif', 'BF', ' Буркина-Фасо'], ['f_sz.gif', 'SZ', ' Свазиленд'], ['f_fm.gif', 'FM', ' Федеративные Штаты Микронезии'], ['f_usa.gif', 'US', ' США'], ['f_ms.gif', 'MS', ' Монтсеррат'], ['f_la.gif', 'LA', ' Лаос'], ['f_bg.gif', 'BG', ' Болгария'], ['f_sd.gif', 'SD', ' Судан'], ['f_rs.gif', 'RS', ' Сербия'], ['f_gm.gif', 'GM', ' Гамбия'], ['f_to.gif', 'TO', ' Тонга'], ['f_as.gif', 'AS', ' Американское Самоа'], ['f_bb.gif', 'BB', ' Барбадос'], ['f_ant.gif', 'AQ', ' Антарктида'], ['f_sm.gif', 'SM', ' Сан-Марино'], ['f_vc.gif', 'VC', ' Сент-Винсент и Гренадины'], ['f_gn.gif', 'GN', ' Гвинея']]
+1	2019-09-10 16:21:31.325775 >>>> File f_fm.gif saved successfully.
+	2019-09-10 16:21:31.325775 >>>> Row ['f_fm.gif', 'FM', ' Федеративные Штаты Микронезии'] added successfully.
+2	2019-09-10 16:21:31.403895 >>>> File f_gm.gif saved successfully.
+	2019-09-10 16:21:31.403895 >>>> Row ['f_gm.gif', 'GM', ' Гамбия'] added successfully.
+3	2019-09-10 16:21:31.482015 >>>> File f_rs.gif saved successfully.
+	2019-09-10 16:21:31.482015 >>>> Row ['f_rs.gif', 'RS', ' Сербия'] added successfully.
+2019-09-10 16:33:38.232375 >>>	The following exception was raised:
+[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:598)
+Try to continue...
+2019-09-10 16:33:46.763079 >>>	The following exception was raised:
+[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:598)
+Closed by user.
+2019-09-10 16:37:18.187047 >>>	The following exception was raised:
+[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:598)
+Try to continue...
+2019-09-10 16:51:35.163447 >>>	The following exception was raised:
+[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:598)
+Try to continue...
+2019-09-10 16:51:39.006951 >>>	The following exception was raised:
+[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:598)
+Try to continue...
+2019-09-10 16:51:41.663031 >>>	The following exception was raised:
+[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:598)
+Closed by user.
