@@ -1,0 +1,1083 @@
+2019-09-10 14:00:22.388835 >>>	['C:\\Python34\\telegram_bot\\flags\\countries_db_flags.py'] started
+
+2019-09-10 14:00:22.420085 >>>	Table created successfully
+2019-09-10 14:00:22.716964 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (16 countries):
+[['f_id.gif', 'ID', ' Индонезия'], ['f_sn.gif', 'SN', ' Сенегал'], ['f_zw.gif', 'ZW', ' Зимбабве'], ['f_ng.gif', 'NG', ' Нигерия'], ['f_ci.gif', 'CI', ' Кот-д’Ивуар (Берег Слоновой Кости)'], ['f_ar.gif', 'AR', ' Аргентина'], ['f_tz.gif', 'TZ', ' Танзания'], ['f_ss.gif', '', ' Южный Судан'], ['f_fk.gif', 'FK', ' Фолклендские (Мальвинские) острова'], ['f_bn.gif', 'BN', ' Бруней'], ['f_tw.gif', 'TW', ' Тайвань'], ['f_mali.gif', 'ML', ' Мали'], ['f_kn.gif', 'KN', ' Сент-Китс и Невис'], ['f_mv.gif', 'MV', ' Мальдивы'], ['f_ug.gif', 'UG', ' Уганда'], ['f_br.gif', 'BR', ' Бразилия']]
+1	2019-09-10 14:00:22.873216 >>>> File f_tz.gif saved successfully.
+	2019-09-10 14:00:22.873216 >>>> Row ['f_tz.gif', 'TZ', ' Танзания'] added successfully.
+2	2019-09-10 14:00:22.951342 >>>> File f_sn.gif saved successfully.
+	2019-09-10 14:00:22.951342 >>>> Row ['f_sn.gif', 'SN', ' Сенегал'] added successfully.
+3	2019-09-10 14:00:23.013843 >>>> File f_ci.gif saved successfully.
+	2019-09-10 14:00:23.013843 >>>> Row ['f_ci.gif', 'CI', ' Кот-д’Ивуар (Берег Слоновой Кости)'] added successfully.
+4	2019-09-10 14:00:23.091969 >>>> File f_ng.gif saved successfully.
+	2019-09-10 14:00:23.091969 >>>> Row ['f_ng.gif', 'NG', ' Нигерия'] added successfully.
+5	2019-09-10 14:00:23.154470 >>>> File f_ss.gif saved successfully.
+	2019-09-10 14:00:23.154470 >>>> Row ['f_ss.gif', '', ' Южный Судан'] added successfully.
+6	2019-09-10 14:00:23.248221 >>>> File f_ar.gif saved successfully.
+	2019-09-10 14:00:23.248221 >>>> Row ['f_ar.gif', 'AR', ' Аргентина'] added successfully.
+7	2019-09-10 14:00:23.341972 >>>> File f_ug.gif saved successfully.
+	2019-09-10 14:00:23.341972 >>>> Row ['f_ug.gif', 'UG', ' Уганда'] added successfully.
+8	2019-09-10 14:00:23.451348 >>>> File f_fk.gif saved successfully.
+	2019-09-10 14:00:23.451348 >>>> Row ['f_fk.gif', 'FK', ' Фолклендские (Мальвинские) острова'] added successfully.
+9	2019-09-10 14:00:23.576350 >>>> File f_zw.gif saved successfully.
+	2019-09-10 14:00:23.576350 >>>> Row ['f_zw.gif', 'ZW', ' Зимбабве'] added successfully.
+10	2019-09-10 14:00:23.779478 >>>> File f_br.gif saved successfully.
+	2019-09-10 14:00:23.779478 >>>> Row ['f_br.gif', 'BR', ' Бразилия'] added successfully.
+11	2019-09-10 14:00:23.888854 >>>> File f_mali.gif saved successfully.
+	2019-09-10 14:00:23.888854 >>>> Row ['f_mali.gif', 'ML', ' Мали'] added successfully.
+12	2019-09-10 14:00:23.966980 >>>> File f_bn.gif saved successfully.
+	2019-09-10 14:00:23.966980 >>>> Row ['f_bn.gif', 'BN', ' Бруней'] added successfully.
+13	2019-09-10 14:00:24.060731 >>>> File f_tw.gif saved successfully.
+	2019-09-10 14:00:24.060731 >>>> Row ['f_tw.gif', 'TW', ' Тайвань'] added successfully.
+14	2019-09-10 14:00:24.170108 >>>> File f_kn.gif saved successfully.
+	2019-09-10 14:00:24.170108 >>>> Row ['f_kn.gif', 'KN', ' Сент-Китс и Невис'] added successfully.
+15	2019-09-10 14:00:24.310734 >>>> File f_id.gif saved successfully.
+	2019-09-10 14:00:24.310734 >>>> Row ['f_id.gif', 'ID', ' Индонезия'] added successfully.
+16	2019-09-10 14:00:24.404486 >>>> File f_mv.gif saved successfully.
+	2019-09-10 14:00:24.404486 >>>> Row ['f_mv.gif', 'MV', ' Мальдивы'] added successfully.
+2019-09-10 14:00:24.466986 >>>	16 images are processed
+2019-09-10 14:00:24.466986 >>>	Sleeping for 1 sec
+
+2019-09-10 14:00:25.717002 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (17 countries):
+[['f_va.gif', 'VA', ' Ватикан'], ['f_lv.gif', 'LV', ' Латвия'], ['f_lr.gif', 'LR', ' Либерия'], ['f_kn.gif', 'KN', ' Сент-Китс и Невис'], ['f_bt.gif', 'BT', ' Бутан'], ['f_mn.gif', 'MN', ' Монголия'], ['f_ar.gif', 'AR', ' Аргентина'], ['f_tr.gif', 'TR', ' Турция'], ['f_na.gif', 'NA', ' Намибия'], ['f_gs.gif', 'GS', ' Южная Георгия и Южные Сандвичевы острова'], ['f_ro.gif', 'RO', ' Румыния'], ['f_mm.gif', 'MM', ' Мьянма (Бирма)'], ['f_mc.gif', 'MC', ' Монако'], ['f_dj.gif', 'DJ', ' Джибути'], ['f_ru.gif', 'RU', ' Россия'], ['f_gn.gif', 'GN', ' Гвинея'], ['f_tk.gif', 'TK', ' Токелау']]
+1	2019-09-10 14:00:25.873254 >>>> File f_va.gif saved successfully.
+	2019-09-10 14:00:25.873254 >>>> Row ['f_va.gif', 'VA', ' Ватикан'] added successfully.
+2	2019-09-10 14:00:25.951380 >>>> File f_gn.gif saved successfully.
+	2019-09-10 14:00:25.951380 >>>> Row ['f_gn.gif', 'GN', ' Гвинея'] added successfully.
+3	2019-09-10 14:00:26.013881 >>>> File f_ro.gif saved successfully.
+	2019-09-10 14:00:26.013881 >>>> Row ['f_ro.gif', 'RO', ' Румыния'] added successfully.
+4	2019-09-10 14:00:26.092007 >>>> File f_tr.gif saved successfully.
+	2019-09-10 14:00:26.092007 >>>> Row ['f_tr.gif', 'TR', ' Турция'] added successfully.
+5	2019-09-10 14:00:26.154508 >>>> File f_mc.gif saved successfully.
+	2019-09-10 14:00:26.154508 >>>> Row ['f_mc.gif', 'MC', ' Монако'] added successfully.
+6	2019-09-10 14:00:26.248259 >>>> File f_gs.gif saved successfully.
+	2019-09-10 14:00:26.248259 >>>> Row ['f_gs.gif', 'GS', ' Южная Георгия и Южные Сандвичевы острова'] added successfully.
+7	2019-09-10 14:00:26.326385 >>>> File f_mn.gif saved successfully.
+	2019-09-10 14:00:26.326385 >>>> Row ['f_mn.gif', 'MN', ' Монголия'] added successfully.
+8	2019-09-10 14:00:26.404511 >>>> File f_ar.gif saved successfully.
+	2019-09-10 14:00:26.404511 >>>> Row ['f_ar.gif', 'AR', ' Аргентина'] added successfully.
+9	2019-09-10 14:00:26.482637 >>>> File f_dj.gif saved successfully.
+	2019-09-10 14:00:26.482637 >>>> Row ['f_dj.gif', 'DJ', ' Джибути'] added successfully.
+10	2019-09-10 14:00:26.560763 >>>> File f_lr.gif saved successfully.
+	2019-09-10 14:00:26.560763 >>>> Row ['f_lr.gif', 'LR', ' Либерия'] added successfully.
+11	2019-09-10 14:00:26.638889 >>>> File f_mm.gif saved successfully.
+	2019-09-10 14:00:26.638889 >>>> Row ['f_mm.gif', 'MM', ' Мьянма (Бирма)'] added successfully.
+12	2019-09-10 14:00:26.810766 >>>> File f_kn.gif saved successfully.
+	2019-09-10 14:00:26.810766 >>>> Row ['f_kn.gif', 'KN', ' Сент-Китс и Невис'] added successfully.
+13	2019-09-10 14:00:26.951393 >>>> File f_lv.gif saved successfully.
+	2019-09-10 14:00:26.951393 >>>> Row ['f_lv.gif', 'LV', ' Латвия'] added successfully.
+14	2019-09-10 14:00:27.092020 >>>> File f_ru.gif saved successfully.
+	2019-09-10 14:00:27.092020 >>>> Row ['f_ru.gif', 'RU', ' Россия'] added successfully.
+15	2019-09-10 14:00:27.263897 >>>> File f_tk.gif saved successfully.
+	2019-09-10 14:00:27.263897 >>>> Row ['f_tk.gif', 'TK', ' Токелау'] added successfully.
+16	2019-09-10 14:00:27.435774 >>>> File f_na.gif saved successfully.
+	2019-09-10 14:00:27.435774 >>>> Row ['f_na.gif', 'NA', ' Намибия'] added successfully.
+17	2019-09-10 14:00:27.592026 >>>> File f_bt.gif saved successfully.
+	2019-09-10 14:00:27.592026 >>>> Row ['f_bt.gif', 'BT', ' Бутан'] added successfully.
+2019-09-10 14:00:27.685778 >>>	17 images are processed
+2019-09-10 14:00:27.685778 >>>	Sleeping for 2 sec
+
+2019-09-10 14:00:29.920181 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (15 countries):
+[['f_kosovo.gif', '', ' Косово'], ['f_zw.gif', 'ZW', ' Зимбабве'], ['f_fm.gif', 'FM', ' Федеративные Штаты Микронезии'], ['f_dm.gif', 'DM', ' Доминика'], ['f_as.gif', 'AS', ' Американское Самоа'], ['f_cg.gif', 'CG', ' Республика Конго'], ['f_pa.gif', 'PA', ' Панама'], ['f_kn.gif', 'KN', ' Сент-Китс и Невис'], ['f_hn.gif', 'HN', ' Гондурас'], ['f_iq.gif', 'IQ', ' Ирак'], ['f_lt.gif', 'LT', ' Литва'], ['f_pl.gif', 'PL', ' Польша'], ['f_grenland.gif', 'GL', ' Гренландия'], ['f_mg.gif', 'MG', ' Мадагаскар'], ['f_ca.gif', 'CA', ' Канада']]
+1	2019-09-10 14:00:30.107684 >>>> File f_kosovo.gif saved successfully.
+	2019-09-10 14:00:30.107684 >>>> Row ['f_kosovo.gif', '', ' Косово'] added successfully.
+2	2019-09-10 14:00:30.185810 >>>> File f_zw.gif saved successfully.
+	2019-09-10 14:00:30.185810 >>>> Row ['f_zw.gif', 'ZW', ' Зимбабве'] added successfully.
+3	2019-09-10 14:00:30.248310 >>>> File f_hn.gif saved successfully.
+	2019-09-10 14:00:30.248310 >>>> Row ['f_hn.gif', 'HN', ' Гондурас'] added successfully.
+4	2019-09-10 14:00:30.342062 >>>> File f_pa.gif saved successfully.
+	2019-09-10 14:00:30.342062 >>>> Row ['f_pa.gif', 'PA', ' Панама'] added successfully.
+5	2019-09-10 14:00:30.498314 >>>> File f_lt.gif saved successfully.
+	2019-09-10 14:00:30.498314 >>>> Row ['f_lt.gif', 'LT', ' Литва'] added successfully.
+6	2019-09-10 14:00:30.576440 >>>> File f_mg.gif saved successfully.
+	2019-09-10 14:00:30.576440 >>>> Row ['f_mg.gif', 'MG', ' Мадагаскар'] added successfully.
+7	2019-09-10 14:00:30.732692 >>>> File f_pl.gif saved successfully.
+	2019-09-10 14:00:30.732692 >>>> Row ['f_pl.gif', 'PL', ' Польша'] added successfully.
+8	2019-09-10 14:00:30.826443 >>>> File f_fm.gif saved successfully.
+	2019-09-10 14:00:30.826443 >>>> Row ['f_fm.gif', 'FM', ' Федеративные Штаты Микронезии'] added successfully.
+9	2019-09-10 14:00:30.935819 >>>> File f_as.gif saved successfully.
+	2019-09-10 14:00:30.935819 >>>> Row ['f_as.gif', 'AS', ' Американское Самоа'] added successfully.
+10	2019-09-10 14:00:31.029570 >>>> File f_iq.gif saved successfully.
+	2019-09-10 14:00:31.029570 >>>> Row ['f_iq.gif', 'IQ', ' Ирак'] added successfully.
+11	2019-09-10 14:00:31.138947 >>>> File f_kn.gif saved successfully.
+	2019-09-10 14:00:31.138947 >>>> Row ['f_kn.gif', 'KN', ' Сент-Китс и Невис'] added successfully.
+12	2019-09-10 14:00:31.295199 >>>> File f_cg.gif saved successfully.
+	2019-09-10 14:00:31.295199 >>>> Row ['f_cg.gif', 'CG', ' Республика Конго'] added successfully.
+13	2019-09-10 14:00:31.388950 >>>> File f_ca.gif saved successfully.
+	2019-09-10 14:00:31.388950 >>>> Row ['f_ca.gif', 'CA', ' Канада'] added successfully.
+14	2019-09-10 14:00:31.513952 >>>> File f_grenland.gif saved successfully.
+	2019-09-10 14:00:31.513952 >>>> Row ['f_grenland.gif', 'GL', ' Гренландия'] added successfully.
+15	2019-09-10 14:00:31.623328 >>>> File f_dm.gif saved successfully.
+	2019-09-10 14:00:31.623328 >>>> Row ['f_dm.gif', 'DM', ' Доминика'] added successfully.
+2019-09-10 14:00:31.685829 >>>	15 images are processed
+2019-09-10 14:00:31.685829 >>>	Sleeping for 3 sec
+
+2019-09-10 14:00:35.013996 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (17 countries):
+[['f_se.gif', 'SE', ' Швеция'], ['f_kh.gif', 'KH', ' Камбоджа'], ['f_au.gif', 'AU', ' Австралия'], ['f_om.gif', 'OM', ' Оман'], ['f_it.gif', 'IT', ' Италия'], ['f_gf.gif', 'GF', ' Французская Гвиана'], ['f_hn.gif', 'HN', ' Гондурас'], ['f_fr.gif', 'KM', ' Коморские острова'], ['f_reunion.gif', 'RE', ' Реюньон'], ['f_ma.gif', 'MA', ' Марокко'], ['f_bm.gif', 'BM', ' Бермуды'], ['f_gp.gif', 'GP', ' Гваделупа'], ['f_en.gif', 'GB', ' Великобритания'], ['f_il.gif', 'IL', ' Израиль'], ['f_sz.gif', 'SZ', ' Свазиленд'], ['f_in.gif', 'IN', ' Индия'], ['f_lt.gif', 'LT', ' Литва']]
+1	2019-09-10 14:00:35.185874 >>>> File f_kh.gif saved successfully.
+	2019-09-10 14:00:35.185874 >>>> Row ['f_kh.gif', 'KH', ' Камбоджа'] added successfully.
+2	2019-09-10 14:00:35.248374 >>>> File f_it.gif saved successfully.
+	2019-09-10 14:00:35.248374 >>>> Row ['f_it.gif', 'IT', ' Италия'] added successfully.
+3	2019-09-10 14:00:35.342126 >>>> File f_in.gif saved successfully.
+	2019-09-10 14:00:35.342126 >>>> Row ['f_in.gif', 'IN', ' Индия'] added successfully.
+4	2019-09-10 14:00:35.451502 >>>> File f_en.gif saved successfully.
+	2019-09-10 14:00:35.451502 >>>> Row ['f_en.gif', 'GB', ' Великобритания'] added successfully.
+5	2019-09-10 14:00:35.560878 >>>> File f_fr.gif saved successfully.
+	2019-09-10 14:00:35.560878 >>>> Row ['f_fr.gif', 'KM', ' Коморские острова'] added successfully.
+6	2019-09-10 14:00:35.717130 >>>> File f_reunion.gif saved successfully.
+	2019-09-10 14:00:35.717130 >>>> Row ['f_reunion.gif', 'RE', ' Реюньон'] added successfully.
+7	2019-09-10 14:00:35.873382 >>>> File f_se.gif saved successfully.
+	2019-09-10 14:00:35.873382 >>>> Row ['f_se.gif', 'SE', ' Швеция'] added successfully.
+8	2019-09-10 14:00:35.982759 >>>> File f_gp.gif saved successfully.
+	2019-09-10 14:00:35.982759 >>>> Row ['f_gp.gif', 'GP', ' Гваделупа'] added successfully.
+9	2019-09-10 14:00:36.092135 >>>> File f_gf.gif saved successfully.
+	2019-09-10 14:00:36.092135 >>>> Row ['f_gf.gif', 'GF', ' Французская Гвиана'] added successfully.
+10	2019-09-10 14:00:36.201512 >>>> File f_lt.gif saved successfully.
+	2019-09-10 14:00:36.201512 >>>> Row ['f_lt.gif', 'LT', ' Литва'] added successfully.
+11	2019-09-10 14:00:36.264012 >>>> File f_bm.gif saved successfully.
+	2019-09-10 14:00:36.264012 >>>> Row ['f_bm.gif', 'BM', ' Бермуды'] added successfully.
+12	2019-09-10 14:00:36.357764 >>>> File f_sz.gif saved successfully.
+	2019-09-10 14:00:36.357764 >>>> Row ['f_sz.gif', 'SZ', ' Свазиленд'] added successfully.
+13	2019-09-10 14:00:36.467140 >>>> File f_il.gif saved successfully.
+	2019-09-10 14:00:36.467140 >>>> Row ['f_il.gif', 'IL', ' Израиль'] added successfully.
+14	2019-09-10 14:00:36.576516 >>>> File f_au.gif saved successfully.
+	2019-09-10 14:00:36.576516 >>>> Row ['f_au.gif', 'AU', ' Австралия'] added successfully.
+15	2019-09-10 14:00:36.748394 >>>> File f_hn.gif saved successfully.
+	2019-09-10 14:00:36.748394 >>>> Row ['f_hn.gif', 'HN', ' Гондурас'] added successfully.
+16	2019-09-10 14:00:36.826520 >>>> File f_om.gif saved successfully.
+	2019-09-10 14:00:36.826520 >>>> Row ['f_om.gif', 'OM', ' Оман'] added successfully.
+17	2019-09-10 14:00:36.982772 >>>> File f_ma.gif saved successfully.
+	2019-09-10 14:00:36.982772 >>>> Row ['f_ma.gif', 'MA', ' Марокко'] added successfully.
+2019-09-10 14:00:37.060898 >>>	17 images are processed
+2019-09-10 14:00:37.060898 >>>	Sleeping for 1 sec
+
+2019-09-10 14:00:38.357789 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (10 countries):
+[['f_ky.gif', 'KY', ' Каймановы острова'], ['f_ss.gif', '', ' Южный Судан'], ['f_ve.gif', 'VE', ' Венесуэла'], ['f_se.gif', 'SE', ' Швеция'], ['f_ne.gif', 'NE', ' Нигер'], ['f_lc.gif', 'LC', ' Сент-Люсия'], ['f_ar.gif', 'AR', ' Аргентина'], ['f_no.gif', 'SJ', ' Шпицберген и Ян-Майен'], ['f_bj.gif', 'BJ', ' Бенин'], ['f_tj.gif', 'TJ', ' Таджикистан']]
+1	2019-09-10 14:00:38.498416 >>>> File f_ss.gif saved successfully.
+	2019-09-10 14:00:38.498416 >>>> Row ['f_ss.gif', '', ' Южный Судан'] added successfully.
+2	2019-09-10 14:00:38.560917 >>>> File f_ar.gif saved successfully.
+	2019-09-10 14:00:38.560917 >>>> Row ['f_ar.gif', 'AR', ' Аргентина'] added successfully.
+3	2019-09-10 14:00:38.639043 >>>> File f_ne.gif saved successfully.
+	2019-09-10 14:00:38.639043 >>>> Row ['f_ne.gif', 'NE', ' Нигер'] added successfully.
+4	2019-09-10 14:00:38.810920 >>>> File f_tj.gif saved successfully.
+	2019-09-10 14:00:38.810920 >>>> Row ['f_tj.gif', 'TJ', ' Таджикистан'] added successfully.
+5	2019-09-10 14:00:38.873421 >>>> File f_bj.gif saved successfully.
+	2019-09-10 14:00:38.873421 >>>> Row ['f_bj.gif', 'BJ', ' Бенин'] added successfully.
+6	2019-09-10 14:00:38.967172 >>>> File f_no.gif saved successfully.
+	2019-09-10 14:00:38.967172 >>>> Row ['f_no.gif', 'SJ', ' Шпицберген и Ян-Майен'] added successfully.
+7	2019-09-10 14:00:39.060923 >>>> File f_ky.gif saved successfully.
+	2019-09-10 14:00:39.060923 >>>> Row ['f_ky.gif', 'KY', ' Каймановы острова'] added successfully.
+8	2019-09-10 14:00:39.201550 >>>> File f_se.gif saved successfully.
+	2019-09-10 14:00:39.201550 >>>> Row ['f_se.gif', 'SE', ' Швеция'] added successfully.
+9	2019-09-10 14:00:39.310926 >>>> File f_ve.gif saved successfully.
+	2019-09-10 14:00:39.310926 >>>> Row ['f_ve.gif', 'VE', ' Венесуэла'] added successfully.
+10	2019-09-10 14:00:39.404678 >>>> File f_lc.gif saved successfully.
+	2019-09-10 14:00:39.404678 >>>> Row ['f_lc.gif', 'LC', ' Сент-Люсия'] added successfully.
+2019-09-10 14:00:39.514054 >>>	10 images are processed
+2019-09-10 14:00:39.514054 >>>	Sleeping for 4 sec
+
+2019-09-10 14:00:43.810984 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (11 countries):
+[['f_al.gif', 'AL', ' Албания'], ['f_nc.gif', 'NC', ' Новая Каледония'], ['f_gm.gif', 'GM', ' Гамбия'], ['f_fj.gif', 'FJ', ' Фиджи'], ['f_pm.gif', 'PM', ' Сен-Пьер и Микелон'], ['f_cr.gif', 'CR', ' Коста-Рика'], ['f_sr.gif', 'SG', ' Сингапур'], ['f_fk.gif', 'FK', ' Фолклендские (Мальвинские) острова'], ['f_ms.gif', 'MS', ' Монтсеррат'], ['f_cf.gif', 'CF', ' Центральноафриканская Республика'], ['f_el.gif', 'GR', ' Греция']]
+1	2019-09-10 14:00:43.951611 >>>> File f_al.gif saved successfully.
+	2019-09-10 14:00:43.951611 >>>> Row ['f_al.gif', 'AL', ' Албания'] added successfully.
+2	2019-09-10 14:00:44.029737 >>>> File f_pm.gif saved successfully.
+	2019-09-10 14:00:44.029737 >>>> Row ['f_pm.gif', 'PM', ' Сен-Пьер и Микелон'] added successfully.
+3	2019-09-10 14:00:44.092238 >>>> File f_cf.gif saved successfully.
+	2019-09-10 14:00:44.092238 >>>> Row ['f_cf.gif', 'CF', ' Центральноафриканская Республика'] added successfully.
+4	2019-09-10 14:00:44.185989 >>>> File f_nc.gif saved successfully.
+	2019-09-10 14:00:44.185989 >>>> Row ['f_nc.gif', 'NC', ' Новая Каледония'] added successfully.
+5	2019-09-10 14:00:44.295365 >>>> File f_fj.gif saved successfully.
+	2019-09-10 14:00:44.295365 >>>> Row ['f_fj.gif', 'FJ', ' Фиджи'] added successfully.
+6	2019-09-10 14:00:44.404742 >>>> File f_cr.gif saved successfully.
+	2019-09-10 14:00:44.404742 >>>> Row ['f_cr.gif', 'CR', ' Коста-Рика'] added successfully.
+7	2019-09-10 14:00:44.560994 >>>> File f_ms.gif saved successfully.
+	2019-09-10 14:00:44.560994 >>>> Row ['f_ms.gif', 'MS', ' Монтсеррат'] added successfully.
+8	2019-09-10 14:00:44.654745 >>>> File f_sr.gif saved successfully.
+	2019-09-10 14:00:44.654745 >>>> Row ['f_sr.gif', 'SG', ' Сингапур'] added successfully.
+9	2019-09-10 14:00:44.779746 >>>> File f_fk.gif saved successfully.
+	2019-09-10 14:00:44.779746 >>>> Row ['f_fk.gif', 'FK', ' Фолклендские (Мальвинские) острова'] added successfully.
+10	2019-09-10 14:00:44.857872 >>>> File f_el.gif saved successfully.
+	2019-09-10 14:00:44.857872 >>>> Row ['f_el.gif', 'GR', ' Греция'] added successfully.
+11	2019-09-10 14:00:44.951624 >>>> File f_gm.gif saved successfully.
+	2019-09-10 14:00:44.951624 >>>> Row ['f_gm.gif', 'GM', ' Гамбия'] added successfully.
+2019-09-10 14:00:45.061000 >>>	11 images are processed
+2019-09-10 14:00:45.061000 >>>	Sleeping for 4 sec
+
+2019-09-10 14:00:49.357930 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (12 countries):
+[['f_bg.gif', 'BG', ' Болгария'], ['f_se.gif', 'SE', ' Швеция'], ['f_tn.gif', 'TN', ' Тунис'], ['f_ml.gif', 'MY', ' Малайзия'], ['f_lc.gif', 'LC', ' Сент-Люсия'], ['f_td.gif', 'TD', ' Чад'], ['f_curacao.gif', 'CW', ' Кюрасао'], ['f_rs.gif', 'RS', ' Сербия'], ['f_ls.gif', 'LS', ' Лесото'], ['f_li.gif', 'LI', ' Лихтенштейн'], ['f_ceuta.gif', '', ' Сеута'], ['f_opn.gif', 'PN', ' Острова Питкэрн']]
+1	2019-09-10 14:00:49.561058 >>>> File f_ls.gif saved successfully.
+	2019-09-10 14:00:49.561058 >>>> Row ['f_ls.gif', 'LS', ' Лесото'] added successfully.
+2	2019-09-10 14:00:49.639184 >>>> File f_lc.gif saved successfully.
+	2019-09-10 14:00:49.639184 >>>> Row ['f_lc.gif', 'LC', ' Сент-Люсия'] added successfully.
+3	2019-09-10 14:00:49.686059 >>>> File f_rs.gif saved successfully.
+	2019-09-10 14:00:49.686059 >>>> Row ['f_rs.gif', 'RS', ' Сербия'] added successfully.
+4	2019-09-10 14:00:49.811061 >>>> File f_tn.gif saved successfully.
+	2019-09-10 14:00:49.811061 >>>> Row ['f_tn.gif', 'TN', ' Тунис'] added successfully.
+5	2019-09-10 14:00:49.904812 >>>> File f_bg.gif saved successfully.
+	2019-09-10 14:00:49.904812 >>>> Row ['f_bg.gif', 'BG', ' Болгария'] added successfully.
+6	2019-09-10 14:00:49.998563 >>>> File f_ceuta.gif saved successfully.
+	2019-09-10 14:00:49.998563 >>>> Row ['f_ceuta.gif', '', ' Сеута'] added successfully.
+7	2019-09-10 14:00:50.092314 >>>> File f_opn.gif saved successfully.
+	2019-09-10 14:00:50.092314 >>>> Row ['f_opn.gif', 'PN', ' Острова Питкэрн'] added successfully.
+8	2019-09-10 14:00:50.217316 >>>> File f_se.gif saved successfully.
+	2019-09-10 14:00:50.217316 >>>> Row ['f_se.gif', 'SE', ' Швеция'] added successfully.
+9	2019-09-10 14:00:50.326692 >>>> File f_ml.gif saved successfully.
+	2019-09-10 14:00:50.326692 >>>> Row ['f_ml.gif', 'MY', ' Малайзия'] added successfully.
+10	2019-09-10 14:00:50.420444 >>>> File f_td.gif saved successfully.
+	2019-09-10 14:00:50.420444 >>>> Row ['f_td.gif', 'TD', ' Чад'] added successfully.
+11	2019-09-10 14:00:50.514195 >>>> File f_li.gif saved successfully.
+	2019-09-10 14:00:50.514195 >>>> Row ['f_li.gif', 'LI', ' Лихтенштейн'] added successfully.
+12	2019-09-10 14:00:50.701697 >>>> File f_curacao.gif saved successfully.
+	2019-09-10 14:00:50.701697 >>>> Row ['f_curacao.gif', 'CW', ' Кюрасао'] added successfully.
+2019-09-10 14:00:50.811074 >>>	12 images are processed
+2019-09-10 14:00:50.811074 >>>	Sleeping for 4 sec
+
+2019-09-10 14:00:55.123629 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (20 countries):
+[['f_au.gif', 'AU', ' Австралия'], ['f_tg.gif', 'TG', ' Того'], ['f_ws.gif', 'WS', ' Самоа'], ['f_hn.gif', 'HN', ' Гондурас'], ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'], ['f_lv.gif', 'LV', ' Латвия'], ['f_lu.gif', 'LU', ' Люксембург'], ['f_za.gif', 'ZA', ' ЮАР'], ['f_fm.gif', 'FM', ' Федеративные Штаты Микронезии'], ['f_sk.gif', 'SK', ' Словакия'], ['f_et.gif', 'ET', ' Эфиопия'], ['f_ky.gif', 'KY', ' Каймановы острова'], ['f_kz.gif', 'KZ', ' Казахстан'], ['f_pe.gif', 'PE', ' Перу'], ['f_ls.gif', 'LS', ' Лесото'], ['f_tnc.gif', 'TC', ' Острова Тёркс и Кайкос'], ['f_s_osetia.gif', '', ' Южная Осетия'], ['f_ki.gif', 'KI', ' Кирибати'], ['f_mc.gif', 'MC', ' Монако'], ['f_kp.gif', 'KP', ' КНДР']]
+1	2019-09-10 14:00:55.311131 >>>> File f_lu.gif saved successfully.
+	2019-09-10 14:00:55.311131 >>>> Row ['f_lu.gif', 'LU', ' Люксембург'] added successfully.
+2	2019-09-10 14:00:55.389257 >>>> File f_kp.gif saved successfully.
+	2019-09-10 14:00:55.389257 >>>> Row ['f_kp.gif', 'KP', ' КНДР'] added successfully.
+3	2019-09-10 14:00:55.483008 >>>> File f_lv.gif saved successfully.
+	2019-09-10 14:00:55.483008 >>>> Row ['f_lv.gif', 'LV', ' Латвия'] added successfully.
+4	2019-09-10 14:00:55.592385 >>>> File f_tg.gif saved successfully.
+	2019-09-10 14:00:55.592385 >>>> Row ['f_tg.gif', 'TG', ' Того'] added successfully.
+5	2019-09-10 14:00:55.686136 >>>> File f_ky.gif saved successfully.
+	2019-09-10 14:00:55.686136 >>>> Row ['f_ky.gif', 'KY', ' Каймановы острова'] added successfully.
+6	2019-09-10 14:00:55.811138 >>>> File f_pe.gif saved successfully.
+	2019-09-10 14:00:55.811138 >>>> Row ['f_pe.gif', 'PE', ' Перу'] added successfully.
+7	2019-09-10 14:00:55.904889 >>>> File f_ki.gif saved successfully.
+	2019-09-10 14:00:55.904889 >>>> Row ['f_ki.gif', 'KI', ' Кирибати'] added successfully.
+8	2019-09-10 14:00:55.983015 >>>> File f_mc.gif saved successfully.
+	2019-09-10 14:00:55.983015 >>>> Row ['f_mc.gif', 'MC', ' Монако'] added successfully.
+9	2019-09-10 14:00:56.076766 >>>> File f_za.gif saved successfully.
+	2019-09-10 14:00:56.076766 >>>> Row ['f_za.gif', 'ZA', ' ЮАР'] added successfully.
+10	2019-09-10 14:00:56.186142 >>>> File f_au.gif saved successfully.
+	2019-09-10 14:00:56.186142 >>>> Row ['f_au.gif', 'AU', ' Австралия'] added successfully.
+11	2019-09-10 14:00:56.264268 >>>> File f_tnc.gif saved successfully.
+	2019-09-10 14:00:56.264268 >>>> Row ['f_tnc.gif', 'TC', ' Острова Тёркс и Кайкос'] added successfully.
+12	2019-09-10 14:00:56.373645 >>>> File f_hn.gif saved successfully.
+	2019-09-10 14:00:56.373645 >>>> Row ['f_hn.gif', 'HN', ' Гондурас'] added successfully.
+13	2019-09-10 14:00:56.498646 >>>> File f_nl.gif saved successfully.
+	2019-09-10 14:00:56.498646 >>>> Row ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'] added successfully.
+14	2019-09-10 14:00:56.592398 >>>> File f_ws.gif saved successfully.
+	2019-09-10 14:00:56.592398 >>>> Row ['f_ws.gif', 'WS', ' Самоа'] added successfully.
+15	2019-09-10 14:00:56.701774 >>>> File f_s_osetia.gif saved successfully.
+	2019-09-10 14:00:56.701774 >>>> Row ['f_s_osetia.gif', '', ' Южная Осетия'] added successfully.
+16	2019-09-10 14:00:56.842401 >>>> File f_ls.gif saved successfully.
+	2019-09-10 14:00:56.842401 >>>> Row ['f_ls.gif', 'LS', ' Лесото'] added successfully.
+17	2019-09-10 14:00:57.014278 >>>> File f_sk.gif saved successfully.
+	2019-09-10 14:00:57.014278 >>>> Row ['f_sk.gif', 'SK', ' Словакия'] added successfully.
+18	2019-09-10 14:00:57.108029 >>>> File f_fm.gif saved successfully.
+	2019-09-10 14:00:57.108029 >>>> Row ['f_fm.gif', 'FM', ' Федеративные Штаты Микронезии'] added successfully.
+19	2019-09-10 14:00:57.233031 >>>> File f_kz.gif saved successfully.
+	2019-09-10 14:00:57.233031 >>>> Row ['f_kz.gif', 'KZ', ' Казахстан'] added successfully.
+20	2019-09-10 14:00:57.342407 >>>> File f_et.gif saved successfully.
+	2019-09-10 14:00:57.342407 >>>> Row ['f_et.gif', 'ET', ' Эфиопия'] added successfully.
+2019-09-10 14:00:57.373658 >>>	20 images are processed
+2019-09-10 14:00:57.373658 >>>	Sleeping for 2 sec
+
+2019-09-10 14:00:59.654937 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (11 countries):
+[['f_ss.gif', '', ' Южный Судан'], ['f_bn.gif', 'BN', ' Бруней'], ['f_ir.gif', 'IR', ' Иран'], ['f_kh.gif', 'KH', ' Камбоджа'], ['f_vi.gif', 'VI', ' Американские Виргинские острова'], ['f_sm.gif', 'SM', ' Сан-Марино'], ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'], ['f_tt.gif', 'TT', ' Тринидад и Тобаго'], ['f_mo.gif', 'MO', ' Макао (Аомынь)'], ['f_uz.gif', 'UZ', ' Узбекистан'], ['f_fj.gif', 'FJ', ' Фиджи']]
+1	2019-09-10 14:00:59.842439 >>>> File f_vi.gif saved successfully.
+	2019-09-10 14:00:59.842439 >>>> Row ['f_vi.gif', 'VI', ' Американские Виргинские острова'] added successfully.
+2	2019-09-10 14:00:59.920565 >>>> File f_sm.gif saved successfully.
+	2019-09-10 14:00:59.920565 >>>> Row ['f_sm.gif', 'SM', ' Сан-Марино'] added successfully.
+3	2019-09-10 14:00:59.998691 >>>> File f_fj.gif saved successfully.
+	2019-09-10 14:00:59.998691 >>>> Row ['f_fj.gif', 'FJ', ' Фиджи'] added successfully.
+4	2019-09-10 14:01:00.076817 >>>> File f_bn.gif saved successfully.
+	2019-09-10 14:01:00.076817 >>>> Row ['f_bn.gif', 'BN', ' Бруней'] added successfully.
+5	2019-09-10 14:01:00.201819 >>>> File f_tt.gif saved successfully.
+	2019-09-10 14:01:00.201819 >>>> Row ['f_tt.gif', 'TT', ' Тринидад и Тобаго'] added successfully.
+6	2019-09-10 14:01:00.264320 >>>> File f_ss.gif saved successfully.
+	2019-09-10 14:01:00.264320 >>>> Row ['f_ss.gif', '', ' Южный Судан'] added successfully.
+7	2019-09-10 14:01:00.358071 >>>> File f_uz.gif saved successfully.
+	2019-09-10 14:01:00.358071 >>>> Row ['f_uz.gif', 'UZ', ' Узбекистан'] added successfully.
+8	2019-09-10 14:01:00.514323 >>>> File f_timor.gif saved successfully.
+	2019-09-10 14:01:00.514323 >>>> Row ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'] added successfully.
+9	2019-09-10 14:01:00.623699 >>>> File f_mo.gif saved successfully.
+	2019-09-10 14:01:00.623699 >>>> Row ['f_mo.gif', 'MO', ' Макао (Аомынь)'] added successfully.
+10	2019-09-10 14:01:00.717450 >>>> File f_ir.gif saved successfully.
+	2019-09-10 14:01:00.717450 >>>> Row ['f_ir.gif', 'IR', ' Иран'] added successfully.
+11	2019-09-10 14:01:00.858077 >>>> File f_kh.gif saved successfully.
+	2019-09-10 14:01:00.858077 >>>> Row ['f_kh.gif', 'KH', ' Камбоджа'] added successfully.
+2019-09-10 14:01:00.904953 >>>	11 images are processed
+2019-09-10 14:01:00.904953 >>>	Sleeping for 4 sec
+
+2019-09-10 14:01:05.217508 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (15 countries):
+[['f_ug.gif', 'UG', ' Уганда'], ['f_gu.gif', 'GU', ' Гуам'], ['f_es.gif', 'ES', ' Испания'], ['f_hr.gif', 'HR', ' Хорватия'], ['f_en.gif', 'GB', ' Великобритания'], ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'], ['f_ba.gif', 'BA', ' Босния и Герцеговина'], ['f_vi.gif', 'VI', ' Американские Виргинские острова'], ['f_fr.gif', 'YT', ' Майотта'], ['f_kn.gif', 'KN', ' Сент-Китс и Невис'], ['f_id.gif', 'ID', ' Индонезия'], ['f_ma.gif', 'MA', ' Марокко'], ['f_sl.gif', 'SL', ' Сьерра-Леоне'], ['f_nu.gif', 'NU', ' Ниуэ'], ['f_la.gif', 'LA', ' Лаос']]
+1	2019-09-10 14:01:05.405010 >>>> File f_hr.gif saved successfully.
+	2019-09-10 14:01:05.405010 >>>> Row ['f_hr.gif', 'HR', ' Хорватия'] added successfully.
+2	2019-09-10 14:01:05.467511 >>>> File f_ba.gif saved successfully.
+	2019-09-10 14:01:05.467511 >>>> Row ['f_ba.gif', 'BA', ' Босния и Герцеговина'] added successfully.
+3	2019-09-10 14:01:05.545637 >>>> File f_es.gif saved successfully.
+	2019-09-10 14:01:05.545637 >>>> Row ['f_es.gif', 'ES', ' Испания'] added successfully.
+4	2019-09-10 14:01:05.655014 >>>> File f_ma.gif saved successfully.
+	2019-09-10 14:01:05.655014 >>>> Row ['f_ma.gif', 'MA', ' Марокко'] added successfully.
+5	2019-09-10 14:01:05.811266 >>>> File f_vi.gif saved successfully.
+	2019-09-10 14:01:05.811266 >>>> Row ['f_vi.gif', 'VI', ' Американские Виргинские острова'] added successfully.
+6	2019-09-10 14:01:05.967518 >>>> File f_id.gif saved successfully.
+	2019-09-10 14:01:05.967518 >>>> Row ['f_id.gif', 'ID', ' Индонезия'] added successfully.
+7	2019-09-10 14:01:06.092519 >>>> File f_la.gif saved successfully.
+	2019-09-10 14:01:06.092519 >>>> Row ['f_la.gif', 'LA', ' Лаос'] added successfully.
+8	2019-09-10 14:01:06.155020 >>>> File f_kn.gif saved successfully.
+	2019-09-10 14:01:06.155020 >>>> Row ['f_kn.gif', 'KN', ' Сент-Китс и Невис'] added successfully.
+9	2019-09-10 14:01:06.248771 >>>> File f_nu.gif saved successfully.
+	2019-09-10 14:01:06.248771 >>>> Row ['f_nu.gif', 'NU', ' Ниуэ'] added successfully.
+10	2019-09-10 14:01:06.358148 >>>> File f_timor.gif saved successfully.
+	2019-09-10 14:01:06.358148 >>>> Row ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'] added successfully.
+11	2019-09-10 14:01:06.451899 >>>> File f_en.gif saved successfully.
+	2019-09-10 14:01:06.451899 >>>> Row ['f_en.gif', 'GB', ' Великобритания'] added successfully.
+12	2019-09-10 14:01:06.561275 >>>> File f_ug.gif saved successfully.
+	2019-09-10 14:01:06.561275 >>>> Row ['f_ug.gif', 'UG', ' Уганда'] added successfully.
+13	2019-09-10 14:01:06.670652 >>>> File f_sl.gif saved successfully.
+	2019-09-10 14:01:06.670652 >>>> Row ['f_sl.gif', 'SL', ' Сьерра-Леоне'] added successfully.
+14	2019-09-10 14:01:06.780028 >>>> File f_fr.gif saved successfully.
+	2019-09-10 14:01:06.780028 >>>> Row ['f_fr.gif', 'YT', ' Майотта'] added successfully.
+15	2019-09-10 14:01:06.920655 >>>> File f_gu.gif saved successfully.
+	2019-09-10 14:01:06.920655 >>>> Row ['f_gu.gif', 'GU', ' Гуам'] added successfully.
+2019-09-10 14:01:07.014406 >>>	15 images are processed
+2019-09-10 14:01:07.014406 >>>	Sleeping for 2 sec
+
+2019-09-10 14:01:09.358186 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (18 countries):
+[['f_bm.gif', 'BM', ' Бермуды'], ['f_bur.gif', 'BI', ' Бурунди'], ['f_ws.gif', 'WS', ' Самоа'], ['f_tnc.gif', 'TC', ' Острова Тёркс и Кайкос'], ['f_dj.gif', 'DJ', ' Джибути'], ['f_cv.gif', 'CV', ' Кабо-Верде (Острова Зеленого Мыса)'], ['f_gq.gif', 'GQ', ' Экваториальная Гвинея'], ['f_pe.gif', 'PE', ' Перу'], ['f_grenland.gif', 'GL', ' Гренландия'], ['f_qa.gif', 'QA', ' Катар'], ['f_cz.gif', 'CZ', ' Чехия'], ['f_nz.gif', 'NZ', ' Новая Зеландия'], ['f_usa.gif', 'US', ' США'], ['f_ni.gif', 'NI', ' Никарагуа'], ['f_bg.gif', 'BG', ' Болгария'], ['f_se.gif', 'SE', ' Швеция'], ['f_en.gif', 'GB', ' Великобритания'], ['f_gf.gif', 'GF', ' Французская Гвиана']]
+1	2019-09-10 14:01:09.514438 >>>> File f_bm.gif saved successfully.
+	2019-09-10 14:01:09.514438 >>>> Row ['f_bm.gif', 'BM', ' Бермуды'] added successfully.
+2	2019-09-10 14:01:09.592564 >>>> File f_se.gif saved successfully.
+	2019-09-10 14:01:09.592564 >>>> Row ['f_se.gif', 'SE', ' Швеция'] added successfully.
+3	2019-09-10 14:01:09.670690 >>>> File f_usa.gif saved successfully.
+	2019-09-10 14:01:09.670690 >>>> Row ['f_usa.gif', 'US', ' США'] added successfully.
+4	2019-09-10 14:01:09.795692 >>>> File f_ws.gif saved successfully.
+	2019-09-10 14:01:09.795692 >>>> Row ['f_ws.gif', 'WS', ' Самоа'] added successfully.
+5	2019-09-10 14:01:09.920693 >>>> File f_gf.gif saved successfully.
+	2019-09-10 14:01:09.920693 >>>> Row ['f_gf.gif', 'GF', ' Французская Гвиана'] added successfully.
+6	2019-09-10 14:01:09.998819 >>>> File f_nz.gif saved successfully.
+	2019-09-10 14:01:09.998819 >>>> Row ['f_nz.gif', 'NZ', ' Новая Зеландия'] added successfully.
+7	2019-09-10 14:01:10.092570 >>>> File f_bur.gif saved successfully.
+	2019-09-10 14:01:10.092570 >>>> Row ['f_bur.gif', 'BI', ' Бурунди'] added successfully.
+8	2019-09-10 14:01:10.186322 >>>> File f_pe.gif saved successfully.
+	2019-09-10 14:01:10.186322 >>>> Row ['f_pe.gif', 'PE', ' Перу'] added successfully.
+9	2019-09-10 14:01:10.280073 >>>> File f_bg.gif saved successfully.
+	2019-09-10 14:01:10.280073 >>>> Row ['f_bg.gif', 'BG', ' Болгария'] added successfully.
+10	2019-09-10 14:01:10.389449 >>>> File f_en.gif saved successfully.
+	2019-09-10 14:01:10.389449 >>>> Row ['f_en.gif', 'GB', ' Великобритания'] added successfully.
+11	2019-09-10 14:01:10.498826 >>>> File f_dj.gif saved successfully.
+	2019-09-10 14:01:10.498826 >>>> Row ['f_dj.gif', 'DJ', ' Джибути'] added successfully.
+12	2019-09-10 14:01:10.608202 >>>> File f_gq.gif saved successfully.
+	2019-09-10 14:01:10.608202 >>>> Row ['f_gq.gif', 'GQ', ' Экваториальная Гвинея'] added successfully.
+13	2019-09-10 14:01:10.717578 >>>> File f_ni.gif saved successfully.
+	2019-09-10 14:01:10.717578 >>>> Row ['f_ni.gif', 'NI', ' Никарагуа'] added successfully.
+14	2019-09-10 14:01:10.826955 >>>> File f_qa.gif saved successfully.
+	2019-09-10 14:01:10.826955 >>>> Row ['f_qa.gif', 'QA', ' Катар'] added successfully.
+15	2019-09-10 14:01:10.967582 >>>> File f_cz.gif saved successfully.
+	2019-09-10 14:01:10.967582 >>>> Row ['f_cz.gif', 'CZ', ' Чехия'] added successfully.
+16	2019-09-10 14:01:11.030082 >>>> File f_grenland.gif saved successfully.
+	2019-09-10 14:01:11.030082 >>>> Row ['f_grenland.gif', 'GL', ' Гренландия'] added successfully.
+17	2019-09-10 14:01:11.123834 >>>> File f_tnc.gif saved successfully.
+	2019-09-10 14:01:11.123834 >>>> Row ['f_tnc.gif', 'TC', ' Острова Тёркс и Кайкос'] added successfully.
+18	2019-09-10 14:01:11.233210 >>>> File f_cv.gif saved successfully.
+	2019-09-10 14:01:11.233210 >>>> Row ['f_cv.gif', 'CV', ' Кабо-Верде (Острова Зеленого Мыса)'] added successfully.
+2019-09-10 14:01:11.358212 >>>	18 images are processed
+2019-09-10 14:01:11.358212 >>>	Sleeping for 1 sec
+
+2019-09-10 14:01:12.623853 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (10 countries):
+[['f_td.gif', 'TD', ' Чад'], ['f_ph.gif', 'PH', ' Филиппины'], ['f_rs.gif', 'RS', ' Сербия'], ['f_ws.gif', 'WS', ' Самоа'], ['f_jm.gif', 'JM', ' Ямайка'], ['f_gf.gif', 'GF', ' Французская Гвиана'], ['f_sm.gif', 'SM', ' Сан-Марино'], ['f_iq.gif', 'IQ', ' Ирак'], ['f_fm.gif', 'FM', ' Федеративные Штаты Микронезии'], ['f_to.gif', 'TO', ' Тонга']]
+1	2019-09-10 14:01:12.795730 >>>> File f_sm.gif saved successfully.
+	2019-09-10 14:01:12.795730 >>>> Row ['f_sm.gif', 'SM', ' Сан-Марино'] added successfully.
+2	2019-09-10 14:01:12.889481 >>>> File f_fm.gif saved successfully.
+	2019-09-10 14:01:12.889481 >>>> Row ['f_fm.gif', 'FM', ' Федеративные Штаты Микронезии'] added successfully.
+3	2019-09-10 14:01:12.951982 >>>> File f_gf.gif saved successfully.
+	2019-09-10 14:01:12.951982 >>>> Row ['f_gf.gif', 'GF', ' Французская Гвиана'] added successfully.
+4	2019-09-10 14:01:13.061358 >>>> File f_rs.gif saved successfully.
+	2019-09-10 14:01:13.061358 >>>> Row ['f_rs.gif', 'RS', ' Сербия'] added successfully.
+5	2019-09-10 14:01:13.123859 >>>> File f_iq.gif saved successfully.
+	2019-09-10 14:01:13.123859 >>>> Row ['f_iq.gif', 'IQ', ' Ирак'] added successfully.
+6	2019-09-10 14:01:13.233236 >>>> File f_ws.gif saved successfully.
+	2019-09-10 14:01:13.233236 >>>> Row ['f_ws.gif', 'WS', ' Самоа'] added successfully.
+7	2019-09-10 14:01:13.389488 >>>> File f_to.gif saved successfully.
+	2019-09-10 14:01:13.389488 >>>> Row ['f_to.gif', 'TO', ' Тонга'] added successfully.
+8	2019-09-10 14:01:13.467614 >>>> File f_td.gif saved successfully.
+	2019-09-10 14:01:13.467614 >>>> Row ['f_td.gif', 'TD', ' Чад'] added successfully.
+9	2019-09-10 14:01:13.545740 >>>> File f_ph.gif saved successfully.
+	2019-09-10 14:01:13.545740 >>>> Row ['f_ph.gif', 'PH', ' Филиппины'] added successfully.
+10	2019-09-10 14:01:13.701992 >>>> File f_jm.gif saved successfully.
+	2019-09-10 14:01:13.701992 >>>> Row ['f_jm.gif', 'JM', ' Ямайка'] added successfully.
+2019-09-10 14:01:13.780118 >>>	10 images are processed
+2019-09-10 14:01:13.780118 >>>	Sleeping for 4 sec
+
+2019-09-10 14:01:18.077048 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (10 countries):
+[['f_no.gif', 'SJ', ' Шпицберген и Ян-Майен'], ['f_li.gif', 'LI', ' Лихтенштейн'], ['f_gp.gif', 'GP', ' Гваделупа'], ['f_nl.gif', 'BQ', ' Бонайре, Синт-Эстатиус и Саба'], ['f_np.gif', 'NP', ' Непал'], ['f_ar.gif', 'AR', ' Аргентина'], ['f_sl.gif', 'SL', ' Сьерра-Леоне'], ['f_gh.gif', 'GH', ' Гана'], ['f_ky.gif', 'KY', ' Каймановы острова'], ['f_fk.gif', 'FK', ' Фолклендские (Мальвинские) острова']]
+1	2019-09-10 14:01:18.233300 >>>> File f_ar.gif saved successfully.
+	2019-09-10 14:01:18.233300 >>>> Row ['f_ar.gif', 'AR', ' Аргентина'] added successfully.
+2	2019-09-10 14:01:18.327051 >>>> File f_sl.gif saved successfully.
+	2019-09-10 14:01:18.327051 >>>> Row ['f_sl.gif', 'SL', ' Сьерра-Леоне'] added successfully.
+3	2019-09-10 14:01:18.405177 >>>> File f_fk.gif saved successfully.
+	2019-09-10 14:01:18.405177 >>>> Row ['f_fk.gif', 'FK', ' Фолклендские (Мальвинские) острова'] added successfully.
+4	2019-09-10 14:01:18.498928 >>>> File f_no.gif saved successfully.
+	2019-09-10 14:01:18.498928 >>>> Row ['f_no.gif', 'SJ', ' Шпицберген и Ян-Майен'] added successfully.
+5	2019-09-10 14:01:18.592679 >>>> File f_gh.gif saved successfully.
+	2019-09-10 14:01:18.592679 >>>> Row ['f_gh.gif', 'GH', ' Гана'] added successfully.
+6	2019-09-10 14:01:18.670805 >>>> File f_ky.gif saved successfully.
+	2019-09-10 14:01:18.670805 >>>> Row ['f_ky.gif', 'KY', ' Каймановы острова'] added successfully.
+7	2019-09-10 14:01:18.795807 >>>> File f_np.gif saved successfully.
+	2019-09-10 14:01:18.795807 >>>> Row ['f_np.gif', 'NP', ' Непал'] added successfully.
+8	2019-09-10 14:01:18.905183 >>>> File f_li.gif saved successfully.
+	2019-09-10 14:01:18.905183 >>>> Row ['f_li.gif', 'LI', ' Лихтенштейн'] added successfully.
+9	2019-09-10 14:01:18.998934 >>>> File f_nl.gif saved successfully.
+	2019-09-10 14:01:18.998934 >>>> Row ['f_nl.gif', 'BQ', ' Бонайре, Синт-Эстатиус и Саба'] added successfully.
+10	2019-09-10 14:01:19.123936 >>>> File f_gp.gif saved successfully.
+	2019-09-10 14:01:19.123936 >>>> Row ['f_gp.gif', 'GP', ' Гваделупа'] added successfully.
+2019-09-10 14:01:19.217687 >>>	10 images are processed
+2019-09-10 14:01:19.217687 >>>	Sleeping for 1 sec
+
+2019-09-10 14:01:20.514579 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (15 countries):
+[['f_sl.gif', 'SL', ' Сьерра-Леоне'], ['f_uz.gif', 'UZ', ' Узбекистан'], ['f_kw.gif', 'KW', ' Кувейт'], ['f_mm.gif', 'MM', ' Мьянма (Бирма)'], ['f_gu.gif', 'GU', ' Гуам'], ['f_melilla.gif', '', ' Мелилья'], ['f_ls.gif', 'LS', ' Лесото'], ['f_jo.gif', 'JO', ' Иордания'], ['f_ck.gif', 'CK', ' Острова Кука'], ['f_cl.gif', 'CL', ' Чили, о. Пасхи'], ['f_reunion.gif', 'RE', ' Реюньон'], ['f_curacao.gif', 'CW', ' Кюрасао'], ['f_gm.gif', 'GM', ' Гамбия'], ['f_ug.gif', 'UG', ' Уганда'], ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)']]
+1	2019-09-10 14:01:20.717706 >>>> File f_mm.gif saved successfully.
+	2019-09-10 14:01:20.717706 >>>> Row ['f_mm.gif', 'MM', ' Мьянма (Бирма)'] added successfully.
+2	2019-09-10 14:01:20.842708 >>>> File f_melilla.gif saved successfully.
+	2019-09-10 14:01:20.842708 >>>> Row ['f_melilla.gif', '', ' Мелилья'] added successfully.
+3	2019-09-10 14:01:20.952084 >>>> File f_gu.gif saved successfully.
+	2019-09-10 14:01:20.952084 >>>> Row ['f_gu.gif', 'GU', ' Гуам'] added successfully.
+4	2019-09-10 14:01:21.077086 >>>> File f_kw.gif saved successfully.
+	2019-09-10 14:01:21.077086 >>>> Row ['f_kw.gif', 'KW', ' Кувейт'] added successfully.
+5	2019-09-10 14:01:21.170837 >>>> File f_ck.gif saved successfully.
+	2019-09-10 14:01:21.170837 >>>> Row ['f_ck.gif', 'CK', ' Острова Кука'] added successfully.
+6	2019-09-10 14:01:21.327089 >>>> File f_reunion.gif saved successfully.
+	2019-09-10 14:01:21.327089 >>>> Row ['f_reunion.gif', 'RE', ' Реюньон'] added successfully.
+7	2019-09-10 14:01:21.452091 >>>> File f_gm.gif saved successfully.
+	2019-09-10 14:01:21.452091 >>>> Row ['f_gm.gif', 'GM', ' Гамбия'] added successfully.
+8	2019-09-10 14:01:21.545842 >>>> File f_ug.gif saved successfully.
+	2019-09-10 14:01:21.545842 >>>> Row ['f_ug.gif', 'UG', ' Уганда'] added successfully.
+9	2019-09-10 14:01:21.639593 >>>> File f_curacao.gif saved successfully.
+	2019-09-10 14:01:21.639593 >>>> Row ['f_curacao.gif', 'CW', ' Кюрасао'] added successfully.
+10	2019-09-10 14:01:21.795845 >>>> File f_jo.gif saved successfully.
+	2019-09-10 14:01:21.795845 >>>> Row ['f_jo.gif', 'JO', ' Иордания'] added successfully.
+11	2019-09-10 14:01:21.889596 >>>> File f_sl.gif saved successfully.
+	2019-09-10 14:01:21.889596 >>>> Row ['f_sl.gif', 'SL', ' Сьерра-Леоне'] added successfully.
+12	2019-09-10 14:01:21.967722 >>>> File f_timor.gif saved successfully.
+	2019-09-10 14:01:21.967722 >>>> Row ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'] added successfully.
+13	2019-09-10 14:01:22.077099 >>>> File f_uz.gif saved successfully.
+	2019-09-10 14:01:22.077099 >>>> Row ['f_uz.gif', 'UZ', ' Узбекистан'] added successfully.
+14	2019-09-10 14:01:22.233351 >>>> File f_cl.gif saved successfully.
+	2019-09-10 14:01:22.233351 >>>> Row ['f_cl.gif', 'CL', ' Чили, о. Пасхи'] added successfully.
+15	2019-09-10 14:01:22.342727 >>>> File f_ls.gif saved successfully.
+	2019-09-10 14:01:22.342727 >>>> Row ['f_ls.gif', 'LS', ' Лесото'] added successfully.
+2019-09-10 14:01:22.467729 >>>	15 images are processed
+2019-09-10 14:01:22.467729 >>>	Sleeping for 2 sec
+
+2019-09-10 14:01:24.827134 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (15 countries):
+[['f_fr.gif', 'WF', ' Острова Уоллис и Футуна'], ['f_tz.gif', 'TZ', ' Танзания'], ['f_ant.gif', 'AQ', ' Антарктида'], ['f_lv.gif', 'LV', ' Латвия'], ['f_ru.gif', 'RU', ' Россия'], ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'], ['f_es.gif', 'ES', ' Испания'], ['f_bo.gif', 'BO', ' Боливия'], ['f_fm.gif', 'FM', ' Федеративные Штаты Микронезии'], ['f_bd.gif', 'BD', ' Бангладеш'], ['f_lb.gif', 'LB', ' Ливан'], ['f_bf.gif', 'BF', ' Буркина-Фасо'], ['f_tf.gif', 'TF', ' Французские Южные и Антарктические Территории'], ['f_pm.gif', 'PM', ' Сен-Пьер и Микелон'], ['f_ir.gif', 'IR', ' Иран']]
+1	2019-09-10 14:01:24.999011 >>>> File f_es.gif saved successfully.
+	2019-09-10 14:01:24.999011 >>>> Row ['f_es.gif', 'ES', ' Испания'] added successfully.
+2	2019-09-10 14:01:25.077137 >>>> File f_fr.gif saved successfully.
+	2019-09-10 14:01:25.077137 >>>> Row ['f_fr.gif', 'WF', ' Острова Уоллис и Футуна'] added successfully.
+3	2019-09-10 14:01:25.139638 >>>> File f_tf.gif saved successfully.
+	2019-09-10 14:01:25.139638 >>>> Row ['f_tf.gif', 'TF', ' Французские Южные и Антарктические Территории'] added successfully.
+4	2019-09-10 14:01:25.233389 >>>> File f_lv.gif saved successfully.
+	2019-09-10 14:01:25.233389 >>>> Row ['f_lv.gif', 'LV', ' Латвия'] added successfully.
+5	2019-09-10 14:01:25.342766 >>>> File f_timor.gif saved successfully.
+	2019-09-10 14:01:25.342766 >>>> Row ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'] added successfully.
+6	2019-09-10 14:01:25.452142 >>>> File f_ant.gif saved successfully.
+	2019-09-10 14:01:25.452142 >>>> Row ['f_ant.gif', 'AQ', ' Антарктида'] added successfully.
+7	2019-09-10 14:01:25.545893 >>>> File f_tz.gif saved successfully.
+	2019-09-10 14:01:25.545893 >>>> Row ['f_tz.gif', 'TZ', ' Танзания'] added successfully.
+8	2019-09-10 14:01:25.655270 >>>> File f_bd.gif saved successfully.
+	2019-09-10 14:01:25.655270 >>>> Row ['f_bd.gif', 'BD', ' Бангладеш'] added successfully.
+9	2019-09-10 14:01:25.780271 >>>> File f_lb.gif saved successfully.
+	2019-09-10 14:01:25.780271 >>>> Row ['f_lb.gif', 'LB', ' Ливан'] added successfully.
+10	2019-09-10 14:01:25.889648 >>>> File f_pm.gif saved successfully.
+	2019-09-10 14:01:25.889648 >>>> Row ['f_pm.gif', 'PM', ' Сен-Пьер и Микелон'] added successfully.
+11	2019-09-10 14:01:25.983399 >>>> File f_ru.gif saved successfully.
+	2019-09-10 14:01:25.983399 >>>> Row ['f_ru.gif', 'RU', ' Россия'] added successfully.
+12	2019-09-10 14:01:26.077150 >>>> File f_ir.gif saved successfully.
+	2019-09-10 14:01:26.077150 >>>> Row ['f_ir.gif', 'IR', ' Иран'] added successfully.
+13	2019-09-10 14:01:26.170901 >>>> File f_bf.gif saved successfully.
+	2019-09-10 14:01:26.170901 >>>> Row ['f_bf.gif', 'BF', ' Буркина-Фасо'] added successfully.
+14	2019-09-10 14:01:26.295903 >>>> File f_bo.gif saved successfully.
+	2019-09-10 14:01:26.295903 >>>> Row ['f_bo.gif', 'BO', ' Боливия'] added successfully.
+15	2019-09-10 14:01:26.420904 >>>> File f_fm.gif saved successfully.
+	2019-09-10 14:01:26.420904 >>>> Row ['f_fm.gif', 'FM', ' Федеративные Штаты Микронезии'] added successfully.
+2019-09-10 14:01:26.499030 >>>	15 images are processed
+2019-09-10 14:01:26.499030 >>>	Sleeping for 4 sec
+
+2019-09-10 14:01:30.795960 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (11 countries):
+[['f_mx.gif', 'MX', ' Мексика'], ['f_np.gif', 'NP', ' Непал'], ['f_mv.gif', 'MV', ' Мальдивы'], ['f_fi.gif', 'FI', ' Финляндия'], ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'], ['f_kn.gif', 'KN', ' Сент-Китс и Невис'], ['f_pl.gif', 'PL', ' Польша'], ['f_gs.gif', 'GS', ' Южная Георгия и Южные Сандвичевы острова'], ['f_sn.gif', 'SN', ' Сенегал'], ['f_ant.gif', 'AQ', ' Антарктида'], ['f_mc.gif', 'MC', ' Монако']]
+1	2019-09-10 14:01:30.952212 >>>> File f_fi.gif saved successfully.
+	2019-09-10 14:01:30.952212 >>>> Row ['f_fi.gif', 'FI', ' Финляндия'] added successfully.
+2	2019-09-10 14:01:31.030338 >>>> File f_gs.gif saved successfully.
+	2019-09-10 14:01:31.030338 >>>> Row ['f_gs.gif', 'GS', ' Южная Георгия и Южные Сандвичевы острова'] added successfully.
+3	2019-09-10 14:01:31.124090 >>>> File f_kn.gif saved successfully.
+	2019-09-10 14:01:31.124090 >>>> Row ['f_kn.gif', 'KN', ' Сент-Китс и Невис'] added successfully.
+4	2019-09-10 14:01:31.233466 >>>> File f_np.gif saved successfully.
+	2019-09-10 14:01:31.233466 >>>> Row ['f_np.gif', 'NP', ' Непал'] added successfully.
+5	2019-09-10 14:01:31.342842 >>>> File f_sn.gif saved successfully.
+	2019-09-10 14:01:31.342842 >>>> Row ['f_sn.gif', 'SN', ' Сенегал'] added successfully.
+6	2019-09-10 14:01:31.452219 >>>> File f_mc.gif saved successfully.
+	2019-09-10 14:01:31.452219 >>>> Row ['f_mc.gif', 'MC', ' Монако'] added successfully.
+7	2019-09-10 14:01:31.514720 >>>> File f_timor.gif saved successfully.
+	2019-09-10 14:01:31.514720 >>>> Row ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'] added successfully.
+8	2019-09-10 14:01:31.592846 >>>> File f_mx.gif saved successfully.
+	2019-09-10 14:01:31.592846 >>>> Row ['f_mx.gif', 'MX', ' Мексика'] added successfully.
+9	2019-09-10 14:01:31.780348 >>>> File f_ant.gif saved successfully.
+	2019-09-10 14:01:31.780348 >>>> Row ['f_ant.gif', 'AQ', ' Антарктида'] added successfully.
+10	2019-09-10 14:01:31.858474 >>>> File f_pl.gif saved successfully.
+	2019-09-10 14:01:31.858474 >>>> Row ['f_pl.gif', 'PL', ' Польша'] added successfully.
+11	2019-09-10 14:01:31.920975 >>>> File f_mv.gif saved successfully.
+	2019-09-10 14:01:31.920975 >>>> Row ['f_mv.gif', 'MV', ' Мальдивы'] added successfully.
+2019-09-10 14:01:32.045976 >>>	11 images are processed
+2019-09-10 14:01:32.061602 >>>	Sleeping for 4 sec
+
+2019-09-10 14:01:36.374157 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (16 countries):
+[['f_je.gif', 'JE', ' Джерси'], ['f_ar.gif', 'AR', ' Аргентина'], ['f_np.gif', 'NP', ' Непал'], ['f_cx.gif', 'CX', ' Остров Рождества'], ['f_yp.gif', 'FM', ' Яп'], ['f_puerto_rico.gif', 'PR', ' Пуэрто-Рико'], ['f_gu.gif', 'GU', ' Гуам'], ['f_cv.gif', 'CV', ' Кабо-Верде (Острова Зеленого Мыса)'], ['f_eg.gif', 'EG', ' Египет'], ['f_svn.gif', 'SI', ' Словения'], ['f_jm.gif', 'JM', ' Ямайка'], ['f_bo.gif', 'BO', ' Боливия'], ['f_sa.gif', 'SA', ' Саудовская Аравия'], ['f_bn.gif', 'BN', ' Бруней'], ['f_zap_sah.gif', 'EH', ' Западная Сахара (Сахарская Арабская Демократическая Республика)'], ['f_kn.gif', 'KN', ' Сент-Китс и Невис']]
+1	2019-09-10 14:01:36.546034 >>>> File f_zap_sah.gif saved successfully.
+	2019-09-10 14:01:36.546034 >>>> Row ['f_zap_sah.gif', 'EH', ' Западная Сахара (Сахарская Арабская Демократическая Республика)'] added successfully.
+2	2019-09-10 14:01:36.608535 >>>> File f_svn.gif saved successfully.
+	2019-09-10 14:01:36.608535 >>>> Row ['f_svn.gif', 'SI', ' Словения'] added successfully.
+3	2019-09-10 14:01:36.686661 >>>> File f_gu.gif saved successfully.
+	2019-09-10 14:01:36.686661 >>>> Row ['f_gu.gif', 'GU', ' Гуам'] added successfully.
+4	2019-09-10 14:01:36.749162 >>>> File f_yp.gif saved successfully.
+	2019-09-10 14:01:36.749162 >>>> Row ['f_yp.gif', 'FM', ' Яп'] added successfully.
+5	2019-09-10 14:01:36.842913 >>>> File f_cv.gif saved successfully.
+	2019-09-10 14:01:36.842913 >>>> Row ['f_cv.gif', 'CV', ' Кабо-Верде (Острова Зеленого Мыса)'] added successfully.
+6	2019-09-10 14:01:36.921039 >>>> File f_puerto_rico.gif saved successfully.
+	2019-09-10 14:01:36.921039 >>>> Row ['f_puerto_rico.gif', 'PR', ' Пуэрто-Рико'] added successfully.
+7	2019-09-10 14:01:36.999165 >>>> File f_bn.gif saved successfully.
+	2019-09-10 14:01:36.999165 >>>> Row ['f_bn.gif', 'BN', ' Бруней'] added successfully.
+8	2019-09-10 14:01:37.139792 >>>> File f_cx.gif saved successfully.
+	2019-09-10 14:01:37.139792 >>>> Row ['f_cx.gif', 'CX', ' Остров Рождества'] added successfully.
+9	2019-09-10 14:01:37.202292 >>>> File f_np.gif saved successfully.
+	2019-09-10 14:01:37.202292 >>>> Row ['f_np.gif', 'NP', ' Непал'] added successfully.
+10	2019-09-10 14:01:37.311669 >>>> File f_jm.gif saved successfully.
+	2019-09-10 14:01:37.311669 >>>> Row ['f_jm.gif', 'JM', ' Ямайка'] added successfully.
+11	2019-09-10 14:01:37.436670 >>>> File f_kn.gif saved successfully.
+	2019-09-10 14:01:37.436670 >>>> Row ['f_kn.gif', 'KN', ' Сент-Китс и Невис'] added successfully.
+12	2019-09-10 14:01:37.546047 >>>> File f_sa.gif saved successfully.
+	2019-09-10 14:01:37.546047 >>>> Row ['f_sa.gif', 'SA', ' Саудовская Аравия'] added successfully.
+13	2019-09-10 14:01:37.624173 >>>> File f_ar.gif saved successfully.
+	2019-09-10 14:01:37.624173 >>>> Row ['f_ar.gif', 'AR', ' Аргентина'] added successfully.
+14	2019-09-10 14:01:37.717924 >>>> File f_bo.gif saved successfully.
+	2019-09-10 14:01:37.717924 >>>> Row ['f_bo.gif', 'BO', ' Боливия'] added successfully.
+15	2019-09-10 14:01:37.858551 >>>> File f_je.gif saved successfully.
+	2019-09-10 14:01:37.858551 >>>> Row ['f_je.gif', 'JE', ' Джерси'] added successfully.
+16	2019-09-10 14:01:37.952302 >>>> File f_eg.gif saved successfully.
+	2019-09-10 14:01:37.952302 >>>> Row ['f_eg.gif', 'EG', ' Египет'] added successfully.
+2019-09-10 14:01:38.046053 >>>	16 images are processed
+2019-09-10 14:01:38.046053 >>>	Sleeping for 1 sec
+
+2019-09-10 14:01:39.405446 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (13 countries):
+[['f_ca.gif', 'CA', ' Канада'], ['f_ls.gif', 'LS', ' Лесото'], ['f_hn.gif', 'HN', ' Гондурас'], ['f_td.gif', 'TD', ' Чад'], ['f_gf.gif', 'GF', ' Французская Гвиана'], ['f_tf.gif', 'TF', ' Французские Южные и Антарктические Территории'], ['f_so.gif', 'SO', ' Сомали'], ['f_tz.gif', 'TZ', ' Танзания'], ['f_lc.gif', 'LC', ' Сент-Люсия'], ['f_id.gif', 'ID', ' Индонезия'], ['f_bo.gif', 'BO', ' Боливия'], ['f_ceuta.gif', '', ' Сеута'], ['f_eg.gif', 'EG', ' Египет']]
+1	2019-09-10 14:01:39.577323 >>>> File f_hn.gif saved successfully.
+	2019-09-10 14:01:39.577323 >>>> Row ['f_hn.gif', 'HN', ' Гондурас'] added successfully.
+2	2019-09-10 14:01:39.639824 >>>> File f_gf.gif saved successfully.
+	2019-09-10 14:01:39.639824 >>>> Row ['f_gf.gif', 'GF', ' Французская Гвиана'] added successfully.
+3	2019-09-10 14:01:39.702324 >>>> File f_bo.gif saved successfully.
+	2019-09-10 14:01:39.702324 >>>> Row ['f_bo.gif', 'BO', ' Боливия'] added successfully.
+4	2019-09-10 14:01:39.780450 >>>> File f_lc.gif saved successfully.
+	2019-09-10 14:01:39.780450 >>>> Row ['f_lc.gif', 'LC', ' Сент-Люсия'] added successfully.
+5	2019-09-10 14:01:39.889827 >>>> File f_id.gif saved successfully.
+	2019-09-10 14:01:39.889827 >>>> Row ['f_id.gif', 'ID', ' Индонезия'] added successfully.
+6	2019-09-10 14:01:40.092954 >>>> File f_eg.gif saved successfully.
+	2019-09-10 14:01:40.092954 >>>> Row ['f_eg.gif', 'EG', ' Египет'] added successfully.
+7	2019-09-10 14:01:40.264832 >>>> File f_tf.gif saved successfully.
+	2019-09-10 14:01:40.264832 >>>> Row ['f_tf.gif', 'TF', ' Французские Южные и Антарктические Территории'] added successfully.
+8	2019-09-10 14:01:40.452334 >>>> File f_ceuta.gif saved successfully.
+	2019-09-10 14:01:40.452334 >>>> Row ['f_ceuta.gif', '', ' Сеута'] added successfully.
+9	2019-09-10 14:01:40.577336 >>>> File f_so.gif saved successfully.
+	2019-09-10 14:01:40.577336 >>>> Row ['f_so.gif', 'SO', ' Сомали'] added successfully.
+10	2019-09-10 14:01:40.671087 >>>> File f_ls.gif saved successfully.
+	2019-09-10 14:01:40.671087 >>>> Row ['f_ls.gif', 'LS', ' Лесото'] added successfully.
+11	2019-09-10 14:01:40.811714 >>>> File f_td.gif saved successfully.
+	2019-09-10 14:01:40.811714 >>>> Row ['f_td.gif', 'TD', ' Чад'] added successfully.
+12	2019-09-10 14:01:40.921090 >>>> File f_ca.gif saved successfully.
+	2019-09-10 14:01:40.921090 >>>> Row ['f_ca.gif', 'CA', ' Канада'] added successfully.
+13	2019-09-10 14:01:41.030466 >>>> File f_tz.gif saved successfully.
+	2019-09-10 14:01:41.030466 >>>> Row ['f_tz.gif', 'TZ', ' Танзания'] added successfully.
+2019-09-10 14:01:41.186718 >>>	13 images are processed
+2019-09-10 14:01:41.186718 >>>	Sleeping for 2 sec
+
+2019-09-10 14:01:43.452372 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (10 countries):
+[['f_en.gif', 'GB', ' Великобритания'], ['f_mg.gif', 'MG', ' Мадагаскар'], ['f_af.gif', 'AF', ' Афганистан'], ['f_om.gif', 'OM', ' Оман'], ['f_ga.gif', 'GA', ' Габон'], ['f_ms.gif', 'MS', ' Монтсеррат'], ['f_kh.gif', 'KH', ' Камбоджа'], ['f_uae.gif', 'AE', ' ОАЭ'], ['f_de.gif', 'DE', ' Германия'], ['f_opn.gif', 'PN', ' Острова Питкэрн']]
+1	2019-09-10 14:01:43.608624 >>>> File f_ms.gif saved successfully.
+	2019-09-10 14:01:43.608624 >>>> Row ['f_ms.gif', 'MS', ' Монтсеррат'] added successfully.
+2	2019-09-10 14:01:43.702376 >>>> File f_de.gif saved successfully.
+	2019-09-10 14:01:43.702376 >>>> Row ['f_de.gif', 'DE', ' Германия'] added successfully.
+3	2019-09-10 14:01:43.780502 >>>> File f_mg.gif saved successfully.
+	2019-09-10 14:01:43.780502 >>>> Row ['f_mg.gif', 'MG', ' Мадагаскар'] added successfully.
+4	2019-09-10 14:01:43.874253 >>>> File f_af.gif saved successfully.
+	2019-09-10 14:01:43.874253 >>>> Row ['f_af.gif', 'AF', ' Афганистан'] added successfully.
+5	2019-09-10 14:01:43.983629 >>>> File f_kh.gif saved successfully.
+	2019-09-10 14:01:43.983629 >>>> Row ['f_kh.gif', 'KH', ' Камбоджа'] added successfully.
+6	2019-09-10 14:01:44.186757 >>>> File f_ga.gif saved successfully.
+	2019-09-10 14:01:44.186757 >>>> Row ['f_ga.gif', 'GA', ' Габон'] added successfully.
+7	2019-09-10 14:01:44.296133 >>>> File f_uae.gif saved successfully.
+	2019-09-10 14:01:44.296133 >>>> Row ['f_uae.gif', 'AE', ' ОАЭ'] added successfully.
+8	2019-09-10 14:01:44.389884 >>>> File f_opn.gif saved successfully.
+	2019-09-10 14:01:44.389884 >>>> Row ['f_opn.gif', 'PN', ' Острова Питкэрн'] added successfully.
+9	2019-09-10 14:01:44.483636 >>>> File f_om.gif saved successfully.
+	2019-09-10 14:01:44.483636 >>>> Row ['f_om.gif', 'OM', ' Оман'] added successfully.
+10	2019-09-10 14:01:44.608637 >>>> File f_en.gif saved successfully.
+	2019-09-10 14:01:44.608637 >>>> Row ['f_en.gif', 'GB', ' Великобритания'] added successfully.
+2019-09-10 14:01:44.702388 >>>	10 images are processed
+2019-09-10 14:01:44.702388 >>>	Sleeping for 2 sec
+
+2019-09-10 14:01:46.983668 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (20 countries):
+[['f_in.gif', 'IN', ' Индия'], ['f_gn.gif', 'GN', ' Гвинея'], ['f_qa.gif', 'QA', ' Катар'], ['f_nl.gif', 'BQ', ' Бонайре, Синт-Эстатиус и Саба'], ['f_gs.gif', 'GS', ' Южная Георгия и Южные Сандвичевы острова'], ['f_tnc.gif', 'TC', ' Острова Тёркс и Кайкос'], ['f_ee.gif', 'EE', ' Эстония'], ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'], ['f_hk.gif', 'HK', ' Гонконг'], ['f_uy.gif', 'UY', ' Уругвай'], ['f_uae.gif', 'AE', ' ОАЭ'], ['f_dj.gif', 'DJ', ' Джибути'], ['f_tj.gif', 'TJ', ' Таджикистан'], ['f_gf.gif', 'GF', ' Французская Гвиана'], ['f_opn.gif', 'PN', ' Острова Питкэрн'], ['f_transnistria.gif', '', ' Приднестровье'], ['f_mh.gif', 'MH', ' Маршалловы острова'], ['f_chk.gif', 'FM', ' Чуук (Трук)'], ['f_is.gif', 'IS', ' Исландия'], ['f_nf.gif', 'NF', ' Остров Норфолк']]
+1	2019-09-10 14:01:47.171170 >>>> File f_dj.gif saved successfully.
+	2019-09-10 14:01:47.171170 >>>> Row ['f_dj.gif', 'DJ', ' Джибути'] added successfully.
+2	2019-09-10 14:01:47.249296 >>>> File f_tj.gif saved successfully.
+	2019-09-10 14:01:47.249296 >>>> Row ['f_tj.gif', 'TJ', ' Таджикистан'] added successfully.
+3	2019-09-10 14:01:47.343047 >>>> File f_nf.gif saved successfully.
+	2019-09-10 14:01:47.343047 >>>> Row ['f_nf.gif', 'NF', ' Остров Норфолк'] added successfully.
+4	2019-09-10 14:01:47.405548 >>>> File f_chk.gif saved successfully.
+	2019-09-10 14:01:47.405548 >>>> Row ['f_chk.gif', 'FM', ' Чуук (Трук)'] added successfully.
+5	2019-09-10 14:01:47.514924 >>>> File f_nl.gif saved successfully.
+	2019-09-10 14:01:47.514924 >>>> Row ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'] added successfully.
+6	2019-09-10 14:01:47.655551 >>>> File f_gn.gif saved successfully.
+	2019-09-10 14:01:47.655551 >>>> Row ['f_gn.gif', 'GN', ' Гвинея'] added successfully.
+7	2019-09-10 14:01:47.780553 >>>> File f_hk.gif saved successfully.
+	2019-09-10 14:01:47.780553 >>>> Row ['f_hk.gif', 'HK', ' Гонконг'] added successfully.
+8	2019-09-10 14:01:47.874304 >>>> File f_uae.gif saved successfully.
+	2019-09-10 14:01:47.874304 >>>> Row ['f_uae.gif', 'AE', ' ОАЭ'] added successfully.
+9	2019-09-10 14:01:47.952430 >>>> File f_transnistria.gif saved successfully.
+	2019-09-10 14:01:47.952430 >>>> Row ['f_transnistria.gif', '', ' Приднестровье'] added successfully.
+10	2019-09-10 14:01:48.171183 >>>> File f_gs.gif saved successfully.
+	2019-09-10 14:01:48.171183 >>>> Row ['f_gs.gif', 'GS', ' Южная Георгия и Южные Сандвичевы острова'] added successfully.
+11	2019-09-10 14:01:48.264934 >>>> File f_nl.gif saved successfully.
+	2019-09-10 14:01:48.264934 >>>> Row ['f_nl.gif', 'BQ', ' Бонайре, Синт-Эстатиус и Саба'] added successfully.
+12	2019-09-10 14:01:48.358685 >>>> File f_mh.gif saved successfully.
+	2019-09-10 14:01:48.358685 >>>> Row ['f_mh.gif', 'MH', ' Маршалловы острова'] added successfully.
+13	2019-09-10 14:01:48.452436 >>>> File f_uy.gif saved successfully.
+	2019-09-10 14:01:48.452436 >>>> Row ['f_uy.gif', 'UY', ' Уругвай'] added successfully.
+14	2019-09-10 14:01:48.546188 >>>> File f_qa.gif saved successfully.
+	2019-09-10 14:01:48.546188 >>>> Row ['f_qa.gif', 'QA', ' Катар'] added successfully.
+15	2019-09-10 14:01:48.655564 >>>> File f_in.gif saved successfully.
+	2019-09-10 14:01:48.655564 >>>> Row ['f_in.gif', 'IN', ' Индия'] added successfully.
+16	2019-09-10 14:01:48.764940 >>>> File f_ee.gif saved successfully.
+	2019-09-10 14:01:48.764940 >>>> Row ['f_ee.gif', 'EE', ' Эстония'] added successfully.
+17	2019-09-10 14:01:48.905567 >>>> File f_is.gif saved successfully.
+	2019-09-10 14:01:48.905567 >>>> Row ['f_is.gif', 'IS', ' Исландия'] added successfully.
+18	2019-09-10 14:01:48.999318 >>>> File f_opn.gif saved successfully.
+	2019-09-10 14:01:48.999318 >>>> Row ['f_opn.gif', 'PN', ' Острова Питкэрн'] added successfully.
+19	2019-09-10 14:01:49.124320 >>>> File f_gf.gif saved successfully.
+	2019-09-10 14:01:49.124320 >>>> Row ['f_gf.gif', 'GF', ' Французская Гвиана'] added successfully.
+20	2019-09-10 14:01:49.233696 >>>> File f_tnc.gif saved successfully.
+	2019-09-10 14:01:49.233696 >>>> Row ['f_tnc.gif', 'TC', ' Острова Тёркс и Кайкос'] added successfully.
+2019-09-10 14:01:49.343073 >>>	20 images are processed
+2019-09-10 14:01:49.343073 >>>	Sleeping for 3 sec
+
+2019-09-10 14:01:52.671240 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (12 countries):
+[['f_sr.gif', 'SG', ' Сингапур'], ['f_cb.gif', 'CU', ' Куба'], ['f_tl.gif', 'TH', ' Таиланд'], ['f_vg.gif', 'VG', ' Британские Виргинские острова'], ['f_ht.gif', 'HT', ' Гаити'], ['f_hr.gif', 'HR', ' Хорватия'], ['f_pa.gif', 'PA', ' Панама'], ['f_er.gif', 'ER', ' Эритрея'], ['f_kn.gif', 'KN', ' Сент-Китс и Невис'], ['f_td.gif', 'TD', ' Чад'], ['f_ck.gif', 'CK', ' Острова Кука'], ['f_lr.gif', 'LR', ' Либерия']]
+1	2019-09-10 14:01:52.843118 >>>> File f_ht.gif saved successfully.
+	2019-09-10 14:01:52.843118 >>>> Row ['f_ht.gif', 'HT', ' Гаити'] added successfully.
+2	2019-09-10 14:01:52.921244 >>>> File f_tl.gif saved successfully.
+	2019-09-10 14:01:52.921244 >>>> Row ['f_tl.gif', 'TH', ' Таиланд'] added successfully.
+3	2019-09-10 14:01:53.093121 >>>> File f_kn.gif saved successfully.
+	2019-09-10 14:01:53.093121 >>>> Row ['f_kn.gif', 'KN', ' Сент-Китс и Невис'] added successfully.
+4	2019-09-10 14:01:53.218122 >>>> File f_pa.gif saved successfully.
+	2019-09-10 14:01:53.218122 >>>> Row ['f_pa.gif', 'PA', ' Панама'] added successfully.
+5	2019-09-10 14:01:53.311874 >>>> File f_er.gif saved successfully.
+	2019-09-10 14:01:53.311874 >>>> Row ['f_er.gif', 'ER', ' Эритрея'] added successfully.
+6	2019-09-10 14:01:53.405625 >>>> File f_hr.gif saved successfully.
+	2019-09-10 14:01:53.405625 >>>> Row ['f_hr.gif', 'HR', ' Хорватия'] added successfully.
+7	2019-09-10 14:01:53.483751 >>>> File f_td.gif saved successfully.
+	2019-09-10 14:01:53.483751 >>>> Row ['f_td.gif', 'TD', ' Чад'] added successfully.
+8	2019-09-10 14:01:53.593127 >>>> File f_sr.gif saved successfully.
+	2019-09-10 14:01:53.593127 >>>> Row ['f_sr.gif', 'SG', ' Сингапур'] added successfully.
+9	2019-09-10 14:01:53.702504 >>>> File f_cb.gif saved successfully.
+	2019-09-10 14:01:53.702504 >>>> Row ['f_cb.gif', 'CU', ' Куба'] added successfully.
+10	2019-09-10 14:01:53.796255 >>>> File f_lr.gif saved successfully.
+	2019-09-10 14:01:53.796255 >>>> Row ['f_lr.gif', 'LR', ' Либерия'] added successfully.
+11	2019-09-10 14:01:53.890006 >>>> File f_ck.gif saved successfully.
+	2019-09-10 14:01:53.890006 >>>> Row ['f_ck.gif', 'CK', ' Острова Кука'] added successfully.
+12	2019-09-10 14:01:54.077508 >>>> File f_vg.gif saved successfully.
+	2019-09-10 14:01:54.077508 >>>> Row ['f_vg.gif', 'VG', ' Британские Виргинские острова'] added successfully.
+2019-09-10 14:01:54.249386 >>>	12 images are processed
+2019-09-10 14:01:54.249386 >>>	Sleeping for 2 sec
+
+2019-09-10 14:01:56.593166 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (20 countries):
+[['f_kg.gif', 'KG', ' Киргизия'], ['f_tk.gif', 'TK', ' Токелау'], ['f_ca.gif', 'CA', ' Канада'], ['f_co.gif', 'CO', ' Колумбия'], ['f_kz.gif', 'KZ', ' Казахстан'], ['f_uae.gif', 'AE', ' ОАЭ'], ['f_pn.gif', 'PF', ' Французская Полинезия (Таити)'], ['f_tz.gif', 'TZ', ' Танзания'], ['f_sb.gif', 'SB', ' Соломоновы острова'], ['f_au.gif', 'AU', ' Австралия'], ['f_jm.gif', 'JM', ' Ямайка'], ['f_ps.gif', 'PS', ' Палестина'], ['f_nl.gif', 'NL', ' Нидерланды (Голландия)'], ['f_hu.gif', 'HU', ' Венгрия'], ['f_jp.gif', 'JP', ' Япония'], ['f_tl.gif', 'TH', ' Таиланд'], ['f_lr.gif', 'LR', ' Либерия'], ['f_il.gif', 'IL', ' Израиль'], ['f_cb.gif', 'CU', ' Куба'], ['f_dj.gif', 'DJ', ' Джибути']]
+1	2019-09-10 14:01:56.749418 >>>> File f_tz.gif saved successfully.
+	2019-09-10 14:01:56.749418 >>>> Row ['f_tz.gif', 'TZ', ' Танзания'] added successfully.
+2	2019-09-10 14:01:56.811918 >>>> File f_uae.gif saved successfully.
+	2019-09-10 14:01:56.811918 >>>> Row ['f_uae.gif', 'AE', ' ОАЭ'] added successfully.
+3	2019-09-10 14:01:56.890044 >>>> File f_ps.gif saved successfully.
+	2019-09-10 14:01:56.890044 >>>> Row ['f_ps.gif', 'PS', ' Палестина'] added successfully.
+4	2019-09-10 14:01:56.952545 >>>> File f_kg.gif saved successfully.
+	2019-09-10 14:01:56.952545 >>>> Row ['f_kg.gif', 'KG', ' Киргизия'] added successfully.
+5	2019-09-10 14:01:57.015046 >>>> File f_nl.gif saved successfully.
+	2019-09-10 14:01:57.015046 >>>> Row ['f_nl.gif', 'NL', ' Нидерланды (Голландия)'] added successfully.
+6	2019-09-10 14:01:57.155673 >>>> File f_jm.gif saved successfully.
+	2019-09-10 14:01:57.155673 >>>> Row ['f_jm.gif', 'JM', ' Ямайка'] added successfully.
+7	2019-09-10 14:01:57.265049 >>>> File f_cb.gif saved successfully.
+	2019-09-10 14:01:57.265049 >>>> Row ['f_cb.gif', 'CU', ' Куба'] added successfully.
+8	2019-09-10 14:01:57.436926 >>>> File f_lr.gif saved successfully.
+	2019-09-10 14:01:57.436926 >>>> Row ['f_lr.gif', 'LR', ' Либерия'] added successfully.
+9	2019-09-10 14:01:57.499427 >>>> File f_co.gif saved successfully.
+	2019-09-10 14:01:57.499427 >>>> Row ['f_co.gif', 'CO', ' Колумбия'] added successfully.
+10	2019-09-10 14:01:57.577553 >>>> File f_kz.gif saved successfully.
+	2019-09-10 14:01:57.577553 >>>> Row ['f_kz.gif', 'KZ', ' Казахстан'] added successfully.
+11	2019-09-10 14:01:57.671304 >>>> File f_il.gif saved successfully.
+	2019-09-10 14:01:57.671304 >>>> Row ['f_il.gif', 'IL', ' Израиль'] added successfully.
+12	2019-09-10 14:01:57.780681 >>>> File f_ca.gif saved successfully.
+	2019-09-10 14:01:57.780681 >>>> Row ['f_ca.gif', 'CA', ' Канада'] added successfully.
+13	2019-09-10 14:01:57.858807 >>>> File f_pn.gif saved successfully.
+	2019-09-10 14:01:57.858807 >>>> Row ['f_pn.gif', 'PF', ' Французская Полинезия (Таити)'] added successfully.
+14	2019-09-10 14:01:57.999434 >>>> File f_sb.gif saved successfully.
+	2019-09-10 14:01:57.999434 >>>> Row ['f_sb.gif', 'SB', ' Соломоновы острова'] added successfully.
+15	2019-09-10 14:01:58.093185 >>>> File f_tk.gif saved successfully.
+	2019-09-10 14:01:58.093185 >>>> Row ['f_tk.gif', 'TK', ' Токелау'] added successfully.
+16	2019-09-10 14:01:58.233812 >>>> File f_hu.gif saved successfully.
+	2019-09-10 14:01:58.233812 >>>> Row ['f_hu.gif', 'HU', ' Венгрия'] added successfully.
+17	2019-09-10 14:01:58.343188 >>>> File f_jp.gif saved successfully.
+	2019-09-10 14:01:58.343188 >>>> Row ['f_jp.gif', 'JP', ' Япония'] added successfully.
+18	2019-09-10 14:01:58.436939 >>>> File f_dj.gif saved successfully.
+	2019-09-10 14:01:58.436939 >>>> Row ['f_dj.gif', 'DJ', ' Джибути'] added successfully.
+19	2019-09-10 14:01:58.546316 >>>> File f_au.gif saved successfully.
+	2019-09-10 14:01:58.546316 >>>> Row ['f_au.gif', 'AU', ' Австралия'] added successfully.
+20	2019-09-10 14:01:58.655692 >>>> File f_tl.gif saved successfully.
+	2019-09-10 14:01:58.655692 >>>> Row ['f_tl.gif', 'TH', ' Таиланд'] added successfully.
+2019-09-10 14:01:58.749443 >>>	20 images are processed
+2019-09-10 14:01:58.749443 >>>	Sleeping for 4 sec
+
+2019-09-10 14:02:03.061998 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (16 countries):
+[['f_puerto_rico.gif', 'PR', ' Пуэрто-Рико'], ['f_gi.gif', 'GI', ' Гибралтар'], ['f_bi.gif', 'BS', ' Багамские острова'], ['f_ve.gif', 'VE', ' Венесуэла'], ['f_ng.gif', 'NG', ' Нигерия'], ['f_sd.gif', 'SD', ' Судан'], ['f_ant.gif', 'AQ', ' Антарктида'], ['f_ai.gif', 'AI', ' Ангилья'], ['f_mh.gif', 'MH', ' Маршалловы острова'], ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'], ['f_bz.gif', 'BZ', ' Белиз'], ['f_ls.gif', 'LS', ' Лесото'], ['f_mv.gif', 'MV', ' Мальдивы'], ['f_pw.gif', 'PW', ' Палау'], ['f_no.gif', 'NO', ' Норвегия'], ['f_ag.gif', 'AG', ' Антигуа и Барбуда']]
+1	2019-09-10 14:02:03.233876 >>>> File f_sd.gif saved successfully.
+	2019-09-10 14:02:03.233876 >>>> Row ['f_sd.gif', 'SD', ' Судан'] added successfully.
+2	2019-09-10 14:02:03.296376 >>>> File f_no.gif saved successfully.
+	2019-09-10 14:02:03.296376 >>>> Row ['f_no.gif', 'NO', ' Норвегия'] added successfully.
+3	2019-09-10 14:02:03.390128 >>>> File f_ng.gif saved successfully.
+	2019-09-10 14:02:03.390128 >>>> Row ['f_ng.gif', 'NG', ' Нигерия'] added successfully.
+4	2019-09-10 14:02:03.499504 >>>> File f_mh.gif saved successfully.
+	2019-09-10 14:02:03.499504 >>>> Row ['f_mh.gif', 'MH', ' Маршалловы острова'] added successfully.
+5	2019-09-10 14:02:03.608880 >>>> File f_gi.gif saved successfully.
+	2019-09-10 14:02:03.608880 >>>> Row ['f_gi.gif', 'GI', ' Гибралтар'] added successfully.
+6	2019-09-10 14:02:03.671381 >>>> File f_ant.gif saved successfully.
+	2019-09-10 14:02:03.671381 >>>> Row ['f_ant.gif', 'AQ', ' Антарктида'] added successfully.
+7	2019-09-10 14:02:03.765132 >>>> File f_bz.gif saved successfully.
+	2019-09-10 14:02:03.765132 >>>> Row ['f_bz.gif', 'BZ', ' Белиз'] added successfully.
+8	2019-09-10 14:02:03.921384 >>>> File f_puerto_rico.gif saved successfully.
+	2019-09-10 14:02:03.921384 >>>> Row ['f_puerto_rico.gif', 'PR', ' Пуэрто-Рико'] added successfully.
+9	2019-09-10 14:02:04.030761 >>>> File f_ls.gif saved successfully.
+	2019-09-10 14:02:04.030761 >>>> Row ['f_ls.gif', 'LS', ' Лесото'] added successfully.
+10	2019-09-10 14:02:04.124512 >>>> File f_bi.gif saved successfully.
+	2019-09-10 14:02:04.124512 >>>> Row ['f_bi.gif', 'BS', ' Багамские острова'] added successfully.
+11	2019-09-10 14:02:04.312014 >>>> File f_ag.gif saved successfully.
+	2019-09-10 14:02:04.312014 >>>> Row ['f_ag.gif', 'AG', ' Антигуа и Барбуда'] added successfully.
+12	2019-09-10 14:02:04.452641 >>>> File f_timor.gif saved successfully.
+	2019-09-10 14:02:04.452641 >>>> Row ['f_timor.gif', 'TL', ' Восточный Тимор (Тимор-Лешти)'] added successfully.
+13	2019-09-10 14:02:04.530767 >>>> File f_pw.gif saved successfully.
+	2019-09-10 14:02:04.530767 >>>> Row ['f_pw.gif', 'PW', ' Палау'] added successfully.
+14	2019-09-10 14:02:04.608893 >>>> File f_ai.gif saved successfully.
+	2019-09-10 14:02:04.608893 >>>> Row ['f_ai.gif', 'AI', ' Ангилья'] added successfully.
+15	2019-09-10 14:02:04.718270 >>>> File f_ve.gif saved successfully.
+	2019-09-10 14:02:04.718270 >>>> Row ['f_ve.gif', 'VE', ' Венесуэла'] added successfully.
+16	2019-09-10 14:02:04.874522 >>>> File f_mv.gif saved successfully.
+	2019-09-10 14:02:04.874522 >>>> Row ['f_mv.gif', 'MV', ' Мальдивы'] added successfully.
+2019-09-10 14:02:04.952648 >>>	16 images are processed
+2019-09-10 14:02:04.952648 >>>	Sleeping for 3 sec
+
+2019-09-10 14:02:08.280815 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (20 countries):
+[['f_ly.gif', 'LY', ' Ливия'], ['f_sn.gif', 'SN', ' Сенегал'], ['f_lb.gif', 'LB', ' Ливан'], ['f_sl.gif', 'SL', ' Сьерра-Леоне'], ['f_vc.gif', 'VC', ' Сент-Винсент и Гренадины'], ['f_ss.gif', '', ' Южный Судан'], ['f_mali.gif', 'ML', ' Мали'], ['f_fr.gif', 'WF', ' Острова Уоллис и Футуна'], ['f_gm.gif', 'GM', ' Гамбия'], ['f_er.gif', 'ER', ' Эритрея'], ['f_md.gif', 'MD', ' Молдавия'], ['f_sz.gif', 'SZ', ' Свазиленд'], ['f_tr.gif', 'TR', ' Турция'], ['f_aw.gif', 'AW', ' Аруба'], ['f_il.gif', 'IL', ' Израиль'], ['f_mg.gif', 'MG', ' Мадагаскар'], ['f_uz.gif', 'UZ', ' Узбекистан'], ['f_ba.gif', 'BA', ' Босния и Герцеговина'], ['f_cc.gif', 'CC', ' Кокосовые острова (Килинг)'], ['f_sa.gif', 'SA', ' Саудовская Аравия']]
+1	2019-09-10 14:02:08.468318 >>>> File f_sl.gif saved successfully.
+	2019-09-10 14:02:08.468318 >>>> Row ['f_sl.gif', 'SL', ' Сьерра-Леоне'] added successfully.
+2	2019-09-10 14:02:08.546444 >>>> File f_tr.gif saved successfully.
+	2019-09-10 14:02:08.546444 >>>> Row ['f_tr.gif', 'TR', ' Турция'] added successfully.
+3	2019-09-10 14:02:08.640195 >>>> File f_fr.gif saved successfully.
+	2019-09-10 14:02:08.640195 >>>> Row ['f_fr.gif', 'WF', ' Острова Уоллис и Футуна'] added successfully.
+4	2019-09-10 14:02:08.718321 >>>> File f_uz.gif saved successfully.
+	2019-09-10 14:02:08.718321 >>>> Row ['f_uz.gif', 'UZ', ' Узбекистан'] added successfully.
+5	2019-09-10 14:02:08.796447 >>>> File f_sa.gif saved successfully.
+	2019-09-10 14:02:08.796447 >>>> Row ['f_sa.gif', 'SA', ' Саудовская Аравия'] added successfully.
+6	2019-09-10 14:02:08.874573 >>>> File f_ss.gif saved successfully.
+	2019-09-10 14:02:08.874573 >>>> Row ['f_ss.gif', '', ' Южный Судан'] added successfully.
+7	2019-09-10 14:02:09.015200 >>>> File f_gm.gif saved successfully.
+	2019-09-10 14:02:09.015200 >>>> Row ['f_gm.gif', 'GM', ' Гамбия'] added successfully.
+8	2019-09-10 14:02:09.171452 >>>> File f_aw.gif saved successfully.
+	2019-09-10 14:02:09.171452 >>>> Row ['f_aw.gif', 'AW', ' Аруба'] added successfully.
+9	2019-09-10 14:02:09.265203 >>>> File f_ba.gif saved successfully.
+	2019-09-10 14:02:09.265203 >>>> Row ['f_ba.gif', 'BA', ' Босния и Герцеговина'] added successfully.
+10	2019-09-10 14:02:09.374579 >>>> File f_sn.gif saved successfully.
+	2019-09-10 14:02:09.374579 >>>> Row ['f_sn.gif', 'SN', ' Сенегал'] added successfully.
+11	2019-09-10 14:02:09.468330 >>>> File f_vc.gif saved successfully.
+	2019-09-10 14:02:09.468330 >>>> Row ['f_vc.gif', 'VC', ' Сент-Винсент и Гренадины'] added successfully.
+12	2019-09-10 14:02:09.530831 >>>> File f_sz.gif saved successfully.
+	2019-09-10 14:02:09.530831 >>>> Row ['f_sz.gif', 'SZ', ' Свазиленд'] added successfully.
+13	2019-09-10 14:02:09.624582 >>>> File f_lb.gif saved successfully.
+	2019-09-10 14:02:09.624582 >>>> Row ['f_lb.gif', 'LB', ' Ливан'] added successfully.
+14	2019-09-10 14:02:09.765209 >>>> File f_mg.gif saved successfully.
+	2019-09-10 14:02:09.765209 >>>> Row ['f_mg.gif', 'MG', ' Мадагаскар'] added successfully.
+15	2019-09-10 14:02:09.874586 >>>> File f_ly.gif saved successfully.
+	2019-09-10 14:02:09.874586 >>>> Row ['f_ly.gif', 'LY', ' Ливия'] added successfully.
+16	2019-09-10 14:02:09.968337 >>>> File f_md.gif saved successfully.
+	2019-09-10 14:02:09.968337 >>>> Row ['f_md.gif', 'MD', ' Молдавия'] added successfully.
+17	2019-09-10 14:02:10.140214 >>>> File f_cc.gif saved successfully.
+	2019-09-10 14:02:10.140214 >>>> Row ['f_cc.gif', 'CC', ' Кокосовые острова (Килинг)'] added successfully.
+18	2019-09-10 14:02:10.233965 >>>> File f_er.gif saved successfully.
+	2019-09-10 14:02:10.233965 >>>> Row ['f_er.gif', 'ER', ' Эритрея'] added successfully.
+19	2019-09-10 14:02:10.358967 >>>> File f_il.gif saved successfully.
+	2019-09-10 14:02:10.358967 >>>> Row ['f_il.gif', 'IL', ' Израиль'] added successfully.
+20	2019-09-10 14:02:10.452718 >>>> File f_mali.gif saved successfully.
+	2019-09-10 14:02:10.452718 >>>> Row ['f_mali.gif', 'ML', ' Мали'] added successfully.
+2019-09-10 14:02:10.530844 >>>	20 images are processed
+2019-09-10 14:02:10.530844 >>>	Sleeping for 3 sec
+
+2019-09-10 14:02:13.859012 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (10 countries):
+[['f_am.gif', 'AM', ' Армения'], ['f_ca.gif', 'CA', ' Канада'], ['f_ss.gif', '', ' Южный Судан'], ['f_jo.gif', 'JO', ' Иордания'], ['f_no.gif', 'BV', ' Буве'], ['f_svn.gif', 'SI', ' Словения'], ['f_zm.gif', 'ZM', ' Замбия'], ['f_al.gif', 'AL', ' Албания'], ['f_sn.gif', 'SN', ' Сенегал'], ['f_mc.gif', 'MC', ' Монако']]
+1	2019-09-10 14:02:14.030889 >>>> File f_no.gif saved successfully.
+	2019-09-10 14:02:14.030889 >>>> Row ['f_no.gif', 'BV', ' Буве'] added successfully.
+2	2019-09-10 14:02:14.218391 >>>> File f_al.gif saved successfully.
+	2019-09-10 14:02:14.218391 >>>> Row ['f_al.gif', 'AL', ' Албания'] added successfully.
+3	2019-09-10 14:02:14.437144 >>>> File f_sn.gif saved successfully.
+	2019-09-10 14:02:14.437144 >>>> Row ['f_sn.gif', 'SN', ' Сенегал'] added successfully.
+4	2019-09-10 14:02:14.687147 >>>> File f_ss.gif saved successfully.
+	2019-09-10 14:02:14.687147 >>>> Row ['f_ss.gif', '', ' Южный Судан'] added successfully.
+5	2019-09-10 14:02:14.812149 >>>> File f_svn.gif saved successfully.
+	2019-09-10 14:02:14.812149 >>>> Row ['f_svn.gif', 'SI', ' Словения'] added successfully.
+6	2019-09-10 14:02:14.905900 >>>> File f_am.gif saved successfully.
+	2019-09-10 14:02:14.905900 >>>> Row ['f_am.gif', 'AM', ' Армения'] added successfully.
+7	2019-09-10 14:02:15.030902 >>>> File f_zm.gif saved successfully.
+	2019-09-10 14:02:15.030902 >>>> Row ['f_zm.gif', 'ZM', ' Замбия'] added successfully.
+8	2019-09-10 14:02:15.155903 >>>> File f_ca.gif saved successfully.
+	2019-09-10 14:02:15.155903 >>>> Row ['f_ca.gif', 'CA', ' Канада'] added successfully.
+9	2019-09-10 14:02:15.234029 >>>> File f_mc.gif saved successfully.
+	2019-09-10 14:02:15.234029 >>>> Row ['f_mc.gif', 'MC', ' Монако'] added successfully.
+10	2019-09-10 14:02:15.343406 >>>> File f_jo.gif saved successfully.
+	2019-09-10 14:02:15.343406 >>>> Row ['f_jo.gif', 'JO', ' Иордания'] added successfully.
+2019-09-10 14:02:15.421532 >>>	10 images are processed
+2019-09-10 14:02:15.421532 >>>	Sleeping for 4 sec
+
+2019-09-10 14:02:19.718462 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (13 countries):
+[['f_hn.gif', 'HN', ' Гондурас'], ['f_il.gif', 'IL', ' Израиль'], ['f_nf.gif', 'NF', ' Остров Норфолк'], ['f_nu.gif', 'NU', ' Ниуэ'], ['f_cz.gif', 'CZ', ' Чехия'], ['f_ag.gif', 'AG', ' Антигуа и Барбуда'], ['f_mw.gif', 'MW', ' Малави'], ['f_srn.gif', 'SR', ' Суринам'], ['f_qa.gif', 'QA', ' Катар'], ['f_mo.gif', 'MO', ' Макао (Аомынь)'], ['f_mv.gif', 'MV', ' Мальдивы'], ['f_ws.gif', 'WS', ' Самоа'], ['f_gd.gif', 'GD', ' Гренада']]
+1	2019-09-10 14:02:19.905964 >>>> File f_mo.gif saved successfully.
+	2019-09-10 14:02:19.905964 >>>> Row ['f_mo.gif', 'MO', ' Макао (Аомынь)'] added successfully.
+2	2019-09-10 14:02:19.984090 >>>> File f_srn.gif saved successfully.
+	2019-09-10 14:02:19.984090 >>>> Row ['f_srn.gif', 'SR', ' Суринам'] added successfully.
+3	2019-09-10 14:02:20.109092 >>>> File f_nu.gif saved successfully.
+	2019-09-10 14:02:20.109092 >>>> Row ['f_nu.gif', 'NU', ' Ниуэ'] added successfully.
+4	2019-09-10 14:02:20.187218 >>>> File f_mv.gif saved successfully.
+	2019-09-10 14:02:20.187218 >>>> Row ['f_mv.gif', 'MV', ' Мальдивы'] added successfully.
+5	2019-09-10 14:02:20.280969 >>>> File f_ws.gif saved successfully.
+	2019-09-10 14:02:20.280969 >>>> Row ['f_ws.gif', 'WS', ' Самоа'] added successfully.
+6	2019-09-10 14:02:20.359095 >>>> File f_il.gif saved successfully.
+	2019-09-10 14:02:20.359095 >>>> Row ['f_il.gif', 'IL', ' Израиль'] added successfully.
+7	2019-09-10 14:02:20.452846 >>>> File f_gd.gif saved successfully.
+	2019-09-10 14:02:20.452846 >>>> Row ['f_gd.gif', 'GD', ' Гренада'] added successfully.
+8	2019-09-10 14:02:20.530972 >>>> File f_cz.gif saved successfully.
+	2019-09-10 14:02:20.530972 >>>> Row ['f_cz.gif', 'CZ', ' Чехия'] added successfully.
+9	2019-09-10 14:02:20.671599 >>>> File f_ag.gif saved successfully.
+	2019-09-10 14:02:20.671599 >>>> Row ['f_ag.gif', 'AG', ' Антигуа и Барбуда'] added successfully.
+10	2019-09-10 14:02:20.780975 >>>> File f_qa.gif saved successfully.
+	2019-09-10 14:02:20.780975 >>>> Row ['f_qa.gif', 'QA', ' Катар'] added successfully.
+11	2019-09-10 14:02:20.905977 >>>> File f_hn.gif saved successfully.
+	2019-09-10 14:02:20.905977 >>>> Row ['f_hn.gif', 'HN', ' Гондурас'] added successfully.
+12	2019-09-10 14:02:21.015353 >>>> File f_nf.gif saved successfully.
+	2019-09-10 14:02:21.015353 >>>> Row ['f_nf.gif', 'NF', ' Остров Норфолк'] added successfully.
+13	2019-09-10 14:02:21.109104 >>>> File f_mw.gif saved successfully.
+	2019-09-10 14:02:21.109104 >>>> Row ['f_mw.gif', 'MW', ' Малави'] added successfully.
+2019-09-10 14:02:21.187230 >>>	13 images are processed
+2019-09-10 14:02:21.187230 >>>	Sleeping for 1 sec
+
+2019-09-10 14:02:22.468497 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (18 countries):
+[['f_chk.gif', 'FM', ' Чуук (Трук)'], ['f_kosovo.gif', '', ' Косово'], ['f_ua.gif', 'UA', ' Украина'], ['f_dk.gif', 'DK', ' Дания'], ['f_srn.gif', 'SR', ' Суринам'], ['f_ee.gif', 'EE', ' Эстония'], ['f_gg.gif', 'GG', ' Гернси'], ['f_cz.gif', 'CZ', ' Чехия'], ['f_tr.gif', 'TR', ' Турция'], ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'], ['f_pn.gif', 'PF', ' Французская Полинезия (Таити)'], ['f_bd.gif', 'BD', ' Бангладеш'], ['f_au.gif', 'AU', ' Австралия'], ['f_bw.gif', 'BW', ' Ботсвана'], ['f_br.gif', 'BR', ' Бразилия'], ['f_al.gif', 'AL', ' Албания'], ['f_cf.gif', 'CF', ' Центральноафриканская Республика'], ['f_tt.gif', 'TT', ' Тринидад и Тобаго']]
+1	2019-09-10 14:02:22.640374 >>>> File f_al.gif saved successfully.
+	2019-09-10 14:02:22.640374 >>>> Row ['f_al.gif', 'AL', ' Албания'] added successfully.
+2	2019-09-10 14:02:22.734125 >>>> File f_chk.gif saved successfully.
+	2019-09-10 14:02:22.734125 >>>> Row ['f_chk.gif', 'FM', ' Чуук (Трук)'] added successfully.
+3	2019-09-10 14:02:22.812251 >>>> File f_pn.gif saved successfully.
+	2019-09-10 14:02:22.812251 >>>> Row ['f_pn.gif', 'PF', ' Французская Полинезия (Таити)'] added successfully.
+4	2019-09-10 14:02:22.921628 >>>> File f_dk.gif saved successfully.
+	2019-09-10 14:02:22.921628 >>>> Row ['f_dk.gif', 'DK', ' Дания'] added successfully.
+5	2019-09-10 14:02:23.077880 >>>> File f_ua.gif saved successfully.
+	2019-09-10 14:02:23.077880 >>>> Row ['f_ua.gif', 'UA', ' Украина'] added successfully.
+6	2019-09-10 14:02:23.234132 >>>> File f_srn.gif saved successfully.
+	2019-09-10 14:02:23.234132 >>>> Row ['f_srn.gif', 'SR', ' Суринам'] added successfully.
+7	2019-09-10 14:02:23.343508 >>>> File f_bd.gif saved successfully.
+	2019-09-10 14:02:23.343508 >>>> Row ['f_bd.gif', 'BD', ' Бангладеш'] added successfully.
+8	2019-09-10 14:02:23.437259 >>>> File f_bw.gif saved successfully.
+	2019-09-10 14:02:23.437259 >>>> Row ['f_bw.gif', 'BW', ' Ботсвана'] added successfully.
+9	2019-09-10 14:02:23.546636 >>>> File f_kosovo.gif saved successfully.
+	2019-09-10 14:02:23.546636 >>>> Row ['f_kosovo.gif', '', ' Косово'] added successfully.
+10	2019-09-10 14:02:23.656012 >>>> File f_cz.gif saved successfully.
+	2019-09-10 14:02:23.656012 >>>> Row ['f_cz.gif', 'CZ', ' Чехия'] added successfully.
+11	2019-09-10 14:02:23.765388 >>>> File f_nl.gif saved successfully.
+	2019-09-10 14:02:23.765388 >>>> Row ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'] added successfully.
+12	2019-09-10 14:02:23.874765 >>>> File f_ee.gif saved successfully.
+	2019-09-10 14:02:23.874765 >>>> Row ['f_ee.gif', 'EE', ' Эстония'] added successfully.
+13	2019-09-10 14:02:23.984141 >>>> File f_tt.gif saved successfully.
+	2019-09-10 14:02:23.984141 >>>> Row ['f_tt.gif', 'TT', ' Тринидад и Тобаго'] added successfully.
+14	2019-09-10 14:02:24.077892 >>>> File f_cf.gif saved successfully.
+	2019-09-10 14:02:24.077892 >>>> Row ['f_cf.gif', 'CF', ' Центральноафриканская Республика'] added successfully.
+15	2019-09-10 14:02:24.187269 >>>> File f_tr.gif saved successfully.
+	2019-09-10 14:02:24.187269 >>>> Row ['f_tr.gif', 'TR', ' Турция'] added successfully.
+16	2019-09-10 14:02:24.343521 >>>> File f_gg.gif saved successfully.
+	2019-09-10 14:02:24.343521 >>>> Row ['f_gg.gif', 'GG', ' Гернси'] added successfully.
+17	2019-09-10 14:02:24.452897 >>>> File f_br.gif saved successfully.
+	2019-09-10 14:02:24.452897 >>>> Row ['f_br.gif', 'BR', ' Бразилия'] added successfully.
+18	2019-09-10 14:02:24.562274 >>>> File f_au.gif saved successfully.
+	2019-09-10 14:02:24.562274 >>>> Row ['f_au.gif', 'AU', ' Австралия'] added successfully.
+2019-09-10 14:02:24.624774 >>>	18 images are processed
+2019-09-10 14:02:24.624774 >>>	Sleeping for 2 sec
+
+2019-09-10 14:02:26.968554 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (14 countries):
+[['f_gf.gif', 'GF', ' Французская Гвиана'], ['f_no.gif', 'BV', ' Буве'], ['f_lv.gif', 'LV', ' Латвия'], ['f_pl.gif', 'PL', ' Польша'], ['f_tr.gif', 'TR', ' Турция'], ['f_ls.gif', 'LS', ' Лесото'], ['f_ms.gif', 'MS', ' Монтсеррат'], ['f_n_cyprus.gif', '', ' Северный Кипр'], ['f_sb.gif', 'SB', ' Соломоновы острова'], ['f_pg.gif', 'PG', ' Папуа — Новая Гвинея'], ['f_dj.gif', 'DJ', ' Джибути'], ['f_au.gif', 'AU', ' Австралия'], ['f_gh.gif', 'GH', ' Гана'], ['f_gi.gif', 'GI', ' Гибралтар']]
+1	2019-09-10 14:02:27.140432 >>>> File f_n_cyprus.gif saved successfully.
+	2019-09-10 14:02:27.140432 >>>> Row ['f_n_cyprus.gif', '', ' Северный Кипр'] added successfully.
+2	2019-09-10 14:02:27.234183 >>>> File f_lv.gif saved successfully.
+	2019-09-10 14:02:27.234183 >>>> Row ['f_lv.gif', 'LV', ' Латвия'] added successfully.
+3	2019-09-10 14:02:27.343559 >>>> File f_no.gif saved successfully.
+	2019-09-10 14:02:27.343559 >>>> Row ['f_no.gif', 'BV', ' Буве'] added successfully.
+4	2019-09-10 14:02:27.499811 >>>> File f_ms.gif saved successfully.
+	2019-09-10 14:02:27.499811 >>>> Row ['f_ms.gif', 'MS', ' Монтсеррат'] added successfully.
+5	2019-09-10 14:02:27.609188 >>>> File f_gh.gif saved successfully.
+	2019-09-10 14:02:27.609188 >>>> Row ['f_gh.gif', 'GH', ' Гана'] added successfully.
+6	2019-09-10 14:02:27.718564 >>>> File f_sb.gif saved successfully.
+	2019-09-10 14:02:27.718564 >>>> Row ['f_sb.gif', 'SB', ' Соломоновы острова'] added successfully.
+7	2019-09-10 14:02:27.812315 >>>> File f_gf.gif saved successfully.
+	2019-09-10 14:02:27.812315 >>>> Row ['f_gf.gif', 'GF', ' Французская Гвиана'] added successfully.
+8	2019-09-10 14:02:27.921692 >>>> File f_dj.gif saved successfully.
+	2019-09-10 14:02:27.921692 >>>> Row ['f_dj.gif', 'DJ', ' Джибути'] added successfully.
+9	2019-09-10 14:02:28.077944 >>>> File f_tr.gif saved successfully.
+	2019-09-10 14:02:28.077944 >>>> Row ['f_tr.gif', 'TR', ' Турция'] added successfully.
+10	2019-09-10 14:02:28.171695 >>>> File f_pg.gif saved successfully.
+	2019-09-10 14:02:28.171695 >>>> Row ['f_pg.gif', 'PG', ' Папуа — Новая Гвинея'] added successfully.
+11	2019-09-10 14:02:28.249821 >>>> File f_ls.gif saved successfully.
+	2019-09-10 14:02:28.249821 >>>> Row ['f_ls.gif', 'LS', ' Лесото'] added successfully.
+12	2019-09-10 14:02:28.343572 >>>> File f_au.gif saved successfully.
+	2019-09-10 14:02:28.343572 >>>> Row ['f_au.gif', 'AU', ' Австралия'] added successfully.
+13	2019-09-10 14:02:28.515449 >>>> File f_pl.gif saved successfully.
+	2019-09-10 14:02:28.515449 >>>> Row ['f_pl.gif', 'PL', ' Польша'] added successfully.
+14	2019-09-10 14:02:28.624826 >>>> File f_gi.gif saved successfully.
+	2019-09-10 14:02:28.624826 >>>> Row ['f_gi.gif', 'GI', ' Гибралтар'] added successfully.
+2019-09-10 14:02:28.765452 >>>	14 images are processed
+2019-09-10 14:02:28.765452 >>>	Sleeping for 3 sec
+
+2019-09-10 14:02:32.077995 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (12 countries):
+[['f_en.gif', 'GB', ' Великобритания'], ['f_li.gif', 'LI', ' Лихтенштейн'], ['f_pw.gif', 'PW', ' Палау'], ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'], ['f_ye.gif', 'YE', ' Йемен'], ['f_cd.gif', 'CD', ' Демократическая Республика Конго'], ['f_srn.gif', 'SR', ' Суринам'], ['f_ck.gif', 'CK', ' Острова Кука'], ['f_kh.gif', 'KH', ' Камбоджа'], ['f_md.gif', 'MD', ' Молдавия'], ['f_mv.gif', 'MV', ' Мальдивы'], ['f_gw.gif', 'GW', ' Гвинея-Бисау']]
+1	2019-09-10 14:02:32.234247 >>>> File f_pw.gif saved successfully.
+	2019-09-10 14:02:32.234247 >>>> Row ['f_pw.gif', 'PW', ' Палау'] added successfully.
+2	2019-09-10 14:02:32.296748 >>>> File f_nl.gif saved successfully.
+	2019-09-10 14:02:32.296748 >>>> Row ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'] added successfully.
+3	2019-09-10 14:02:32.359248 >>>> File f_ck.gif saved successfully.
+	2019-09-10 14:02:32.359248 >>>> Row ['f_ck.gif', 'CK', ' Острова Кука'] added successfully.
+4	2019-09-10 14:02:32.453000 >>>> File f_gw.gif saved successfully.
+	2019-09-10 14:02:32.453000 >>>> Row ['f_gw.gif', 'GW', ' Гвинея-Бисау'] added successfully.
+5	2019-09-10 14:02:32.515500 >>>> File f_en.gif saved successfully.
+	2019-09-10 14:02:32.515500 >>>> Row ['f_en.gif', 'GB', ' Великобритания'] added successfully.
+6	2019-09-10 14:02:32.593626 >>>> File f_cd.gif saved successfully.
+	2019-09-10 14:02:32.593626 >>>> Row ['f_cd.gif', 'CD', ' Демократическая Республика Конго'] added successfully.
+7	2019-09-10 14:02:32.671752 >>>> File f_li.gif saved successfully.
+	2019-09-10 14:02:32.671752 >>>> Row ['f_li.gif', 'LI', ' Лихтенштейн'] added successfully.
+8	2019-09-10 14:02:32.781129 >>>> File f_md.gif saved successfully.
+	2019-09-10 14:02:32.781129 >>>> Row ['f_md.gif', 'MD', ' Молдавия'] added successfully.
+9	2019-09-10 14:02:32.937381 >>>> File f_kh.gif saved successfully.
+	2019-09-10 14:02:32.937381 >>>> Row ['f_kh.gif', 'KH', ' Камбоджа'] added successfully.
+10	2019-09-10 14:02:33.078008 >>>> File f_srn.gif saved successfully.
+	2019-09-10 14:02:33.078008 >>>> Row ['f_srn.gif', 'SR', ' Суринам'] added successfully.
+11	2019-09-10 14:02:33.171759 >>>> File f_mv.gif saved successfully.
+	2019-09-10 14:02:33.171759 >>>> Row ['f_mv.gif', 'MV', ' Мальдивы'] added successfully.
+12	2019-09-10 14:02:33.249885 >>>> File f_ye.gif saved successfully.
+	2019-09-10 14:02:33.249885 >>>> Row ['f_ye.gif', 'YE', ' Йемен'] added successfully.
+2019-09-10 14:02:33.328011 >>>	12 images are processed
+2019-09-10 14:02:33.328011 >>>	Sleeping for 4 sec
+
+2019-09-10 14:02:37.624941 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (10 countries):
+[['f_la.gif', 'LA', ' Лаос'], ['f_curacao.gif', 'CW', ' Кюрасао'], ['f_dr.gif', 'DO', ' Доминикана'], ['f_gg.gif', 'GG', ' Гернси'], ['f_zw.gif', 'ZW', ' Зимбабве'], ['f_by.gif', 'BY', ' Белоруссия'], ['f_ai.gif', 'AI', ' Ангилья'], ['f_uae.gif', 'AE', ' ОАЭ'], ['f_gd.gif', 'GD', ' Гренада'], ['f_ky.gif', 'KY', ' Каймановы острова']]
+1	2019-09-10 14:02:37.765568 >>>> File f_la.gif saved successfully.
+	2019-09-10 14:02:37.765568 >>>> Row ['f_la.gif', 'LA', ' Лаос'] added successfully.
+2	2019-09-10 14:02:37.828068 >>>> File f_curacao.gif saved successfully.
+	2019-09-10 14:02:37.828068 >>>> Row ['f_curacao.gif', 'CW', ' Кюрасао'] added successfully.
+3	2019-09-10 14:02:37.906194 >>>> File f_ai.gif saved successfully.
+	2019-09-10 14:02:37.906194 >>>> Row ['f_ai.gif', 'AI', ' Ангилья'] added successfully.
+4	2019-09-10 14:02:37.984320 >>>> File f_ky.gif saved successfully.
+	2019-09-10 14:02:37.984320 >>>> Row ['f_ky.gif', 'KY', ' Каймановы острова'] added successfully.
+5	2019-09-10 14:02:38.156198 >>>> File f_uae.gif saved successfully.
+	2019-09-10 14:02:38.156198 >>>> Row ['f_uae.gif', 'AE', ' ОАЭ'] added successfully.
+6	2019-09-10 14:02:38.265574 >>>> File f_by.gif saved successfully.
+	2019-09-10 14:02:38.265574 >>>> Row ['f_by.gif', 'BY', ' Белоруссия'] added successfully.
+7	2019-09-10 14:02:38.359325 >>>> File f_zw.gif saved successfully.
+	2019-09-10 14:02:38.359325 >>>> Row ['f_zw.gif', 'ZW', ' Зимбабве'] added successfully.
+8	2019-09-10 14:02:38.453076 >>>> File f_dr.gif saved successfully.
+	2019-09-10 14:02:38.453076 >>>> Row ['f_dr.gif', 'DO', ' Доминикана'] added successfully.
+9	2019-09-10 14:02:38.562453 >>>> File f_gg.gif saved successfully.
+	2019-09-10 14:02:38.562453 >>>> Row ['f_gg.gif', 'GG', ' Гернси'] added successfully.
+10	2019-09-10 14:02:38.671829 >>>> File f_gd.gif saved successfully.
+	2019-09-10 14:02:38.671829 >>>> Row ['f_gd.gif', 'GD', ' Гренада'] added successfully.
+2019-09-10 14:02:38.781206 >>>	10 images are processed
+2019-09-10 14:02:38.781206 >>>	Sleeping for 2 sec
+
+2019-09-10 14:02:41.124986 >>>	C:\Python34\telegram_bot\flags\countries_db_flags.py
+Got sample (16 countries):
+[['f_dj.gif', 'DJ', ' Джибути'], ['f_ky.gif', 'KY', ' Каймановы острова'], ['f_sa.gif', 'SA', ' Саудовская Аравия'], ['f_mc.gif', 'MC', ' Монако'], ['f_bur.gif', 'BI', ' Бурунди'], ['f_tf.gif', 'TF', ' Французские Южные и Антарктические Территории'], ['f_zm.gif', 'ZM', ' Замбия'], ['f_eg.gif', 'EG', ' Египет'], ['f_fo.gif', 'FO', ' Фарерские острова'], ['f_bg.gif', 'BG', ' Болгария'], ['f_mv.gif', 'MV', ' Мальдивы'], ['f_kr.gif', 'KR', ' Корея'], ['f_kw.gif', 'KW', ' Кувейт'], ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'], ['f_reunion.gif', 'RE', ' Реюньон'], ['f_mz.gif', 'MZ', ' Мозамбик']]
+1	2019-09-10 14:02:41.296863 >>>> File f_ky.gif saved successfully.
+	2019-09-10 14:02:41.296863 >>>> Row ['f_ky.gif', 'KY', ' Каймановы острова'] added successfully.
+2	2019-09-10 14:02:41.374989 >>>> File f_kw.gif saved successfully.
+	2019-09-10 14:02:41.374989 >>>> Row ['f_kw.gif', 'KW', ' Кувейт'] added successfully.
+3	2019-09-10 14:02:41.453115 >>>> File f_kr.gif saved successfully.
+	2019-09-10 14:02:41.453115 >>>> Row ['f_kr.gif', 'KR', ' Корея'] added successfully.
+4	2019-09-10 14:02:41.546866 >>>> File f_bg.gif saved successfully.
+	2019-09-10 14:02:41.546866 >>>> Row ['f_bg.gif', 'BG', ' Болгария'] added successfully.
+5	2019-09-10 14:02:41.671868 >>>> File f_mz.gif saved successfully.
+	2019-09-10 14:02:41.671868 >>>> Row ['f_mz.gif', 'MZ', ' Мозамбик'] added successfully.
+6	2019-09-10 14:02:41.749994 >>>> File f_mv.gif saved successfully.
+	2019-09-10 14:02:41.749994 >>>> Row ['f_mv.gif', 'MV', ' Мальдивы'] added successfully.
+7	2019-09-10 14:02:41.843745 >>>> File f_dj.gif saved successfully.
+	2019-09-10 14:02:41.843745 >>>> Row ['f_dj.gif', 'DJ', ' Джибути'] added successfully.
+8	2019-09-10 14:02:41.999997 >>>> File f_zm.gif saved successfully.
+	2019-09-10 14:02:41.999997 >>>> Row ['f_zm.gif', 'ZM', ' Замбия'] added successfully.
+9	2019-09-10 14:02:42.171874 >>>> File f_fo.gif saved successfully.
+	2019-09-10 14:02:42.171874 >>>> Row ['f_fo.gif', 'FO', ' Фарерские острова'] added successfully.
+10	2019-09-10 14:02:42.296876 >>>> File f_bur.gif saved successfully.
+	2019-09-10 14:02:42.296876 >>>> Row ['f_bur.gif', 'BI', ' Бурунди'] added successfully.
+11	2019-09-10 14:02:42.406252 >>>> File f_sa.gif saved successfully.
+	2019-09-10 14:02:42.406252 >>>> Row ['f_sa.gif', 'SA', ' Саудовская Аравия'] added successfully.
+12	2019-09-10 14:02:42.484378 >>>> File f_nl.gif saved successfully.
+	2019-09-10 14:02:42.484378 >>>> Row ['f_nl.gif', 'AN', ' Нидерландские Антильские острова'] added successfully.
+13	2019-09-10 14:02:42.578129 >>>> File f_tf.gif saved successfully.
+	2019-09-10 14:02:42.578129 >>>> Row ['f_tf.gif', 'TF', ' Французские Южные и Антарктические Территории'] added successfully.
+14	2019-09-10 14:02:42.671880 >>>> File f_mc.gif saved successfully.
+	2019-09-10 14:02:42.671880 >>>> Row ['f_mc.gif', 'MC', ' Монако'] added successfully.
+15	2019-09-10 14:02:42.812507 >>>> File f_reunion.gif saved successfully.
+	2019-09-10 14:02:42.812507 >>>> Row ['f_reunion.gif', 'RE', ' Реюньон'] added successfully.
+16	2019-09-10 14:02:42.984384 >>>> File f_eg.gif saved successfully.
+	2019-09-10 14:02:42.984384 >>>> Row ['f_eg.gif', 'EG', ' Египет'] added successfully.
+2019-09-10 14:02:43.125011 >>>	16 images are processed
+2019-09-10 14:02:43.140636 >>>	Sleeping for 4 sec
+
+2019-09-10 14:02:47.140688 >>>	Interrupted from keyboard
+2019-09-10 14:02:50.078225 >>>	Closed by user
+0:02:27.689390 worked without interruptions.
+
+
+
+
+

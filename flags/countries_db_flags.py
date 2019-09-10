@@ -10,7 +10,7 @@ import threading as th
 import sqlite3
 
 def write_in_log(message):
-    with open("countries", "a") as file:
+    with open("countries.log", "a") as file:
         file.write("{0} >>>\t{1}\n".format(datetime.now(), message))
 
 
@@ -19,8 +19,9 @@ def create_table():
         cursor = conn.cursor()
         try:
             cursor.execute("""CREATE TABLE countries
-                  (country_id real, code text, name text, flag text)
+                  (ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, CODE text, NAME text, FLAG text)
                """)
+            write_in_log("Table created successfully")            
         except Exception as e:
             write_in_log("Table not created, exception raised:\n{0}".format(e))
 
@@ -29,6 +30,7 @@ def get_random_countries(sample_len): #makes sample of .gif file names
     
     def get_html():
         try:
+
             result = requests.get("http://actravel.ru/country_codes.html").text
             html = Bs(result, features="html.parser")
             table = html.find_all("table")[0]
@@ -109,17 +111,14 @@ def add_row(country):
     return is_added_text
 
 
-
 def process_country(country):
     global countries_counter
     lock = th.RLock()
     is_saved = save_image(country)
     is_added = add_row(country)
-
     lock.acquire()
-    
     try:
-        with open("countries", "a") as file:
+        with open("countries.log", "a") as file:
             file.write("{0}\t{1} >>>> {2}\n".format(countries_counter, datetime.now(), is_saved))
             file.write("\t{0} >>>> {1}\n".format(datetime.now(), is_added))
             countries_counter += 1
@@ -131,7 +130,7 @@ def process_country(country):
                        
 def demon():
     #pid = os.fork()
-    #with open("countries", "a") as file:
+    #with open("countries.log", "a") as file:
     #    file.write("Demon started with PID {pid}\n")
     #work = True
     start_script = datetime.now()
