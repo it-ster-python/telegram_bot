@@ -4,6 +4,7 @@ import requests
 import os
 from multiprocessing.dummy import Pool as ThreadPool
 from datetime import datetime
+import urllib3
 
 url = "http://actravel.ru/country_codes.html"
 
@@ -19,8 +20,9 @@ def get_flags():
         flags.append(image)
     return flags
 
-path = "/home/kirill/Документы/Projects/telegram_bot/weather/flags/"
-def save_images():
+# path = "/home/kirill/Документы/Projects/telegram_bot/weather/flags/"
+path = "/home/kirill/telegram_bot/weather/flags/"
+def save_images(img):
     url_templ = "http://actravel.ru/images/"
     if not os.path.isdir(path):
         os.mkdir(path)
@@ -34,12 +36,15 @@ def save_images():
 
 if __name__ == '__main__':
 
-    pool = ThreadPool(len(save_images()))
     start = datetime.now()
-    results = pool.map(save_images)
+    # pool = ThreadPool(10)
+    # results = pool.map(save_images, get_flags())
+    # print(len(results))
+    # save_images()
+    pool = ThreadPool(len(get_flags()))
+    results = pool.map(save_images, get_flags())
     print(len(results))
-    save_images()
-    finish = datetime.now()
     pool.close()
     pool.join()
+    finish = datetime.now()
     print(finish - start)
