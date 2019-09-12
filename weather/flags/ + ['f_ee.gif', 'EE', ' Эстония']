@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<title>Ошибка 404: Файл не найден/Error 404: Page not found</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="description" content="Файл не найден">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="/owlcarousel/owl.theme.green.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="/owlcarousel/owl.carousel.min.js"></script>
+<style type="text/css"><!--
+@font-face{font-family:'FT';src: url('/i/fr.eot');src: url('/i/fr.woff') format('woff'), url('/i/fr.ttf') format('truetype'), url('/i/fr.svg') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'FT';src: url('/i/fb.eot');src: url('/i/fb.woff') format('woff'), url('/i/fb.ttf') format('truetype'), url('/i/fb.svg') format('svg');font-weight:bold;font-style:normal;}
+body{color:#fff;padding:0;margin:0;font-family:sans-serif;line-height:1.6;background: url(/img/forest.jpg) no-repeat top center fixed !important;
+-webkit-background-size: cover !important;
+-moz-background-size: cover !important;
+-o-background-size: cover !important;
+background-size: cover !important;}
+#container {max-width:987px;margin-right:auto;margin-left:auto;padding:0;*zoom:1;}
+#container:before,#container:after {display: table;content: "";}
+h1 {font-family:FT,sans-serif;font-weight:normal;}
+a {color: #00a0d8; TEXT-DECORATION:none;-webkit-transition-property:color;-moz-transition-property:color;-o-transition-property:color;-ms-transition-property:color;transition-property:color;-webkit-transition-duration:500ms;-moz-transition-duration:500ms;-o-transition-duration:500ms;-ms-transition-duration:500ms;transition-duration:500ms;}
+a:visited {color: #96c;}
+a:active, a:hover {color: #ff5850}
+a img {transition-property:opacity;-webkit-transition-duration:500ms;-moz-transition-duration:500ms;-o-transition-duration:500ms;-ms-transition-duration:500ms;transition-duration:500ms;}
+a:hover img {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);-moz-opacity: 0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+.memodiv{background-color:rgba(0,0,0,.5);padding:1em;padding-left:2em;}
+.hot_slide:{margin:0;padding:1em;color:#fff;text-shadow:0 -1px 15px rgba(0,0,10,.25);}
+.hot_slide .hot_slide_content {position:absolute;bottom:16px;left:16px;color:#fff;font-size:16px;}
+.hot_slide_content h2 {font-size:24px;margin:0;padding:0;color:#fff;text-shadow:0 -1px 15px rgba(0,0,10,.5);}
+.acbig {font-family:FT,sans-serif;font-size:150%;}
+-->
+</style></head><body><div id="container"><div class="memodiv">
+<img src="/img/compass.png" width="64" height="64" border="0" align="right" alt="" style="margin-left:1em;"><h1><span style="font-weight:normal;font-size:67%;">Ошибка 404<br /></span>Мы заблудились</h1>
+<p>Это не конец света. Это всего лишь ошибка. Нужный вам адрес привел в никуда.<br>
+Что делать? Убедитесь в правильности адреса, вернитесь <a href="javascript:history.back()">на шаг назад</a>,  попробуйте начать с <a href="/">главной страницы сайта туроператора <b>АС-тревел</b></a>, либо поищите нужное в Яндексе
+
+<p><div class="ya-site-form ya-site-form_inited_no" onclick="return {'bg': '#00a0d8', 'target': '_self', 'language': 'ru', 'suggest': true, 'tld': 'ru', 'site_suggest': true, 'action': 'http://yandex.ru/sitesearch', 'webopt': false, 'fontsize': 12, 'arrow': true, 'fg': '#000000', 'searchid': '159026', 'logo': 'rb', 'websearch': false, 'type': 3}"><form action="http://yandex.ru/sitesearch" method="get" target="_self"><input type="hidden" name="searchid" value="159026" /><input type="hidden" name="l10n" value="ru" /><input type="hidden" name="reqenc" value="" /><input type="text" name="text" value="" /><input type="submit" value="Найти" /></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;(' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1&&(e.className+=' ya-page_js_yes');s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
+</div>
+<div class="owl-carousel">
+<div><div class="hot_slide" style="min-height:388px;background: url(/predl/spo_3153.jpg) no-repeat top center;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;background-size: cover !important;"><div class="hot_slide_content"><a href="/predl/india_tigers.pdf"><h2>Сафари по тигриным заповедникам Индии</h2>
+</a>От <b class="acfont">148 741</b>&nbsp;руб. ($<b class="acbig">2207</b>) 1/2 DBL </div></div></div>
+<div><div class="hot_slide" style="min-height:388px;background: url(/predl/spo_2138.jpg) no-repeat top center;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;background-size: cover !important;"><div class="hot_slide_content"><a href="http://actravel.ru/predl/philippines_malapascua_scuba.pdf"><h2>Дайвинг с морскими лисицами у берегов Малапаскуа</h2>
+</a>От <b class="acfont">42 055</b>&nbsp;руб. ($<b class="acbig">624</b>) 1/2 DBL</div></div></div>
+<div><div class="hot_slide" style="min-height:388px;background: url(/predl/spo_3127.jpg) no-repeat top center;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;background-size: cover !important;"><div class="hot_slide_content"><a href="/predl/peru_machu_picchu_marlin.pdf"><h2>Мачу-Пикчу и рыбалка на марлина</h2>
+</a>От <b class="acfont">136 812</b>&nbsp;руб. ($<b class="acbig">2030</b>) 1/2 DBL</div></div></div>
+<div><div class="hot_slide" style="min-height:388px;background: url(/predl/spo_3139.jpg) no-repeat top center;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;background-size: cover !important;"><div class="hot_slide_content"><a href="http://actravel.ru/predl/philippines_unexplored.pdf"><h2>Открываем настоящие, неизведанные Филиппины</h2>
+</a>От <b class="acfont">374 919</b>&nbsp;руб. ($<b class="acbig">5563</b>) 1/2 DBL</div></div></div>
+<div><div class="hot_slide" style="min-height:388px;background: url(/predl/spo_3107.jpg) no-repeat top center;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;background-size: cover !important;"><div class="hot_slide_content"><a href="/predl/sicily.pdf"><h2>Ciao Sicilia!</h2>
+</a>От <b class="acfont">54 000</b>&nbsp;руб. (<b class="acbig">750</b>&euro;) 1/2 DBL</div></div></div>
+<div><div class="hot_slide" style="min-height:388px;background: url(/predl/spo_2988.jpg) no-repeat top center;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;background-size: cover !important;"><div class="hot_slide_content"><a href="/predl/peru_easter_island_express.pdf"><h2>Мини-Перу + остров Пасхи-экспресс</h2>
+</a>От <b class="acfont">133 442</b>&nbsp;руб. ($<b class="acbig">1980</b>) 1/2 DBL</div></div></div>
+<div><div class="hot_slide" style="min-height:388px;background: url(/predl/spo_3199.jpg) no-repeat top center;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;background-size: cover !important;"><div class="hot_slide_content"><a href="/predl/argentina_fauna.pdf"><h2>Аргентина для любителей флоры и фауны</h2>
+</a>От <b class="acfont">222 404</b>&nbsp;руб. ($<b class="acbig">3300</b>) 1/2 DBL</div></div></div>
+<div><div class="hot_slide" style="min-height:388px;background: url(/predl/spo_2617.jpg) no-repeat top center;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;background-size: cover !important;"><div class="hot_slide_content"><a href="/predl/usa_5_cities.pdf"><h2>5 городов США: Нью-Йорк, Филадельфия, Вашингтон, Орландо и Майами</h2>
+</a>От <b class="acfont">168 488</b>&nbsp;руб. ($<b class="acbig">2500</b>) 1/2 DBL</div></div></div>
+<div><div class="hot_slide" style="min-height:388px;background: url(/predl/spo_3021.jpg) no-repeat top center;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;background-size: cover !important;"><div class="hot_slide_content"><a href="/predl/peru_inca_trail.pdf"><h2>Тропа Инков: из Куско в Мачу-Пикчу</h2>
+</a>От <b class="acfont">119 222</b>&nbsp;руб. ($<b class="acbig">1769</b>) 1/2 DBL</div></div></div>
+</div><div class="memodiv">
+<p style="text-align:right;text-size:6px;font-family:sans-serif;font-weight:bold;margin:0;padding:0;"><a href="/all_offers.html">все предложения <img src="/i/predl_arrow.gif" width="10" height="10" border="0" alt=""></a></p>
+<div class="clearfix"></div>
+<a href="/"><img src="/img/ac_travel_white.png" width="128" height="39" border="0" style="margin-bottom:1em;" alt="АС-тревел, туроператор, Москва"></a>
+<br />Тел.: +7 495 740-29-89
+<br />E-mail: <a href="mailto:ac@actravel.ru" class="email">ac@actravel.ru</a>, cайт: <a href="http://actravel.ru/" class="url">ACtravel.ru</a>
+<br />Адрес: Вернадского просп., д. 37 корп. 1Б, Москва, 119415, Россия
+<br />
+</div>
+<script>
+$(document).ready(function() {
+$('.owl-carousel').owlCarousel({
+loop:true,
+autoplay:true,
+smartSpeed:250,
+autoplayTimeout:6000,
+margin:8,
+items:1
+});
+});
+</script>
+
+<p><!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' rel='nofollow'"+
+"target=_blank><img src='http://counter.yadro.ru/hit?t44.11;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border=0 width=31 height=31><\/a>")//--></script><!--/LiveInternet-->
+</div></BODY></HTML>

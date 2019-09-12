@@ -8,6 +8,21 @@ import urllib3
 
 url = "http://actravel.ru/country_codes.html"
 
+def get_all_country(file_name):
+    if os.path.isfile(file_name):
+        result = []
+        with open(file_name, "r") as html_file:
+            html = Bs(html_file.read())
+            lines = html.find_all("tr")
+            for line in lines:
+                rows = line.find_all("td")
+                rus_name = rows[0].text
+                bin_code = rows[2].text
+                result.append((rus_name, bin_code))
+        return result
+    else:
+        raise ValueError(f"File '{file_name}' not found!")
+
 def get_flags():
     flags = []
     result = requests.get(url).text
@@ -47,3 +62,5 @@ if __name__ == '__main__':
     pool.join()
     finish = datetime.now()
     print(finish - start)
+    res = get_all_country("countries.html")
+    print(res)
