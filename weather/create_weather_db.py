@@ -8,6 +8,7 @@ from random import random , sample, randint
 import time
 import threading as th
 import sqlite3
+import json
 
 def write_in_log(message):
     with open("countries.log", "a") as file:
@@ -123,45 +124,38 @@ def add_row_country(country):
     return is_added_text
 
 
-def add_row_city(city):
-    conn = sqlite3.connect("countries_db.db")
-    cursor = conn.cursor()
-    sql = f"""INSERT INTO "cities" (
-        "NAME",
-        "COUNTRY_CODE",
-        "LATITUDE",
-        "LONGITUDE"
-    )
-    VALUES (
-        "{city['country']}",
-        "{city['name']}",
-        {city['coord']['lat']},
-        {city['coord']['lon']}
-    );
-    """
-    cursor = connect.cursor()
-    cursor.execute(sql)
-
-
 def get_cities_from_json():
 
-    #path = os.path.join(os.path.split(sys.argv[0])[0],"city.list.json")
-
-    print(os.path.join(os.path.dirname(os.path.abspath(__file__))),"/city.list.json")
-    json = open(path, "r")
-    cities = json.load(json)
+    dir_name = os.path.dirname(os.path.abspath(__file__))
+    print(dir_name)
+    path = dir_name+"/city.list.json"
+    print(path)
+    json_file = open(path, "r")
+    cities = json.load(json_file)
     json.close()
     return cities
-
 
 
 def add_row_city(city):
     name, lat, lon, country = city
     conn = sqlite3.connect("countries_db.db")
     cursor = conn.cursor()
+    sql = """INSERT INTO "cities" (
+        "NAME",
+        "COUNTRY_CODE",
+        "LATITUDE",
+        "LONGITUDE"
+    )
+    VALUES (
+        "{0}",
+        "{1}",
+        {2},
+        {3}
+    );
+    """.format(city['country'], city['name'], city['coord']['lat'], city['coord']['lon'])
+
     try:
-        cursor.execute("""INSERT INTO cities (NAME, COUNTRY_CODE, LATITUDE, LONGITUDE) VALUES ('{0}', '{1}', '{2}')
-                """.format(name, country_code, lat, lon))
+        cursor.execute(sql)
         conn.commit()
         is_added = True
     except Exception as e:
