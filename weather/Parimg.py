@@ -20,17 +20,14 @@ def get_flags():
         flags.append(image)
     return flags
 
-# path = "/home/kirill/Документы/Projects/telegram_bot/weather/flags/"
-path = "/home/kirill/telegram_bot/weather/flags/"
-def save_images(img):
+path = "/home/kirill/Документы/Projects/telegram_bot/weather/flags/"
+# path = "/home/kirill/telegram_bot/weather/flags/"
+def save_image(img):
     url_templ = "http://actravel.ru/images/"
-    if not os.path.isdir(path):
-        os.mkdir(path)
-    flags = get_flags()
-    for flag in flags:
-        img_file = requests.get(url_templ + flag)
-        with open(os.path.join(path+flag), "wb") as file:
-            file.write(img_file.content)
+    # print(path+img)
+    img_file = requests.get(f"{url_templ} + {img}")
+    with open(os.path.join(f"{path} + {img}"), "wb") as file:
+        file.write(img_file.content)
 
 
 
@@ -41,8 +38,10 @@ if __name__ == '__main__':
     # results = pool.map(save_images, get_flags())
     # print(len(results))
     # save_images()
-    pool = ThreadPool(len(get_flags()))
-    results = pool.map(save_images, get_flags())
+    if not os.path.isdir(path):
+        os.mkdir(path)
+    pool = ThreadPool(10)
+    results = pool.map(save_image, get_flags())
     print(len(results))
     pool.close()
     pool.join()

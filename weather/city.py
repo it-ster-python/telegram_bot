@@ -5,7 +5,6 @@ import sqlite3
 import os
 from get_country import get_all_country
 
-
 def create_db(path):
     if not os.path.isfile(path):
         with open(path, "wb") as file:
