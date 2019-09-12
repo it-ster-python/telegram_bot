@@ -35,14 +35,36 @@ def get_all_country():
             country = []
     return countries
 
+def save_image(country): #saves one .gif file
+    img = country[0]
+    url_templ = "http://actravel.ru/images/"
+    path = os.path.join(os.path.split(os.path.abspath(__file__))[0],'images_for_db',img)
+    try:
+        img_file = requests.get(url_templ + img)
+        with open(path, "wb") as f:
+            f.write(img_file.content)
+        is_saved = True
+    except Exception as e:
+        ex = e
+        is_saved = False
 
-    
-def create_db(path):
-    if not os.path.isfile(path):
-        with open(path, "wb") as file:
+def save_all_images(countries):
+    path = os.path.join(os.path.split(os.path.abspath(__file__))[0],'images_for_db')
+    if not os.path.isdir(path):
+        try:
+            os.mkdir(path)
+        except Exception as e:
             pass
-    return
 
+    start = datetime.now()
+    pool = ThPool(10)
+    results = pool.map(save_image, countries)
+    pool.close()
+    pool.join()
+    finish = datetime.now()
+    print(finish - start)
+    connection.commit()
+    
 
 def get_connect(path):
     connect = sqlite3.connect(path)
@@ -78,7 +100,7 @@ def add_row_city(city, connection):
     print(city)
     if city['country'] != "":
         sql = """SELECT id FROM "countries" WHERE country_code='{0}'""".format(city['country'])
-        print(sql)
+        #print(sql)
         try:
             [country_id], = cursor.execute(sql)
             print(country_id)
@@ -95,7 +117,7 @@ def add_row_city(city, connection):
                 {3}
             );
             """.format(country_id, city['name'], city['coord']['lat'], city['coord']['lon'])
-            print(sql)
+            #print(sql)
         except:
             print("No {0} in countries table".format(city['country']))
             return
@@ -125,6 +147,8 @@ def add_row_country(country, connection):
 
 
 if __name__ == '__main__':
+
+    path = os.path.join(os.path.split(os.path.abspath(__file__))[0],'images_for_db')
     
     connection = get_connect("weather_database.db")  
     create_tables(connection)
@@ -157,6 +181,8 @@ if __name__ == '__main__':
             print(element)
             print(e)
     connection.commit()
+
+    save_all_images(data_country)
 
     print("\nOK")
         

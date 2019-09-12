@@ -77,6 +77,8 @@ def get_countries(): #makes sample of .gif file names
     return get_html()
 
 
+path = os.path.abspath(__file__)
+
 path = os.path.split(sys.argv[0])[0]
 path = os.path.join(path, 'flag_images/')
 countries_counter = 1
