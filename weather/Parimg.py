@@ -35,8 +35,8 @@ def get_flags():
         flags.append(image)
     return flags
 
-path = "/home/kirill/Документы/Projects/telegram_bot/weather/flags/"
-# path = "/home/kirill/telegram_bot/weather/flags/"
+# path = "/home/kirill/Документы/Projects/telegram_bot/weather/flags/"
+path = "/home/kirill/telegram_bot/weather/flags/"
 def save_image(img):
     url_templ = "http://actravel.ru/images/"
     # print(path+img)
