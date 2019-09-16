@@ -85,6 +85,7 @@ def send_data(element, connect):
     """
     cursor = connect.cursor()
     cursor.execute(sql_countries)
+    connection.commit()
 
 
 if __name__ == '__main__':
@@ -92,13 +93,13 @@ if __name__ == '__main__':
     connection = get_connect("city.py")
     data_country = get_country()
     image = os.listdir(path)
-    # for image in images:
+        # for image in images:
     #     print(image)
     for id, element in enumerate(data_country, 1):
         len_data = len(data_country)
         print("{0} from {1}".format(id, len_data), end="\r")
         try:
-            send_data(country, connection)
+            send_data(connection)
         except  Exception as e:
           print("ERROR SQL")
           print(element)
