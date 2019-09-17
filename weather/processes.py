@@ -6,7 +6,7 @@ import os
 import requests
 from bs4 import BeautifulSoup as Bs
 from cities_dict import get_cities
-from datetime import datetime
+from datetime import datetime, date, time, timedelta
 from multiprocessing.dummy import Pool as ThPool
 import subprocess
 import multiprocessing as mp
@@ -74,14 +74,25 @@ def save_all_images(countries):
     print(finish - start)
     connection.commit()
     
-
+def plural(nr, word):
+    incorrect = {"goos":"gees", "mouse":"mice"}
+    if not (word in incorrect.keys()):
+        word = word+"s" if nr != 1 else word
+    else:
+        word = incorrect(word) if nr != 1 else word
+    result = "{0} {1}".format(nr, word)
+    return(result)
+    
+    
 def drive(index, queue, speed):
     def get_output():
         start = "Get_output start {0}".format(index)
         hours = 15000000/speed
-        days = hours/8        
+        days = hours/8
+        d = date(1,1,1) + timedelta(days)
+        days_text = "{0} {1} {2}".format(plural(d.year, "year"),plural(d.month, "month"),plural(d.day, "day"))
         pid_text = ("PID: {0}".format(os.getpid()))
-        answer = "Driving {0} km/h you'll make 15 mlns km in {1} days".format(speed, days)
+        answer = "Driving {0} km/h you'll make 15 mlns km in {1}".format(speed, days_text)
         finish = "Get_output finish {0}".format(index)
         out = "{0}\n{1}\n{2}\n{3}\n".format(start, pid_text, answer, finish)
         return(out)
@@ -101,7 +112,8 @@ def saveimg_proc(index, queue, country):
 
         finish = "Get_output finish {0}".format(index)
         out = "{}\n{}\n{}\n{}\n".format(start, pid_text, text, finish)
-        return(out)
+        print(out)
+        #return(out)
     queue.put(get_output())
 
 
@@ -125,11 +137,11 @@ def proc(target, array):
         print(q.get())
         print(worker[i], worker[i].pid, "\n") #dir(worker[i]))
 
-        
 
 if __name__ == '__main__':
 
     #proc(saveimg_proc, get_all_country()[:10])
 
     proc(drive, [30,40,50,60,70,80,90,100])
+
 
