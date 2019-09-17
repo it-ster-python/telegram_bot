@@ -112,8 +112,8 @@ def saveimg_proc(index, queue, country):
 
         finish = "Get_output finish {0}".format(index)
         out = "{}\n{}\n{}\n{}\n".format(start, pid_text, text, finish)
-        print(out)
-        #return(out)
+        #print(out)
+        return(out)
     queue.put(get_output())
 
 
