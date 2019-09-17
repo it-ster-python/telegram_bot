@@ -16,7 +16,7 @@ path_db = "/home/kirill/telegram_bot/weather/country.db"
 
 def create_db(path_db):
     if not os.path.isfile(path_db):
-        with open(path_db, "wb") as file:
+        with open(path.db, "wb") as file:
             pass
         return
 
@@ -26,7 +26,7 @@ def get_connect(path_db):
     return connect
 
 def create_table(connect):
-    sql_countries = """CREATE TABLE IN NOT EXISTS "countries" (
+    sql_countries = """CREATE TABLE IF NOT EXISTS "countries" (
         "id"    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
         "image" TEXT NOT NULL,
         "country_name" TEXT NOT NULL,
@@ -63,8 +63,8 @@ def get_country():
             rus_name = rows[0].text
             bin_code = rows[2].text
             country.append(image)
-            country.append(bin_code)
             country.append(rus_name)
+            country.append(bin_code)
             countries.append(country)
             country = []
     return countries
@@ -74,34 +74,40 @@ def get_country():
 def send_data(element, connect):
     sql_countries = f"""INSERT INTO "countries" (
         "image",
-        "name",
-        "code"
+        "country_name",
+        "country_code"
     )
     VALUES (
-        {0},
-        {1},
-        {2},
+        "{element[0]}",
+        "{element[1]}",
+        "{element[2]}"
     );
     """
+    # print(sql_countries)
+    # raise ValueError()
+
     cursor = connect.cursor()
     cursor.execute(sql_countries)
-    connection.commit()
+    connect.commit()
 
 
 if __name__ == '__main__':
 
-    connection = get_connect("city.py")
+    connection = get_connect("country.db")
     data_country = get_country()
     image = os.listdir(path)
         # for image in images:
     #     print(image)
+    len_data = len(data_country)
     for id, element in enumerate(data_country, 1):
-        len_data = len(data_country)
         print("{0} from {1}".format(id, len_data), end="\r")
+        # print(element)
         try:
-            send_data(data_country, connection)
-        except  Exception as e:
-          print("ERROR SQL")
-          print(element)
-          print(e)
+            send_data(element, connection)
+        except Exception as e:
+            print("ERROR SQL")
+            print(element)
+            print(e)
+
     connection.commit()
+    print()
