@@ -99,7 +99,7 @@ if __name__ == '__main__':
         len_data = len(data_country)
         print("{0} from {1}".format(id, len_data), end="\r")
         try:
-            send_data(connection)
+            send_data(data_country, connection)
         except  Exception as e:
           print("ERROR SQL")
           print(element)
