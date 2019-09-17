@@ -75,49 +75,61 @@ def save_all_images(countries):
     connection.commit()
     
 
-def drive(length, speed):
-    hours = length/speed
-    days = hours/8
-    return days
-
-
-def executor(index, queue, country):
-    def output():
-        start = "Executor start {0}".format(index)
+def drive(index, queue, speed):
+    def get_output():
+        start = "Get_output start {0}".format(index)
+        hours = 15000000/speed
+        days = hours/8        
         pid_text = ("PID: {0}".format(os.getpid()))
-        save_image(country)
-        finish = "Executor finish {0}".format(index)
-        out = "{}\n{}\n{}\n".format(start, pid_text, finish)
-        #print(out)
-        print(index, os.getpid())
-    queue.put(output())
+        answer = "Driving {0} km/h you'll make 15 mlns km in {1} days".format(speed, days)
+        finish = "Get_output finish {0}".format(index)
+        out = "{0}\n{1}\n{2}\n{3}\n".format(start, pid_text, answer, finish)
+        return(out)
+    queue.put(get_output())    
 
 
-def proc():
+
+def saveimg_proc(index, queue, country):
+    def get_output():
+        start = "Get_output start {0}".format(index)
+        pid_text = ("PID: {0}".format(os.getpid()))
+        try:
+            save_image(country)
+            text = "For {} image saved.".format(country)
+        except Exception as e:
+            text = "For {0} image not saved!!! exception: {1}".format(country, e)
+
+        finish = "Get_output finish {0}".format(index)
+        out = "{}\n{}\n{}\n{}\n".format(start, pid_text, text, finish)
+        return(out)
+    queue.put(get_output())
+
+
+def proc(target, array):
     print("Parent PID: {0}".format(os.getpid()))
     q = mp.Queue()
-    worker = {"nr":"speed"}
-    speed = 10
+    worker = {"nr":"proc"}
     i=0
-    countries = get_all_country()[:10]
-    #print(countries)
-    for country in countries:
-        #print(i)
-        #print(country)
-        worker[i] = mp.Process(target=executor, args=(i, q, country))
+    #countries = get_all_country()[:10]
+
+    for item in array:
+        worker[i] = mp.Process(target=target, args=(i, q, item))
+        print(worker[i], worker[i].pid, "\n")
         i+=1
+    print("\ninitialization complete\n")
 
-    for i in range(10):
+    for i in range(len(array)):
         worker[i].start()
-        q.get()
-        worker[i].join() 
+        print(worker[i], worker[i].pid, "\n") #dir(worker[i]))
+        worker[i].join()         
+        print(q.get())
+        print(worker[i], worker[i].pid, "\n") #dir(worker[i]))
 
+        
 
 if __name__ == '__main__':
 
-    proc()
+    #proc(saveimg_proc, get_all_country()[:10])
 
-    #countries = get_all_country()[:10]
-    #q = mp.Queue()
-    #for country in countries:
-    #    executor(1, q, country)
+    proc(drive, [30,40,50,60,70,80,90,100])
+
