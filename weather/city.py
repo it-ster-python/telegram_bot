@@ -17,14 +17,14 @@ def get_connect(path):
     return connect
 
 def create_table(connect):
-    sql_countries = """CREATE TABLE IN NOT EXISTS "countries" (
+    sql_countries = """CREATE TABLE IF NOT EXISTS "countries" (
         "id"    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
         "image" TEXT NOT NULL,
         "country_name" TEXT NOT NULL,
         "country_code" TEXT NOT NULL
     );
     """
-    sql_locations = """CREATE TABLE IF NOT EXISTS "location" (
+    sql_locations = """CREATE TABLE IF NOT EXISTS "locations" (
         "id"    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
         "country_id" INTEGER,
         "city_ru"    TEXT,
@@ -46,7 +46,7 @@ def get_data(path):
 
 def send_data(element, connect):
     # {'id': 707860, 'name': 'Hurzuf', 'country': 'UA', 'coord': {'lon': 34.283333, 'lat': 44.549999}}
-    sql = f"""INSERT INTO "location" (
+    sql = f"""INSERT INTO "locations" (
         "country_code",
         "city",
         "lat",
@@ -71,7 +71,7 @@ if __name__ == '__main__':
         connection = get_connect(path)
         create_table(connection)
         data_city_code = get_data("city.list.json")
-        data_country = get_all_country("conutries.html")
+        data_country = get_all_country("countries.html")
 
         len_data = len(data_city_code)
         for id, element in enumerate(data_city_code, 1):

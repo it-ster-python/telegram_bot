@@ -29,8 +29,6 @@ class FlagsImporter():
 
     def downloadFlag(self, url):
         try:
-            if not os.path.isdir("flags_imgs"):
-                os.mkdir("flags_imgs")
             responce = requests.get(f"{self.main_url}{url}")
             new_file_name = {url.split("/")[-1]}
             #print(new_file_name)
@@ -44,10 +42,13 @@ if __name__ == '__main__':
     
     importer = FlagsImporter("http://actravel.ru")
     urls = importer.get_urls("countries.html")
+    if not os.path.isdir("flags_imgs"):
+        os.mkdir("flags_imgs")
     start = datetime.now()
     pool = ThreadPool(6)
     pool.map(importer.downloadFlag, urls)
     pool.close()
     pool.join()
     finish = datetime.now()
-    print("Downloding time is   {}".format(finish - start))
+    #print("Downloding time is   {}".format(finish - start))
+    
