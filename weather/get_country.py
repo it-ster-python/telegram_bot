@@ -27,5 +27,8 @@ def get_sql_country(data):
 
 
 if __name__ == '__main__':
+
+    pid = os.getpid()
+    print(pid)
     res = get_all_country("countries.html")
     print(res)

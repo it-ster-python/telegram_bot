@@ -39,12 +39,6 @@ def get_all_country():
     return countries
 
 def save_image(country): #saves one .gif file
-    path = os.path.join(os.path.split(os.path.abspath(__file__))[0],'images_for_db')
-    if not os.path.isdir(path):
-        try:
-            os.mkdir(path)
-        except Exception as e:
-            pass
     img = country[0]
     url_templ = "http://actravel.ru/images/"
     path = os.path.join(os.path.split(os.path.abspath(__file__))[0],'images_for_db',img)
@@ -81,15 +75,15 @@ def drive(length, speed):
     return days
 
 
-def executor(index, queue, country):
+def executor(index, queue, speed):
     def output():
         start = "Executor start {0}".format(index)
         pid_text = ("PID: {0}".format(os.getpid()))
-        save_image(country)
+        days = drive(1500000, speed)
+        days_text = ("Driving {0} km/h you'll make 15 mln. km in {1} days".format(speed,days))
         finish = "Executor finish {0}".format(index)
-        out = "{}\n{}\n{}\n".format(start, pid_text, finish)
-        #print(out)
-        print(index, os.getpid())
+        out = "{}\n{}\n{}\n{}\n".format(start, pid_text, days_text, finish)
+        return(out)
     queue.put(output())
 
 
@@ -98,18 +92,13 @@ def proc():
     q = mp.Queue()
     worker = {"nr":"speed"}
     speed = 10
-    i=0
-    countries = get_all_country()[:10]
-    #print(countries)
-    for country in countries:
-        #print(i)
-        #print(country)
-        worker[i] = mp.Process(target=executor, args=(i, q, country))
-        i+=1
+    for i in range(10):
+        worker[i] = mp.Process(target=executor, args=(i, q, speed))
+        speed+=10
 
     for i in range(10):
         worker[i].start()
-        q.get()
+        print(q.get())
         worker[i].join() 
 
 
@@ -117,7 +106,11 @@ if __name__ == '__main__':
 
     proc()
 
-    #countries = get_all_country()[:10]
-    #q = mp.Queue()
-    #for country in countries:
-    #    executor(1, q, country)
+    #path = os.path.join(os.path.split(os.path.abspath(__file__))[0],'images_for_db')
+    
+    #save_all_images(data_country)
+
+    print("\nOK")
+        
+
+# http://actravel.ru/country_codes.html
