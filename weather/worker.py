@@ -24,13 +24,13 @@ def create_tables(connect):
         "country_name_en" TEXT NOT NULL,
         "country_name_ru" TEXT NOT NULL,
         "country_bin_code" TEXT NOT NULL,
-        "image" TEXT NOT NULL
+        "image" TEXT 
     );
     """
     sql_locations = """CREATE TABLE IF NOT EXISTS "locations" (
         "id"    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-        "city_name_en" TEXT NOT NULL,
         "city_name_ru" TEXT NOT NULL,
+        "city_name_en" TEXT NOT NULL,
         "lat" REAL NOT NULL,
         "lon" REAL NOT NULL,
         "country_id" INTEGER NOT NULL,
@@ -44,19 +44,39 @@ def create_tables(connect):
 
 def get_countries(file_name):
     if os.path.isfile(file_name):
-        counties_list = []
+        countries_list = []
         with open(file_name, "r") as html_file:
             html = soup(html_file.read())
             #print(html)
             lines = html.find_all("tr")
             for line in lines:
                 rows = line.find_all("td")
-                image = rows[0].find("img")
+                #image = rows[0].find("img")
                 rus_name = rows[0].text
-                bin_code = 
+                eng_name = rows[1].text
+                bin_code = rows[2].text
+                countries_list.append((rus_name, eng_name, bin_code))
+    return countries_list
 
+def send_country_data(data, connect):
+    sql = f"""INSERT INTO "countries" (
+        "country_name_ru",
+        "country_name_en",
+        "country_bin_code"
+        )
+        VALUES(
+        "{data[0]}",
+        "{data[1]}",
+        "{data[2]}"
+        );
+        """
+    cursor = connect.cursor()
+    cursor.execute(sql)
+    connect.commit()
 
-
+def send_all_countries_data(data_list, connect):
+    for data in data_list:
+        send_country_data(data, connect)
 
 
 if __name__ == '__main__':
@@ -66,5 +86,7 @@ if __name__ == '__main__':
         create_db(path)
         connection = get_connect(path)
         create_tables(connection)
-        get_countries("countries.html")
+        countries = get_countries("countries.html")
+        #print(countries)
+        send_all_countries_data(countries, connection)
 
