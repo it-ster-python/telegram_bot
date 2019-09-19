@@ -53,8 +53,7 @@ def vary_startx(base, exp):
             if res == iterate_newton(base, exp, i) != "no result":
                 return res
         except:
-            pass
-        
+            pass        
 
 def find_limit_newton(base, exp):
     try:
