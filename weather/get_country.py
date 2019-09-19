@@ -11,10 +11,10 @@ def get_all_country(file_name):
             lines = html.find_all("tr")
             for line in lines:
                 rows = line.find_all("td")
-                image = rows[0].find("img")
-                # rus_name = rows[0].text
-                # bin_code = rows[2].text
-                result.append((image.attrs["src"]))
+                # image = rows[0].find("img")
+                rus_name = rows[0].text
+                bin_code = rows[2].text
+                result.append((rus_name,bin_code))
         return result
     else:
         raise ValueError(f"File '{file_name}' not found!")

@@ -27,7 +27,7 @@ path = os.path.join(path, 'images/')
 
 
 
-def get_image_url(img):
+def save_image(img):
     path = "/Users/aleksandrtarasenko/Documents/Projects/Country_image"
     url = f"http://actravel.ru/images/"
     if not os.path.isdir(path):
@@ -40,7 +40,7 @@ def get_image_url(img):
 if __name__ == '__main__':
     start = datetime.now()
     pool = ThPool(10)
-    result = pool.map(get_image_url, get_all_country_images("countries.html"))
+    result = pool.map(save_image, get_all_country_images("countries.html"))
     pool.close()
     pool.join()
     stop = datetime.now()
