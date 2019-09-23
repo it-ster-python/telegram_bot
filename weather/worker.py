@@ -29,11 +29,11 @@ def create_tables(connect):
     """
     sql_locations = """CREATE TABLE IF NOT EXISTS "locations" (
         "id"    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-        "city_name_ru" TEXT NOT NULL,
+        "country_code_en" TEXT NOT NULL,
         "city_name_en" TEXT NOT NULL,
         "lat" REAL NOT NULL,
         "lon" REAL NOT NULL,
-        "country_id" INTEGER NOT NULL,
+        "country_id" INTEGER,
         FOREIGN KEY (country_id) REFERENCES countries(id)
     );
     """
@@ -46,7 +46,7 @@ def get_countries(file_name):
     if os.path.isfile(file_name):
         countries_list = []
         with open(file_name, "r") as html_file:
-            html = soup(html_file.read())
+            html = soup(html_file.read(), features = "html.parser")
             #print(html)
             lines = html.find_all("tr")
             for line in lines:
@@ -78,6 +78,40 @@ def send_all_countries_data(data_list, connect):
     for data in data_list:
         send_country_data(data, connect)
 
+def get_locations(file_name):
+    if os.path.isfile(file_name):
+        json_file = open(file_name,"r")
+        loc_data = json.load(json_file)
+        json_file.close()
+        return loc_data
+    else:
+        return 1
+
+def send_loc_data(data, connect):
+    sql = f"""INSERT INTO "locations"(
+        "country_code_en",
+        "city_name_en",
+        "lat",
+        "lon"
+        )
+        VALUES(
+        "{data['country']}",
+        "{data['name']}",
+        "{data['coord']['lat']}",
+        "{data['coord']['lon']}"
+        );
+        """
+    cursor = connect.cursor()
+    cursor.execute(sql)
+    connect.commit()
+
+def send_all_loc_data(data_file, connect):
+    for id, data in enumerate (data_file, 1):
+        try:
+            send_loc_data(data,connect)
+        except Exception as e:
+            print(e)
+
 
 if __name__ == '__main__':
 
@@ -89,4 +123,6 @@ if __name__ == '__main__':
         countries = get_countries("countries.html")
         #print(countries)
         send_all_countries_data(countries, connection)
+        locations = get_locations("city.list.json")
+        send_all_loc_data(locations, connection)
 
