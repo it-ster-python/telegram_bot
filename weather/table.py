@@ -131,6 +131,7 @@ if __name__ == '__main__':
         try:
             send_data(element, connection)
         except Exception as e:
+            
             print("ERROR SQL")
             print(element)
             print(e)
