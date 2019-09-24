@@ -59,7 +59,6 @@ def create_table(connect):
     """
     sql_locations = """CREATE TABLE IF NOT EXISTS "location" (
         "id"    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-        "country_id" INTEGER,
         "city_en"    TEXT NOT NULL,
         "country_code" TEXT NOT NULL,
         "lat"    REAL NOT NULL,
@@ -79,9 +78,6 @@ def get_location(path):
     return data
 
 
-
-
-
 def send_data(element, connect):
     sql_countries = f"""INSERT INTO "countries" (
         "image",
@@ -97,16 +93,15 @@ def send_data(element, connect):
     # print(sql_countries)
     # raise ValueError()
 
-def send_to_loc(element, connect):
-    sql_locations = f"""INSERT INTO "locations" (
-        "city_en",
+    sql_location = f"""INSERT INTO "location" (
         "country_code",
+        "city_en",
         "lat",
         "lon"
     )
     VALUES (
+        (SELECT id FROM countries WHERE "country_code" = "{element}" LIMIT 1),
         "{element['name']}",
-        "{element['country']}",
         {element['coord']['lat']},
         {element['coord']['lon']}
     );
@@ -114,12 +109,16 @@ def send_to_loc(element, connect):
 
     cursor = connect.cursor()
     cursor.execute(sql_countries)
+    cursor.execute(sql_location)
     connect.commit()
+
 
 
 if __name__ == '__main__':
 
     connection = get_connect("country.db")
+    # data_country = get_country()
+    data_city_code = get_location("city.list.json")
     data_country = get_country()
     image = os.listdir(path)
         # for image in images:
@@ -135,28 +134,3 @@ if __name__ == '__main__':
             print("ERROR SQL")
             print(element)
             print(e)
-
-    connection.commit()
-    print()
-
-
-
-    if len(sys.argv) > 2:
-        path = os.path.join(sys.argv[1], sys.argv[2])
-        create_db(path)
-        connection = get_connect(path)
-        create_table(connection)
-        data_city_code = get_location("city.list.json")
-        data_country = get_all_country("conutries.html")
-
-        len_data = len(data_city_code)
-        try:
-            send_data(element, connection)
-        except Exception as e:
-            print("ERROR SQL")
-            print(element)
-            print(e)
-        connection.commit()
-        print("\nOK")
-    else:
-        print("Not arguments")

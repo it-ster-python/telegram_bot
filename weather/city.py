@@ -64,26 +64,26 @@ def send_data(element, connect):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) > 2:
-        path = os.path.join(sys.argv[1], sys.argv[2])
-        create_db(path)
-        connection = get_connect(path)
-        create_table(connection)
-        data_city_code = get_data("city.list.json")
-        data_country = get_all_country("conutries.html")
+    # if len(sys.argv) > 2:
+    #     path = os.path.join(sys.argv[1], sys.argv[2])
+    #     create_db(path)
+    connection = get_connect(path)
+    create_table(connection)
+    data_city_code = get_data("city.list.json")
+    data_country = get_all_country("conutries.html")
 
-        len_data = len(data_city_code)
-        for id, element in enumerate(data_city_code, 1):
-            print(f"{id} from {len_data}", end="\r")
-            try:
-                send_data(element, connection)
-            except Exception as e:
-                print("ERROR SQL")
-                print(element)
-                print(e)
-        connection.commit()
-        print("\nOK")
-    else:
-        print("Not arguments")
+    len_data = len(data_city_code)
+    for id, element in enumerate(data_city_code, 1):
+        print(f"{id} from {len_data}", end="\r")
+        try:
+            send_data(element, connection)
+        except Exception as e:
+            print("ERROR SQL")
+            print(element)
+            print(e)
+    connection.commit()
+    print("\nOK")
+else:
+    print("Not arguments")
 
 # http://actravel.ru/country_codes.html
